@@ -1,0 +1,64 @@
+---
+layout: post
+title: AboutMe  
+categories:
+- blog
+---
+
+About「修行之道」：
+
+> Look to the master, Follow the master, Walk with the master, See through the master, Become the master.
+> 关注大师的言行，跟随大师的举动，和大师一并修行，领会大师的意境，成为真正的大师。
+
+正是基于对「修行之道」的推崇，促使了本站的设立。
+
+---
+
+About「Me」：
+
+{% highlight javascript %}
+{
+    'Name':     'James Liao',
+    'Gender':   'Male'
+    'Age':      'Post-80s'
+    'Job':      'Software Developer',
+    'Company':  'SysMagic Software Solution',
+    'E-mail':   'leo@vivlong.com',
+    'Blog':     'http://vivlong.github.io',
+    'Book List':'http://book.douban.com/people/pinnines/'
+    'Education': [
+        {
+            'College': 'SYNU',
+            'Major':   'Computer Science',
+            'Degree':  'Bachelor'
+        }
+    ],
+    'Skills and Expertise': [
+        'Website Development',
+        'Start-ups',
+        'Team Management',
+        'Logistics Information System',
+        'Streaming Media System',
+        'Csharp',
+        'VB.NET',
+        'JavaScript'
+    ],
+    'Languages': [
+        {
+            'Chinese':   'Native or bilingual proficiency',
+            'English':   'Full professional proficiency'
+        }
+    ],
+    'Groups and Associations': [
+        'ACM member',
+        'CCF member',
+        'GDG Xiamen'
+    ]
+}
+{% endhighlight %}
+
+---
+
+如您所知，本人发布的文章与评论内容仅代表本人观点。
+
+如果有任何问题请联系我 : leo@vivlong.com
