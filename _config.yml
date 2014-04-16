@@ -4,6 +4,7 @@ pygments: true
 url: http://vivlong.github.io
 lsi: false
 exclude: [LICENSE, CNAME, README.md, .gitignore]
+markdown: Kramdown
 
 # Theme customization - please change from the defaults!
 theme:
@@ -33,5 +34,3 @@ theme:
 
   # Toggle "Postings are my own" disclaimer in footer
   show_disclaimer: true
-  
-  Markdown: RDiscount
