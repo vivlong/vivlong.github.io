@@ -4,7 +4,9 @@ pygments: true
 url: http://vivlong.github.io
 lsi: false
 exclude: [LICENSE, CNAME, README.md, .gitignore]
-markdown: Kramdown
+permalink: /:year/:month/:day/:title  
+auto: true  
+markdown: rdiscount 
 
 # Theme customization - please change from the defaults!
 theme:
@@ -15,14 +17,14 @@ theme:
   social:
     github: vivlong
     #bitbucket: vivlong 
-    hacker_news: vivlong
+    #hacker_news: vivlong
     #stackexchange: 2531052 
     stackoverflow: 2531052 
-    twitter: flyinit
+    #twitter: flyinit
     #facebook: liaozheng 
     #tumblr: animalygifs
     #linkedin: philipjagielski
-    #gplus: 110552447039675960964
+    gplus: 113114172117752769682
 
   # "Hi, I'm _______"
   name: James Liao
@@ -30,7 +32,7 @@ theme:
   tagline: "Lit candle in the dark night."
 
   # Google Analytics key, leave blank to ignore
-  google_analytics_key: UA-xxxx-x
+  google_analytics_key:
 
   # Toggle "Postings are my own" disclaimer in footer
   show_disclaimer: true
