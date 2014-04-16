@@ -4,7 +4,7 @@ pygments: true
 url: http://vivlong.github.io
 lsi: false
 exclude: [LICENSE, CNAME, README.md, .gitignore]
-permalink: /:categories/:year/:month/:day/:title.html
+permalink: /:year/:month/:day/:title.html
 auto: true  
 markdown: rdiscount 
 
