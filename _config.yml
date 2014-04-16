@@ -16,7 +16,7 @@ theme:
     hacker_news: vivlong
     #stackexchange: 348619
     #stackoverflow: 348619
-    twitter: _swanson
+    twitter: flyintech
     #facebook: zuck
     #tumblr: animalygifs
     #linkedin: philipjagielski
@@ -25,10 +25,12 @@ theme:
   # "Hi, I'm _______"
   name: James Liao
   email: liaozheng@sysfreight.com
-  tagline: "weak opinions, strongly held"
+  tagline: "Lit candle in the dark night."
 
   # Google Analytics key, leave blank to ignore
   google_analytics_key: UA-xxxx-x
 
   # Toggle "Postings are my own" disclaimer in footer
   show_disclaimer: true
+  
+  markdown: kramdown
