@@ -1,4 +1,5 @@
 # General Jekyll Config
+encoding: utf-8
 pygments: true
 url: http://vivlong.github.io
 lsi: false
@@ -12,12 +13,12 @@ theme:
   # Profile links on the left sidebar, leave blank to ignore
   social:
     github: vivlong
-    #bitbucket: philipj
+    #bitbucket: vivlong 
     hacker_news: vivlong
-    #stackexchange: 348619
-    #stackoverflow: 348619
-    twitter: flyintech
-    #facebook: zuck
+    #stackexchange: 2531052 
+    stackoverflow: 2531052 
+    twitter: flyinit
+    #facebook: liaozheng 
     #tumblr: animalygifs
     #linkedin: philipjagielski
     #gplus: 110552447039675960964
@@ -33,4 +34,4 @@ theme:
   # Toggle "Postings are my own" disclaimer in footer
   show_disclaimer: true
   
-  markdown: kramdown
+  Markdown: RDiscount
