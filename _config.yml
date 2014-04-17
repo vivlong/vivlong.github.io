@@ -36,3 +36,8 @@ theme:
 
   # Toggle "Postings are my own" disclaimer in footer
   show_disclaimer: true
+  
+  comments :
+	provider : duoshuo
+	duoshuo : 
+		short_name : vivlong-github
