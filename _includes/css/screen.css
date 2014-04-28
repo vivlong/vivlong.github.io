@@ -232,9 +232,10 @@ i.fa-hn {
 }
 
 .disclaimer p {
-  margin-top: 5px;
+  margin-top: 10px;
   font-size: 11px;
   text-align: center;
+  margin-bottom: -5px;
 }
 
 .footnotes {
