@@ -34,8 +34,8 @@ theme:
   # Google Analytics key, leave blank to ignore
   google_analytics_key:
   
-  # Baidu Analytics key, leave blank to ignore
-  baidu_analytics_key: 1234567890
+  # cnzz Analytics key, leave blank to ignore
+  cnzz_analytics_key: 1234567890
 
   # Toggle "Postings are my own" disclaimer in footer
   show_disclaimer: true

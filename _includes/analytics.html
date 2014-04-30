@@ -12,9 +12,6 @@
 </script>
 {% endif %}
 
-{% if site.theme.baidu_analytics_key %}
-<script type="text/javascript">
-var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
-document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3F0b9985cb36ef233558eeb1aadb762c0d' type='text/javascript'%3E%3C/script%3E"));
-</script>
+{% if site.theme.cnzz_analytics_key %}
+<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_5890927'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "v1.cnzz.com/stat.php%3Fid%3D5890927%26online%3D1%26show%3Dline' type='text/javascript'%3E%3C/script%3E"));</script>
 {% endif %}
