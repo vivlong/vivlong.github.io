@@ -35,7 +35,7 @@ theme:
   google_analytics_key:
   
   # cnzz Analytics key, leave blank to ignore
-  cnzz_analytics_key: 1234567890
+  cnzz_analytics_key: 5890927
 
   # Toggle "Postings are my own" disclaimer in footer
   show_disclaimer: true
