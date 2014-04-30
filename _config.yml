@@ -16,23 +16,26 @@ theme:
   # Profile links on the left sidebar, leave blank to ignore
   social:
     github: vivlong
-    #bitbucket: vivlong 
+    #bitbucket:  
     #hacker_news: vivlong
     #stackexchange: 2531052 
     stackoverflow: 2531052 
     #twitter: flyinit
     #facebook: liaozheng 
-    #tumblr: animalygifs
-    #linkedin: philipjagielski
+    #tumblr: 
+    #linkedin: 
     gplus: 113114172117752769682
 
   # "Hi, I'm _______"
   name: James Liao
-  email: liaozheng@sysfreight.com
+  email: leo@vivlong.com
   tagline: "Lit candle in the dark night."
 
   # Google Analytics key, leave blank to ignore
   google_analytics_key:
+  
+  # Baidu Analytics key, leave blank to ignore
+  baidu_analytics_key:12345
 
   # Toggle "Postings are my own" disclaimer in footer
   show_disclaimer: true

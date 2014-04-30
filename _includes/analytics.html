@@ -1,6 +1,5 @@
 {% if site.theme.google_analytics_key %}
 <script type="text/javascript">
-
   var _gaq = _gaq || [];
   _gaq.push(['_setAccount', '{{ site.theme.google_analytics_key }}']);
   _gaq.push(['_trackPageview']);
@@ -10,6 +9,12 @@
     ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
     var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
   })();
+</script>
+{% endif %}
 
+{% if site.theme.baidu_analytics_key %}
+<script type="text/javascript">
+var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3F7015ebef32ecfe07f3222df31e222acc' type='text/javascript'%3E%3C/script%3E"));
 </script>
 {% endif %}
