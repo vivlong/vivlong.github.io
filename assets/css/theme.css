@@ -16,6 +16,9 @@ a:hover {
 	color: gray;
 	padding-bottom: 0.8em;
 }
+all-list {
+	padding: 3em;
+}
 .posts span {
 	color: #aaa;
 	font-size: 0.9em;
