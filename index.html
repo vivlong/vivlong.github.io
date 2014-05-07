@@ -4,7 +4,9 @@ title: Posts
 ---
 
 <div id="home">
-	<h2><i class="fa fa-bookmark"></i>&nbsp;&nbsp;Posts</h2>
+	<div class="category-info">
+		<h2><i class="fa fa-bookmark"></i>&nbsp;&nbsp;Posts</h2>
+	</div>
 	<ul id="blog-posts" class="posts">
 		{% for post in site.posts %}
 			 <li><span>{{ post.date | date: "%Y.%m.%d" }}</span>&nbsp;&nbsp;&raquo;&nbsp;&nbsp;<a href="{{ post.url }}">{{ post.title }}</a></li>
