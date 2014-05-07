@@ -17,7 +17,7 @@ ul.posts span {
 	font-size: 0.9em;
 }
 .post-preview {
-	padding: 5em 2.86em 2.14em 5em;
+	padding: 5em;
 }
 .hide-go-top {
 	opacity: 0;
@@ -36,4 +36,12 @@ ul.posts span {
 	-ms-transition: opacity 1s linear !important;
 	-o-transition: opacity 1s linear !important;
 	transition: opacity 1s linear !important;
+}
+footer {
+	padding: 15px 0;
+	border-top: 1px solid #fff;
+	text-align: center;
+	margin: 0 auto;
+	font-size: 0.9em;
+	display: block;
 }

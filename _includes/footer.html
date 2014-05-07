@@ -1,11 +1,13 @@
+{% if site.theme.show_disclaimer %}
 <div class="disclaimer">
-  {% if site.theme.show_disclaimer %}
   <p>
     The postings on this site are my own and don't necessarily represent my 
     employer’s positions, strategies or opinions.
   </p>
-  {% endif %}
+</div>
+{% endif %}
+<footer id="footer">
   <p>
     &copy; {{ site.theme.name }}, 2013&ndash;2014. Powered by <a href="http://jekyllrb.com" target="_blank">Jekyll</a> & <a href="http://twitter.github.com/bootstrap/" target="_blank">Twitter Bootstrap</a> & GitHub.
   </p>
-</div>
+</footer>
