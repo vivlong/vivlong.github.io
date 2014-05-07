@@ -16,7 +16,7 @@ a:hover {
 	color: gray;
 	padding-bottom: 0.8em;
 }
-all-list {
+#all-list {
 	padding: 3em;
 }
 .posts span {
@@ -55,7 +55,7 @@ all-list {
 	-o-transition: opacity 1s linear !important;
 	transition: opacity 1s linear !important;
 }
-footer {
+#footer {
 	padding: 1em 0;
 	text-align: center;
 	margin: 0 auto;
