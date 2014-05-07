@@ -16,14 +16,14 @@ ul.posts span {
 	color: #aaa;
 	font-size: 0.9em;
 }
-post-preview {
+.post-preview {
 	padding: 5em 2.86em 2.14em 5em;
 }
 .hide-go-top {
 	opacity: 0;
 	filter: alpha(opacity=0);
 }
-go-top {
+.go-top {
 	z-index: 5000;
 	position: fixed;
 	right: 1%;
