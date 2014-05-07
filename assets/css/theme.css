@@ -19,6 +19,17 @@ ul.posts span {
 .post-preview {
 	padding: 5em;
 }
+.article-info{
+	font-size: 1em;
+	color: gray;
+}
+.article-info p {
+	margin-top: 0;
+	margin-bottom: 1.5em;
+	font-size: 1em;
+	font-family: "lucida grande","lucida sans unicode",lucida,"Helvetica Neue",helvetica,"Hiragino Sans GB","Microsoft YaHei","WenQuanYi Micro Hei",sans-serif;
+	color: #999;
+}
 .hide-go-top {
 	opacity: 0;
 	filter: alpha(opacity=0);
@@ -28,7 +39,7 @@ ul.posts span {
 	position: fixed;
 	right: 1%;
 	bottom: 1%;
-	font-size: 2.5em;
+	font-size: 2.52em;
 	opacity: 0.7;
 	filter: alpha(opacity=70);
 	-webkit-transition: opacity 1s linear !important;
@@ -38,8 +49,7 @@ ul.posts span {
 	transition: opacity 1s linear !important;
 }
 footer {
-	padding: 15px 0;
-	border-top: 1px solid #fff;
+	padding: 1em 0;
 	text-align: center;
 	margin: 0 auto;
 	font-size: 0.9em;
