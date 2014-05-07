@@ -5,11 +5,11 @@
 /*
 /*********/
 a {
-	color: #1E90FF;
+	color: #4F4F4F;
 	text-decoration: none;
 }
 a:hover {
-	color: black;
+	color: #1E90FF;
 	text-decoration: none;
 }
 .category-info {
