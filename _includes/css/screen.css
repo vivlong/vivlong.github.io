@@ -75,11 +75,11 @@ img {
 ul.posts {
   margin-top: 0;
   list-style-type: none;
-  margin-bottom: 10px;
+  margin-bottom: 2em;
 }
 
 ul.posts li {
-  line-height: 22px;
+  line-height: 1.75em;
   font-size: 16px;
   margin-bottom: 0px;
 }
@@ -88,11 +88,11 @@ ul.posts span {
   font-family: 'Lucida Console', 'Andale Mono', monospace;
   color: #aaa;
   padding-right: 5px;
-  font-size:14px;
+  font-size: 1em;
 }
 
 ul.posts .post-link {
-  color: #0894D6;
+  color: #0082FF; /*#0894D6;*/
 }
 
 .meta {
