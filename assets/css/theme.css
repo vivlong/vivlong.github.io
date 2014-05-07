@@ -12,24 +12,23 @@ a:hover {
 	color: black;
 	text-decoration: none;
 }
-ul.posts span {
+.posts span {
 	color: #aaa;
 	font-size: 0.9em;
+}
+.posts ul li {
+	line-height: 1.5em;
 }
 .post-preview {
 	padding: 5em;
 }
 .article-info{
-	font-size: 1em;
+	font-size: 1.2em;
 	color: gray;
 	font-family: "lucida grande","lucida sans unicode",lucida,"Helvetica Neue",helvetica,"Hiragino Sans GB","Microsoft YaHei","WenQuanYi Micro Hei",sans-serif;
 }
 .article-info p {
-	font-size: 1em;
 	color: #999;
-}
-.article-info p  a {
-	font-size: 1.4em;
 }
 .hide-go-top {
 	opacity: 0;
