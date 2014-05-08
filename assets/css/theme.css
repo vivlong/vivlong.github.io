@@ -23,18 +23,18 @@ a:hover {
 #all-list {
 	padding: 1em;
 }
-.posts span {
+#posts span {
 	color: #aaa;
 	font-size: 0.9em;
 }
-.posts li {
+#posts li {
 	font-size: 1.3em;
 	line-height: 1.7em;
 }
-.posts a {
+#posts a {
 	color: #28a1c5;
 }
-.posts p {
+#posts p {
 	text-align: justify;
 }
 .post-preview {
