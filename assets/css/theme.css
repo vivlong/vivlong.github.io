@@ -49,14 +49,6 @@ a:hover {
 	padding: 3em;
 }
 
-.notebooks-menu-btn {
-	position: fixed;
-	left: 69px;
-	top: 19px;
-	font-size: 14px;
-	z-index: 1060;
-}
-
 .hide-go-top {
 	opacity: 0;
 	filter: alpha(opacity=0);

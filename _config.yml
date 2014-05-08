@@ -29,7 +29,7 @@ theme:
   # "Hi, I'm _______"
   name: James Liao
   email: leo@vivlong.com
-  tagline: "Lit candle in the dark night."
+  tagline: "Light a candle in the dark night."
 
   # Google Analytics key, leave blank to ignore
   google_analytics_key:
@@ -38,4 +38,6 @@ theme:
   show_disclaimer: false
   
   show_related: false
-    
+  
+  paginate: 9
+  paginate_path: "page:num"

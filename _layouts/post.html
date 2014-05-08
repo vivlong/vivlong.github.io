@@ -1,10 +1,6 @@
 ---
 layout: SinglePage
 ---
-<a href="" data-toggle="modal" data-target="#notebooks-menu" class="notebooks-menu-btn">
-	<i class="fa fa-book"></i>
-</a>
-
 <div class="page-header">
 	<h1>
 		<a href="/"><i class="fa fa-home"></i></a>  {{ page.title }}
@@ -12,13 +8,15 @@ layout: SinglePage
 </div>
 
 <div class="article-info">
-  <p>
-    Published at {{ page.category }} &nbsp;&nbsp;{{ page.date | date: "%Y-%m-%d" }}
-  </p>
+	<p>
+		Published at <a href="#"><i class="fa fa-book"></i>{{ page.category }}</a> &nbsp;&nbsp; <i class="fa fa-calendar"></i> {{ page.date | date: "%Y-%m-%d" }} &nbsp;&nbsp;  wordage
+	</p>
 </div>
 
+<br/>
+
 <div class="article-content">
-  {{ content }}
+	{{ content }}
 </div>
 
 <div>
@@ -43,12 +41,12 @@ layout: SinglePage
 
 <script type="text/javascript">
 function addBlankTargetForLinks () {
-  $('a[href^="http"]').each(function(){
-      $(this).attr('target', '_blank');
-  });
+	$('a[href^="http"]').each(function(){
+		$(this).attr('target', '_blank');
+	});
 }
 $(document).bind('DOMNodeInserted', function(event) {
-  addBlankTargetForLinks();
+	addBlankTargetForLinks();
 });
 </script>
 
