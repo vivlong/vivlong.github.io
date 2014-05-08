@@ -16,7 +16,9 @@ title: Posts
 {% if paginator.total_pages > 1 %}
 	<div class="pagination">
 		{% if paginator.previous_page %}
-			<a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}" class="previous">Previous</a>
+			<a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}" class="previous" id="prev-note-button">
+				<i class="fa fa-arrow-left"></i> Prev
+			</a>
 		{% endif %}
 		{% for page in (1..paginator.total_pages) %}
 			{% if page == paginator.page %}
@@ -28,7 +30,9 @@ title: Posts
 			{% endif %}
 		{% endfor %}
 		{% if paginator.next_page %}
-			<a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Next</a>
+			<a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}" class="next" id="next-note-button">
+				<i class="fa fa-arrow-right"></i> Next
+			</a>
 		{% endif %}
 	</div>
 {% endif %}
