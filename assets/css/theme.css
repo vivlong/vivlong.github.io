@@ -10,11 +10,9 @@ a {
 }
 a:link {
 	color: #005580;
-	text-decoration: none;
 }
 a:hover {
 	color: #0088cc;
-	text-decoration: none;
 }
 .category-info {
 	color: gray;
@@ -88,4 +86,7 @@ a:hover {
 	margin: 0 auto;
 	font-size: 0.9em;
 	display: block;
+}
+.footer a {
+	color: #005580;
 }
