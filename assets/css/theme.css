@@ -1,15 +1,19 @@
 /*********/
 /*
 /* Theme by James Liao
-/* Latest update at 2014.05.07
+/* Latest update at 2014.05.08
 /*
 /*********/
 a {
-	color: #4F4F4F;
+	color: #333333;
+	text-decoration: none;
+}
+a:link {
+	color: #005580;
 	text-decoration: none;
 }
 a:hover {
-	color: #1E90FF;
+	color: #0088cc;
 	text-decoration: none;
 }
 .category-info {
@@ -17,7 +21,7 @@ a:hover {
 	padding-bottom: 0.8em;
 }
 #all-list {
-	padding: 3em;
+	padding: 2em;
 }
 .posts span {
 	color: #aaa;
