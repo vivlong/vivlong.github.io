@@ -64,15 +64,12 @@ a:hover {
 }
 
 .article-footer {
-	margin: 2em 0 1em 0;
-	border-bottom: none;
 	-moz-border-radius: 10px;
 	-webkit-border-radius: 10px;
 	border-radius: 10px;
 	-moz-box-shadow: inset 0px 1px 0px 0px #eeeeee;
 	-webkit-box-shadow: inset 0px 1px 0px 0px #eeeeee;
 	box-shadow: inset 0px 1px 0px 0px #eeeeee;
-	text-shadow: 1px 1px 0px #eeeeee;
 	padding: 0 1.5em;
 	border: 1px solid #d3d3d3;
 	background-color: #DEEBF7;
