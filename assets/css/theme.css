@@ -39,14 +39,15 @@ a:hover {
 .article-info p {
 	color: #999;
 }
-.article-content a {
-	color: #28a1c5;
-}
-.article-content p {
-	text-align: justify;
-}
+
 .post-preview {
 	padding: 3em;
+}
+.post-preview a {
+	color: #28a1c5;
+}
+.post-preview p {
+	text-align: justify;
 }
 
 .pagination {

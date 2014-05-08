@@ -1,5 +1,5 @@
 ---
-layout: SinglePage
+layout: post
 title: 礼 乐 射 御 书 数
 ---
 <audio controls="controls" autoplay="autoplay" loop="loop" height="100" width="100">

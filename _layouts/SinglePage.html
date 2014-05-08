@@ -17,7 +17,9 @@
 	<!--link rel="stylesheet" href="/assets/css/all.css"-->
 	<link rel="stylesheet" href="/assets/css/theme.css">
 	<script type="text/javascript" src="//cdn.staticfile.org/jquery/2.1.1-rc2/jquery.min.js"></script>
-	
+	<script type="text/javascript">
+		!window.jQuery && document.write('<script src=//lib.sinaapp.com/js/jquery/1.7.2/jquery.min.js><\/script>');
+	</script>
 </head>
 <body>
   <div class="container">
@@ -40,7 +42,14 @@
 </div>
 
 <script type="text/javascript">
-	!window.jQuery && document.write('<script src=//lib.sinaapp.com/js/jquery/1.7.2/jquery.min.js><\/script>');
+	function addBlankTargetForLinks () {
+		$('a[href^="http"]').each(function(){
+			$(this).attr('target', '_blank');
+		});
+	}
+	$(document).bind('DOMNodeInserted', function(event) {
+		addBlankTargetForLinks();
+	});
 </script>
 <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>  
 
