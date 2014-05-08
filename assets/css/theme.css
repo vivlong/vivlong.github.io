@@ -77,6 +77,9 @@ a:hover {
 	border: 1px solid #d3d3d3;
 	background-color: #DEEBF7;
 }
+.article-footer  a {
+	color: #28a1c5;
+}
 
 .hide-go-top {
 	opacity: 0;
