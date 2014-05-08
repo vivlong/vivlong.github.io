@@ -23,22 +23,13 @@ a:hover {
 #all-list {
 	padding: 1em;
 }
-#posts span {
+.posts-list span {
 	color: #aaa;
 	font-size: 0.9em;
 }
-#posts li {
+.posts-list li {
 	font-size: 1.3em;
 	line-height: 1.7em;
-}
-#posts a {
-	color: #28a1c5;
-}
-#posts p {
-	text-align: justify;
-}
-.post-preview {
-	padding: 3em;
 }
 .article-info{
 	font-size: 1.2em;
@@ -47,6 +38,15 @@ a:hover {
 }
 .article-info p {
 	color: #999;
+}
+.article-content a {
+	color: #28a1c5;
+}
+.article-content p {
+	text-align: justify;
+}
+.post-preview {
+	padding: 3em;
 }
 .hide-go-top {
 	opacity: 0;
