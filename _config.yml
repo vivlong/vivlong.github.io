@@ -7,7 +7,9 @@ exclude: [LICENSE, CNAME, README.md, .gitignore]
 permalink: /:year/:month/:day/:title.html
 auto: true  
 markdown: rdiscount 
-
+paginate: 5
+paginate_path: "page:num"
+  
 # Theme customization - please change from the defaults!
 theme:
   # Color for top bar, links, etc
@@ -38,6 +40,3 @@ theme:
   show_disclaimer: false
   
   show_related: false
-  
-  paginate: 9
-  paginate_path: "page:num"

@@ -9,7 +9,7 @@ layout: SinglePage
 
 <div class="article-info">
 	<p>
-		Published at <a href="#"><i class="fa fa-book"></i>{{ page.category }}</a> &nbsp;&nbsp; <i class="fa fa-calendar"></i> {{ page.date | date: "%Y-%m-%d" }} &nbsp;&nbsp;  wordage
+		Published at <i class="fa fa-book"></i> {{ page.category }} &nbsp;&nbsp; <i class="fa fa-calendar"></i> {{ page.date | date: "%Y-%m-%d" }} &nbsp;&nbsp;  wordage
 	</p>
 </div>
 
@@ -20,7 +20,9 @@ layout: SinglePage
 </div>
 
 <div>
-	Licensed under <a href="http://creativecommons.org/licenses/by-nc-nd/4.0/deed.zh" target="_blank">Creative Commons BY-NC-ND 4.0</a>
+	<p>
+		Licensed under <a href="http://creativecommons.org/licenses/by-nc-nd/4.0/deed.zh" target="_blank">Creative Commons BY-NC-ND 4.0</a>
+	</p>
 </div>
 
 <div class="ds-thread" data-thread-key="{{ page.title }}" data-title="{{ page.title }}" data-url="{{ page.url }}"></div>
