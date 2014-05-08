@@ -21,14 +21,21 @@ a:hover {
 	padding-bottom: 0.8em;
 }
 #all-list {
-	padding: 2em;
+	padding: 1em;
 }
 .posts span {
 	color: #aaa;
 	font-size: 0.9em;
 }
 .posts li {
-	line-height: 1.5em;
+	font-size: 1.3em;
+	line-height: 1.7em;
+}
+.posts a {
+	color: #28a1c5;
+}
+.posts p {
+	text-align: justify;
 }
 .post-preview {
 	padding: 3em;
