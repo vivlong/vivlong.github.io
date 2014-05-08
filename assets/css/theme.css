@@ -48,6 +48,15 @@ a:hover {
 .post-preview {
 	padding: 3em;
 }
+
+.notebooks-menu-btn {
+	position: fixed;
+	left: 69px;
+	top: 19px;
+	font-size: 14px;
+	z-index: 1060;
+}
+
 .hide-go-top {
 	opacity: 0;
 	filter: alpha(opacity=0);
@@ -66,7 +75,8 @@ a:hover {
 	-o-transition: opacity 1s linear !important;
 	transition: opacity 1s linear !important;
 }
-#footer {
+
+.footer {
 	padding: 1em 0;
 	text-align: center;
 	margin: 0 auto;
