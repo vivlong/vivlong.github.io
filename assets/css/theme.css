@@ -64,21 +64,16 @@ a:hover {
 }
 
 .article-footer {
-	font-weight: bold;
-	color: #FCB297;
 	margin: 2em 0 1em 0;
 	border-bottom: none;
-	background-color: #AAD2F0;
 	-moz-border-radius: 10px;
 	-webkit-border-radius: 10px;
 	border-radius: 10px;
 	-moz-box-shadow: inset 0px 1px 0px 0px #eeeeee;
 	-webkit-box-shadow: inset 0px 1px 0px 0px #eeeeee;
 	box-shadow: inset 0px 1px 0px 0px #eeeeee;
-	background: -webkit-gradient( linear, left top, left bottom, color-stop(0.05, #aad2f0), color-stop(1, #8bc1ed) );
-	background: -moz-linear-gradient( center top, #aad2f0 5%, #8bc1ed 100% );
 	text-shadow: 1px 1px 0px #eeeeee;
-	padding: 1.5em;
+	padding: 0 1.5em;
 	border: 1px solid #d3d3d3;
 	background-color: #DEEBF7;
 }
