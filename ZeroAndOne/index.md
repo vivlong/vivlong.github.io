@@ -10,6 +10,8 @@ Your browser does not support the audio element.
 
 ### &hearts; My Favorite
 
+* See my pages on douban.com.
+
 ### Books
 
 * 「[浪潮之巅（第二版·下）](http://book.douban.com/subject/24738302/)」
@@ -22,4 +24,5 @@ Your browser does not support the audio element.
 
 ### Movies
 
-* 2014-03-30 「<del>[天注定](http://movie.douban.com/subject/21941283/)</del>」 &#9733;&#9733;&#9733;&#9733;&#9734;
+* 2014-05-09 「<del>[扬子江大鳄](http://movie.douban.com/subject/19975889/)</del>」 &#9733;&#9733;&#9733;&#9733;&#9734; &gt; 阿里巴巴
+* 2014-03-30 「<del>[天注定](http://movie.douban.com/subject/21941283/)</del>」 &#9733;&#9733;&#9733;&#9733;&#9734; &gt; 贾樟柯
