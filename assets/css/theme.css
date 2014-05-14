@@ -39,7 +39,7 @@ a:hover {
 .article-info p {
 	color: #999;
 }
-.article-content li {
+.article-content ul li {
 	list-style: decimal;
 }
 .post-preview {
