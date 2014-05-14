@@ -39,7 +39,9 @@ a:hover {
 .article-info p {
 	color: #999;
 }
-
+.article-content li {
+	list-style: decimal;
+}
 .post-preview {
 	padding: 3em;
 }
