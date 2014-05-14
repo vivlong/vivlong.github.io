@@ -40,6 +40,9 @@ a:hover {
 	color: #999;
 }
 .article-content ul li {
+	list-style: disc;
+}
+.article-content ol li {
 	list-style: decimal;
 }
 .post-preview {
