@@ -29,9 +29,9 @@ theme:
     gplus: 113114172117752769682
 
   # "Hi, I'm _______"
-  name: James Liao
+  name: 廖小正的备忘录
   email: leo@vivlong.com
-  tagline: "Light a candle in the dark night."
+  tagline: "Lighting candles in the dark."
 
   # Google Analytics key, leave blank to ignore
   google_analytics_key:
