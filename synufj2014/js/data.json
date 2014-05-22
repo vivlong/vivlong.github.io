@@ -2,7 +2,7 @@
     "timeline":
     {
 		"startDate":"8/31/2010",
-        "headline":"Farewell！青春！",
+        "headline":"Farewell！<br/>与青春有关的日子！",
         "type":"default",
         "text":"<p>啊！光荣的沈师！希望的沈师！</p>",
         "asset": {
@@ -14,8 +14,8 @@
             {
                 "startDate":"9/1/2010",
                 "endDate":"",
-                "headline":"热烈欢迎2010级新同学",
-                "text":"<p>那年秋天</p><p>我们即将迎来一群蹦蹦跳跳的孩子</p><p>沈师欢迎你们！</p>",
+                "headline":"热烈欢迎2010级师弟师妹！",
+                "text":"<p>那年秋天</p><p>沈师大迎来一群蹦蹦跳跳的孩子</p><p>沈师欢迎你们！</p>",
                 "tag":"",
                 "classname":"",
                 "asset": {
@@ -27,8 +27,8 @@
 			{
                 "startDate":"9/2/2010",
                 "endDate":"",
-                "headline":"迎接2010级新生",
-                "text":"<p>一早，师哥师姐们就在校门口大路上忙活起来</p><p>扯好条幅，整理资料，等待新生报道</p>",
+                "headline":"迎接你们",
+                "text":"<p>一早，师哥师姐们就在校门口的大路上忙活起来</p><p>扯好条幅，整理资料，等待你们入学报道。</p>",
                 "tag":"",
                 "classname":"",
                 "asset": {
@@ -40,8 +40,8 @@
 			{
                 "startDate":"9/3/2010",
                 "endDate":"",
-                "headline":"迎接2010级新生",
-                "text":"<p>师哥师姐们每看到一辆校车驶入</p><p>马不停蹄的举着牌子飞奔过去</p><p>'福建同乡会'</p>",
+                "headline":"迎接你们",
+                "text":"<p>师哥师姐们每看到一辆校车驶入</p><p>马不停蹄的举着牌子飞奔过去</p><p>那是大大的'福建'两个字。</p>",
                 "tag":"",
                 "classname":"",
                 "asset": {
@@ -53,8 +53,8 @@
 			{
                 "startDate":"9/4/2010",
                 "endDate":"",
-                "headline":"2010级新生报道",
-                "text":"<p>还记得他们刚入学的样子</p><p>带着不安，带着迷茫</p><p>来到这将托付未来四年的地方</p>",
+                "headline":"你们在报道",
+                "text":"<p>还记得你们刚入学的样子</p><p>带着不安，带着迷茫</p><p>来到这将托付未来四年的地方。</p>",
                 "tag":"",
                 "classname":"",
                 "asset": {
@@ -66,8 +66,8 @@
 			{
                 "startDate":"9/5/2010",
                 "endDate":"",
-                "headline":"2010级新生报道",
-                "text":"<p>每个人都笑的那么灿烂</p>",
+                "headline":"你们在报道",
+                "text":"<p>每个人都笑的那么灿烂。</p>",
                 "tag":"",
                 "classname":"",
                 "asset": {
@@ -79,8 +79,8 @@
 			{
                 "startDate":"9/6/2010",
                 "endDate":"",
-                "headline":"2010级新生报道",
-                "text":"<p>师兄帮帮忙！</p>",
+                "headline":"你们在报道",
+                "text":"<p>当然少不了：师兄帮帮忙！</p>",
                 "tag":"",
                 "classname":"",
                 "asset": {
@@ -92,8 +92,8 @@
 			{
                 "startDate":"9/7/2010",
                 "endDate":"",
-                "headline":"2010级新生报道",
-                "text":"<p>送你离开</p><p>千里之外</p><p>父母无声黑白</p>",
+                "headline":"你们在报道",
+                "text":"<p>送你离开</p><p>千里之外</p><p>父母无声黑白。</p>",
                 "tag":"",
                 "classname":"",
                 "asset": {
@@ -105,8 +105,8 @@
 			{
                 "startDate":"9/8/2010",
                 "endDate":"",
-                "headline":"2010级新生报道",
-                "text":"<p>送你离开</p><p>千里之外</p><p>父母无声黑白</p>",
+                "headline":"你们在报道",
+                "text":"<p>青春年代</p><p>或许不该</p><p>太遥远的相爱。</p>",
                 "tag":"",
                 "classname":"",
                 "asset": {
@@ -118,8 +118,8 @@
 			{
                 "startDate":"9/9/2010",
                 "endDate":"",
-                "headline":"2010级新生报道",
-                "text":"<p>师兄们总是对师妹特别地关心</p>",
+                "headline":"你们在报道",
+                "text":"<p>师兄们总是对师妹特别地关心。</p>",
                 "tag":"",
                 "classname":"",
                 "asset": {
@@ -131,8 +131,8 @@
 			{
                 "startDate":"9/10/2010",
                 "endDate":"",
-                "headline":"2010级新生报道",
-                "text":"<p>你不羁的脸</p><p>像天色将晚</p>",
+                "headline":"你们在报道",
+                "text":"<p>你不羁的脸</p><p>像天色将晚。。。</p>",
                 "tag":"",
                 "classname":"",
                 "asset": {
@@ -142,23 +142,10 @@
                 }
             },
 			{
-                "startDate":"9/11/2010",
-                "endDate":"",
-                "headline":"2010级新生报道",
-                "text":"<p>你不羁的脸</p><p>像天色将晚</p>",
-                "tag":"",
-                "classname":"",
-                "asset": {
-                    "media":"http://vivlong.qiniudn.com/github/synufj2014/11.jpg",
-                    "credit":"",
-                    "caption":""
-                }
-            },
-			{
                 "startDate":"9/12/2010",
                 "endDate":"",
-                "headline":"2010级新生报道",
-                "text":"<p>她洗过的发</p><p>像心中火焰</p>",
+                "headline":"你们在报道",
+                "text":"<p>她洗过的发</p><p>像心中火焰。。。</p>",
                 "tag":"",
                 "classname":"",
                 "asset": {
@@ -168,23 +155,10 @@
                 }
             },
 			{
-                "startDate":"9/13/2010",
-                "endDate":"",
-                "headline":"2010级新生报道",
-                "text":"<p>她洗过的发</p><p>像心中火焰</p>",
-                "tag":"",
-                "classname":"",
-                "asset": {
-                    "media":"http://vivlong.qiniudn.com/github/synufj2014/13.jpg",
-                    "credit":"",
-                    "caption":""
-                }
-            },
-			{
                 "startDate":"9/14/2010",
                 "endDate":"",
-                "headline":"2010级新生报道",
-                "text":"<p>疾步如飞的你</p><p>只留下销魂的背影</p>",
+                "headline":"你们在报道",
+                "text":"<p>疾步如飞的你</p><p>只留下销魂的背影。</p>",
                 "tag":"",
                 "classname":"",
                 "asset": {
@@ -196,8 +170,8 @@
 			{
                 "startDate":"9/15/2010",
                 "endDate":"",
-                "headline":"2010级新生报道",
-                "text":"<p>你可曾还记得</p><p>那位师兄的模样？</p>",
+                "headline":"你们在报道",
+                "text":"<p>你可曾还记得</p><p>你那羞涩的模样？</p>",
                 "tag":"",
                 "classname":"",
                 "asset": {
@@ -209,7 +183,7 @@
 			{
                 "startDate":"9/16/2010",
                 "endDate":"",
-                "headline":"2010级新生报道",
+                "headline":"你们在报道",
                 "text":"<p>面对大学生活</p>",
                 "tag":"",
                 "classname":"",
@@ -222,7 +196,7 @@
 			{
                 "startDate":"9/17/2010",
                 "endDate":"",
-                "headline":"2010级新生报道",
+                "headline":"你们在报道",
                 "text":"<p>你们准备好了吗？</p>",
                 "tag":"",
                 "classname":"",
@@ -235,8 +209,8 @@
 			{
                 "startDate":"9/18/2010",
                 "endDate":"",
-                "headline":"2010级新生见面会",
-                "text":"<p>军训结束后的夜晚</p><p>国际商学院的教室</p><p>你们第一次见到了福建同乡会这个家</p>",
+                "headline":"你们的新生见面会",
+                "text":"<p>军训结束后的夜晚</p><p>国际商学院的教室</p><p>第一次见到了福建同乡会这个家。</p>",
                 "tag":"",
                 "classname":"",
                 "asset": {
@@ -248,8 +222,8 @@
 			{
                 "startDate":"9/19/2010",
                 "endDate":"",
-                "headline":"2010级新生见面会",
-                "text":"<p>在这里</p><p>你们互留联系方式</p><p>寻找臭气相投的人</P>",
+                "headline":"你们的新生见面会",
+                "text":"<p>在这里</p><p>你们寻找臭气相投的人</P>",
                 "tag":"",
                 "classname":"",
                 "asset": {
@@ -261,8 +235,8 @@
 			{
                 "startDate":"9/20/2010",
                 "endDate":"",
-                "headline":"2010级新生见面会",
-                "text":"<p>在这里</p><p>你们互留联系方式</p><p>寻找臭气相投的人</P>",
+                "headline":"你们的新生见面会",
+                "text":"<p>寻找熟悉的家乡气息。</P>",
                 "tag":"",
                 "classname":"",
                 "asset": {
@@ -274,8 +248,8 @@
 			{
                 "startDate":"10/1/2010",
                 "endDate":"",
-                "headline":"国庆北陵游",
-                "text":"<p>还记得北陵公园的皇太极像吗？</p>",
+                "headline":"国庆·北陵",
+                "text":"<p>那年国庆，一起去了北陵公园</p><p>我们「秋游」去啦！</p>",
                 "tag":"",
                 "classname":"",
                 "asset": {
@@ -287,8 +261,8 @@
 			{
                 "startDate":"10/11/2010",
                 "endDate":"",
-                "headline":"加入篮球队",
-                "text":"<p>我们的篮球队又有新鲜血液加入了</p>",
+                "headline":"我们的篮球队",
+                "text":"<p>我们的篮球队又有新鲜血液加入了</p><p>就是你们啦！</p>",
                 "tag":"",
                 "classname":"",
                 "asset": {
@@ -301,7 +275,7 @@
                 "startDate":"10/20/2010",
                 "endDate":"",
                 "headline":"沈北四校篮球赛",
-                "text":"<p>征战四校</p><p>你们是最棒的！</p>",
+                "text":"<p>我们的队伍征战四校</p><p>你们是最棒的！</p>",
                 "tag":"",
                 "classname":"",
                 "asset": {
@@ -378,7 +352,7 @@
 			{
                 "startDate":"10/26/2010",
                 "endDate":"",
-                "headline":"沈师辽大友谊羽毛球赛",
+                "headline":"沈师辽大羽毛球赛",
                 "text":"<p>这里是跳跃的汗水</p><p>这里是运动的青春！</p>",
                 "tag":"",
                 "classname":"",
@@ -391,7 +365,7 @@
 			{
                 "startDate":"10/27/2010",
                 "endDate":"",
-                "headline":"校运会，福建健儿",
+                "headline":"校运会福建健儿",
                 "text":"<p>这是一个奔跑者的姿态</p><p>你是叱诧风云的王者！</p>",
                 "tag":"",
                 "classname":"",
@@ -404,8 +378,8 @@
 			{
                 "startDate":"10/28/2010",
                 "endDate":"",
-                "headline":"校运会，福建健儿",
-                "text":"<p>冠军</p><p>非你莫属！</p>",
+                "headline":"校运会福建健儿",
+                "text":"<p>冠军</p><p>非你莫属！</p><p>非你们莫属！</p>",
                 "tag":"",
                 "classname":"",
                 "asset": {
@@ -417,12 +391,12 @@
 			{
                 "startDate":"10/29/2010",
                 "endDate":"",
-                "headline":"校运会，福建健儿",
-                "text":"<p>胜利属于你</p><p>听世界为你喝彩</p>",
+                "headline":"校运会福建健儿",
+                "text":"<p>听世界为你喝彩</p><p>胜利属于你！</p>",
                 "tag":"",
                 "classname":"",
                 "asset": {
-                    "media":"http://vivlong.qiniudn.com/github/synufj2014/52.jpg",
+                    "media":"http://vivlong.qiniudn.com/github/synufj2014/52.jpg",疯了 累了
                     "credit":"",
                     "caption":""
                 }
@@ -430,8 +404,8 @@
 			{
                 "startDate":"10/30/2010",
                 "endDate":"",
-                "headline":"校运会，福建健儿",
-                "text":"<p>还记得{同手同脚}麽？</p>",
+                "headline":"校运会福建健儿",
+                "text":"<p>「同手同脚」考验的是你们的协作感</p><p>你们是最团结的！</p>",
                 "tag":"",
                 "classname":"",
                 "asset": {
@@ -443,8 +417,8 @@
 			{
                 "startDate":"10/31/2010",
                 "endDate":"",
-                "headline":"切克闹，火锅之夜",
-                "text":"<p>那一夜</p><p>我们在分享故事</p><p>在倾听我们的轻狂岁月</p>",
+                "headline":"哟哟，切克闹",
+                "text":"<p>那一夜</p><p>你们在分享故事</p><p>在倾听我们的轻狂岁月。</p>",
                 "tag":"",
                 "classname":"",
                 "asset": {
@@ -457,7 +431,7 @@
                 "startDate":"9/1/2011",
                 "endDate":"",
                 "headline":"迎接2011级新生",
-                "text":"<p>转眼2011年</p><p>你们即将是师哥师姐了</p>",
+                "text":"<p>转眼2011年</p><p>你们已然是师哥师姐了。</p>",
                 "tag":"",
                 "classname":"",
                 "asset": {
@@ -470,7 +444,7 @@
                 "startDate":"9/2/2011",
                 "endDate":"",
                 "headline":"迎接2011级新生",
-                "text":"<p>为了迎接师弟师妹们</p><p>你们在一起商讨接新事宜</p>",
+                "text":"<p>为了迎接好小师弟师妹们</p><p>你们三番五次商讨接新事宜。</p>",
                 "tag":"",
                 "classname":"",
                 "asset": {
@@ -483,7 +457,7 @@
                 "startDate":"9/4/2011",
                 "endDate":"",
                 "headline":"新生见面会",
-                "text":"<p>国商</p><p>你们在布置会场</p>",
+                "text":"<p>依旧是国商</p><p>你们在布置新生见面会会场。</p>",
                 "tag":"",
                 "classname":"",
                 "asset": {
@@ -496,7 +470,7 @@
                 "startDate":"9/5/2011",
                 "endDate":"",
                 "headline":"新生见面会",
-                "text":"<p>曾经师哥师姐的位置</p><p>如今已是你们的身影</p>",
+                "text":"<p>曾经你们师哥师姐的位置</p><p>如今已是你们的身影。</p>",
                 "tag":"",
                 "classname":"",
                 "asset": {
@@ -509,7 +483,7 @@
                 "startDate":"9/6/2011",
                 "endDate":"",
                 "headline":"新生见面会",
-                "text":"<p>主持人登场</p><p>你们已经能够Hold住场</p><p>展现师哥师姐的魅力</p>",
+                "text":"<p>当当当，主持人登场</p><p>你们Hold住全场</p><p>展现师哥师姐的魅力。</p>",
                 "tag":"",
                 "classname":"",
                 "asset": {
@@ -626,7 +600,7 @@
                  "startDate":"5/18/2014",
                  "endDate":"",
                  "headline":"再见！大学！",
-                 "text":"<p>留下了青春</p><p>留下了不羁的轻狂岁月</p><p>带走了无数美好的回忆</p>",
+                 "text":"<p>留下了青春</p><p>留下了不羁的轻狂岁月</p><p>记得带走美好的回忆</p>",
                  "tag":"",
                  "classname":"",
                  "asset": {
@@ -639,7 +613,7 @@
                  "startDate":"5/19/2014",
                  "endDate":"",
                  "headline":"你好！社会！",
-                 "text":"<p>这是一段新的航程</p><p>放心去飞</p><p>向着诗意的远方。</p>",
+                 "text":"<p>这是一段新的航程</p><p>放心去飞</p><p>向着诗意的远方！</p>",
                  "tag":"",
                  "classname":"",
                  "asset": {
