@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"/>
+	<meta name="description" content="送别沈阳师范大学2014届福建籍毕业生"/>
+	<title>放心去飞</title>
+	<script src="./js/extensions/jquery/jquery-1.10.2.min.js"></script>
+	<script src="./js/extensions/bootstrap/js/bootstrap.min.js"></script>
+	<link href="./js/extensions/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+	<script src="./js/extensions/mediaelement/mediaelement-and-player.min.js"></script>
+	<link href="./js/extensions/mediaelement/mediaelementplayer.css" rel="stylesheet" type="text/css" />
+	<!--[if lt IE 9]>
+	<script src="./js/extensions/html5.js"></script>
+	<![endif]-->
+	<link href="./styles/app.css" rel="stylesheet" type="text/css" />
+	<link href="./styles/main.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+<div class="container">
+	<header id="masthead" class="site-header" role="banner">
+	</header>
+	
+	<div id="content" role="main">
+		<div id="timeline-embed"></div>
+		<script>
+		var timeline_config = {
+			type:       		'timeline',
+			width:              '100%',
+			height:             '500',
+			source:             './js/data.json?t=2',
+			embed_id:           'timeline-embed',               //OPTIONAL USE A DIFFERENT DIV ID FOR EMBED
+			start_at_end:       false,                          //OPTIONAL START AT LATEST DATE
+			// start_at_slide:     '0',                            //OPTIONAL START AT SPECIFIC SLIDE
+			start_zoom_adjust:  '-1',                            //OPTIONAL TWEAK THE DEFAULT ZOOM LEVEL
+			hash_bookmark:      true,                           //OPTIONAL LOCATION BAR HASHES
+			font:               'Lekton-Molengo',             //OPTIONAL FONT
+			lang:               'en',                           //OPTIONAL LANGUAGE
+			maptype:            'HYBRID',                   //OPTIONAL MAP STYLE
+			css:                './js/extensions/timeline/css/timeline.css',     //OPTIONAL PATH TO CSS
+			js:                 './js/extensions/timeline/js/timeline-min.js'    //OPTIONAL PATH TO JS
+		};
+		</script>
+	</div>
+	<br/>
+	
+	<div>
+		<audio loop autoplay src="http://sc.111ttt.com/up/mp3/339710/944E21F72662F333DD7619F12E4AEF40.mp3">
+			您的浏览器不支持 audio 标签。
+		</audio>
+	</div>
+	<br/>
+	
+	<footer id="colophon" role="contentinfo">
+		<div class="site-info">
+			<p>Powered by <a href="http://www.vivlong.com/" target="_blank">廖小正</a> | Licensed under <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/2.5/cn/" target="_blank"><img alt="Creative Commons License" style="border-width:0" src="./styles/by-nc-sa.png"></a>
+			</p>
+		</div>
+	</footer>
+	
+</div> 
+
+<script src="./js/extensions/timeline/js/storyjs-embed.js"></script>
+<script>
+	$('audio').mediaelementplayer({audioWidth: 768});
+</script>
+
+</body>
+</html>
