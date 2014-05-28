@@ -10,13 +10,13 @@ layout: SinglePage
 
 	<div class="article-info">
 		<p>
-			Published at&nbsp;&nbsp;<i class="fa fa-book"></i> {{ page.category }}&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-calendar"></i> {{ page.date | date: "%Y-%m-%d" }}&nbsp;&nbsp;&nbsp;&nbsp;wordage
+			Published at&nbsp;&nbsp;<i class="fa fa-book"></i> {{ page.category }}&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-calendar"></i> {{ page.date | date: "%Y-%m-%d" }}&nbsp;&nbsp;&nbsp;&nbsp;wordage：<span id="wordage_count"></span>
 		</p>
 	</div>
 
 	<br/>
 
-	<div class="article-content">
+	<div id="wordage" class="article-content">
 		{{ content }}
 	</div>
 
@@ -58,4 +58,11 @@ layout: SinglePage
 	  </ul>
 	</div>
 	{% endif %}
+	<script language="javascript">  
+	function countChar()
+	{  
+		document.getElementById('wordage_count').innerHTML = document.getElementById('wordage').value.length;
+	}
+	countChar();
+	</script>
 </div>
