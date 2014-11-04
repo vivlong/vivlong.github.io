@@ -39,4 +39,4 @@ theme:
   # Toggle "Postings are my own" disclaimer in footer
   show_disclaimer: false
   
-  show_related: true
+  show_related: false
