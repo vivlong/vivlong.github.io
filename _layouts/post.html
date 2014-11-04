@@ -7,21 +7,17 @@ layout: SinglePage
 			<a href="/"><i class="fa fa-home"></i></a>  {{ page.title }}
 		</h1>
 	</div>
-
 	<div class="article-info">
 		<p>
-			发布于&nbsp;&nbsp;<i class="fa fa-book"></i> {{ page.category }}&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-calendar"></i> {{ page.date | date: "%Y-%m-%d" }}&nbsp;&nbsp;&nbsp;&nbsp;字数：<span>{{ page.content | number_of_words }}</span>
+			发布于&nbsp;&nbsp;<i class="fa fa-book"></i> {{ page.category }}&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-calendar"></i> {{ page.date | date: "%Y-%m-%d" }}&nbsp;&nbsp;&nbsp;&nbsp;字数：<span id="wordage_count"></span>
 		</p>
 	</div>
-
 	<br/>
-
 	<div id="wordage" class="article-content">
 		{{ content }}
 	</div>
-
 	<div class="article-footer">
-		<h4>文档信息</h4>
+		<h5>文档信息</h5>
 		<p></p>
 		<ul>
 			<li>Documentation licensed under：<a href="http://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank">Creative Commons BY-NC-ND 4.0</a> | 自由转载-非商用-非衍生-保持署名</li>
@@ -29,7 +25,7 @@ layout: SinglePage
 			<!--li>打赏一下：<img src="http://vivlong.qiniudn.com/github/alipay_gwl.png" title="支付宝-付费点赞" alt="支付宝-付费点赞" style="width: 4em;"></li-->
 		</ul>
 	</div>
-	
+	<br>
   <div>
     {% if page.previous %}
     <div style="float: left;"> 
@@ -44,7 +40,6 @@ layout: SinglePage
   </div>
 	
 	<div class="ds-thread" data-thread-key="{{ page.title }}" data-title="{{ page.title }}" data-url="{{ page.url }}"></div>
-
 	<div id="duoshuo">
 		<script type="text/javascript">
 		var duoshuoQuery = {short_name:"vivlong-github"};
@@ -58,7 +53,6 @@ layout: SinglePage
 			})();
 		</script>
 	</div>
-
 	{% if site.theme.show_related %}
 	<div id="related">
 	  <h4>Related Posts</h4>
@@ -76,6 +70,6 @@ layout: SinglePage
 	{  
 		document.getElementById('wordage_count').innerHTML = document.getElementById('wordage').innerHTML.length;
 	}
-	//countChar();
+	countChar();
 	</script>
 </div>
