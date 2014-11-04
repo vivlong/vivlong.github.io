@@ -55,12 +55,10 @@ a:hover {
 .post-preview p {
 	text-align: justify;
 }
-
 .pagination {
 	text-align: center;
 	margin-bottom: 2em;
 }
-
 .pagination span, .pagination a {
 	border-radius: 2px;
 	border: 1px solid #ddd;
@@ -69,7 +67,6 @@ a:hover {
 	background: #fff;
 	box-shadow: 0 0 2px #f2f2f2;
 }
-
 .article-footer {
 	-moz-border-radius: 10px;
 	-webkit-border-radius: 10px;
@@ -84,7 +81,6 @@ a:hover {
 .article-footer  a {
 	color: #28a1c5;
 }
-
 .hide-go-top {
 	opacity: 0;
 	filter: alpha(opacity=0);
@@ -103,7 +99,6 @@ a:hover {
 	-o-transition: opacity 1s linear !important;
 	transition: opacity 1s linear !important;
 }
-
 .footer {
 	padding: 1em 0;
 	text-align: center;
@@ -113,4 +108,7 @@ a:hover {
 }
 .footer a {
 	color: #005580;
+}
+#stalker i {
+  font-size: 28px;
 }
