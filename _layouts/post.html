@@ -30,13 +30,14 @@ layout: SinglePage
 		</ul>
 	</div>
 	
-	<div id="related">
-	  <ul>
-		<li>
-		  <a href="{{ page.next.url }}">{{ page.next.title }}</a>
-		</li>
-	  </ul>
-	</div>
+  <div id="page-navigation">
+    <div class="left"> 
+      <a href="{{ page.content.url }}" rel="prev"><i class="fa fa-arrow-circle-left"></i>{{ page.content.title }}</a>  
+    </div> 
+    <div class="right"> 
+      <a href="{{ page.next.url }}" rel="next"><i class="fa fa-arrow-circle-right"></i>{{ page.next.title }}</a>
+    </div>
+  </div>
 	
 	<div class="ds-thread" data-thread-key="{{ page.title }}" data-title="{{ page.title }}" data-url="{{ page.url }}"></div>
 
