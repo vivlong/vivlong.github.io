@@ -10,7 +10,7 @@ layout: SinglePage
 
 	<div class="article-info">
 		<p>
-			发布于&nbsp;&nbsp;<i class="fa fa-book"></i> {{ page.category }}&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-calendar"></i> {{ page.date | date: "%Y-%m-%d" }}&nbsp;&nbsp;&nbsp;&nbsp;字数：<span id="wordage_count"></span>
+			发布于&nbsp;&nbsp;<i class="fa fa-book"></i> {{ page.category }}&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-calendar"></i> {{ page.date | date: "%Y-%m-%d" }}&nbsp;&nbsp;&nbsp;&nbsp;字数：<span>{{ page.content | number_of_words }}</span>
 		</p>
 	</div>
 
@@ -31,12 +31,16 @@ layout: SinglePage
 	</div>
 	
   <div>
+    {% if page.previous %}
     <div style="float: left;"> 
-      <a href="{{ page.next.url }}" rel="prev"><i class="fa fa-arrow-circle-left"></i>{{ page.next.title }}</a>  
-    </div> 
-    <div style="float: right;"> 
-      <a href="{{ page.content.url }}" rel="next"><i class="fa fa-arrow-circle-right"></i>{{ page.content.title }}</a>
+      <a href="{{ page.previous.url }}" rel="prev" title="{{ page.previous.title }}"><i class="fa fa-arrow-circle-left"></i>&nbsp;{{ page.previous.title }}</a>  
     </div>
+    {% endif %}
+    {% if page.next %}
+    <div style="float: right;"> 
+      <a href="{{ page.next.url }}" rel="next" title="{{ page.next.title }}"><i class="fa fa-arrow-circle-right"></i>&nbsp;{{ page.next.title }}</a>
+    </div>
+    {% endif %}
   </div>
 	
 	<div class="ds-thread" data-thread-key="{{ page.title }}" data-title="{{ page.title }}" data-url="{{ page.url }}"></div>
@@ -72,6 +76,6 @@ layout: SinglePage
 	{  
 		document.getElementById('wordage_count').innerHTML = document.getElementById('wordage').innerHTML.length;
 	}
-	countChar();
+	//countChar();
 	</script>
 </div>
