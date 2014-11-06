@@ -39,10 +39,12 @@ layout: SinglePage
     {% endif %}
   </div>
 	
-	<div class="ds-thread" data-thread-key="{{ page.title }}" data-title="{{ page.title }}" data-url="{{ page.url }}"></div>
+  <a href="javascript:void(0);" onclick="toggleDuoshuoComments('#comment-box');">展开评论</a>
+  <div id="comment-box" ></div>
+	<!--div class="ds-thread" data-thread-key="{{ page.title }}" data-title="{{ page.title }}" data-url="{{ page.url }}"></div-->
 	<div id="duoshuo">
 		<script type="text/javascript">
-		var duoshuoQuery = {short_name:"vivlong-github"};
+      var duoshuoQuery = {short_name:"vivlong-github"};
 			(function() {
 				var ds = document.createElement('script');
 				ds.type = 'text/javascript';ds.async = true;
@@ -66,10 +68,16 @@ layout: SinglePage
 	</div>
 	{% endif %}
 	<script language="javascript">  
-	function countChar()
-	{  
+	function countChar(){  
 		document.getElementById('wordage_count').innerHTML = document.getElementById('wordage').innerHTML.length;
 	}
 	countChar();
+  function toggleDuoshuoComments(container){
+    var el = document.createElement('div');
+    el.setAttribute('data-thread-key', '{{ page.title }}');
+    el.setAttribute('data-url', '{{ page.url }}');
+    DUOSHUO.EmbedThread(el);
+    jQuery(container).append(el);
+  }
 	</script>
 </div>
