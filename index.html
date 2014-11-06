@@ -13,26 +13,38 @@ title: 日志
 	</ul>
 </div>
 <!-- Pagination links -->
-{% if paginator.total_pages > 1 %}
-	<div class="pagination">
-		{% if paginator.previous_page %}
-			<a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}" class="previous" id="prev-note-button">
-				<i class="fa fa-arrow-left"></i> Prev
-			</a>
-		{% endif %}
-		{% for page in (1..paginator.total_pages) %}
-			{% if page == paginator.page %}
-				<span class="active">{{ page }}</span>
-			{% elsif page == 1 %}
-				<a href="{{ '/index.html' | prepend: site.baseurl | replace: '//', '/' }}">{{ page }}</a>
-			{% else %}
-				<a href="/page{{ page }}">{{ page }}</a>
-			{% endif %}
-		{% endfor %}
-		{% if paginator.next_page %}
-			<a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}" class="next" id="next-note-button">
-				<i class="fa fa-arrow-right"></i> Next
-			</a>
-		{% endif %}
-	</div>
-{% endif %}
+<nav>
+  <ul class="pagination">
+  {% if paginator.total_pages > 1 %}
+    {% if paginator.previous_page %}
+    <li>
+      <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}" class="previous" id="prev-note-button">
+        <i class="fa fa-arrow-left"></i> Prev
+      </a>
+    </li>
+    {% endif %}
+    {% for page in (1..paginator.total_pages) %}
+      {% if page == paginator.page %}
+      <li class="active">
+        <span class="sr-only">{{ page }}</span>
+      </li>
+      {% elsif page == 1 %}
+      <li>
+        <a href="{{ '/index.html' | prepend: site.baseurl | replace: '//', '/' }}">{{ page }}</a>
+      </li>
+      {% else %}
+      <li>
+        <a href="/page{{ page }}">{{ page }}</a>
+      </li>
+      {% endif %}
+    {% endfor %}
+    {% if paginator.next_page %}
+    <li>
+      <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}" class="next" id="next-note-button">
+        <i class="fa fa-arrow-right"></i> Next
+      </a>
+    </li>
+    {% endif %}
+  {% endif %}
+  </ul>
+</nav>

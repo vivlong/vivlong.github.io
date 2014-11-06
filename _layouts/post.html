@@ -14,17 +14,6 @@ layout: SinglePage
 	<div id="wordage" class="article-content">
 		{{ content }}
 	</div>
-	<div class="article-footer">
-		<h5>文档信息</h5>
-		<p></p>
-		<ul>
-			<li>Documentation licensed under：<a href="http://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank">Creative Commons BY-NC-ND 4.0</a> | 自由转载-非商用-非衍生-保持署名</li>
-			<li>Code          licensed under：<a href="https://www.gnu.org/licenses/lgpl.html" target="_blank">GNU LGPL.</a></li>
-			<!--li>打赏一下：<img src="http://vivlong.qiniudn.com/github/alipay_gwl.png" title="支付宝-付费点赞" alt="支付宝-付费点赞" style="width: 4em;"></li-->
-		</ul>
-	</div>
-	<br>
- 
   <nav>
     <ul class="pager">
       {% if page.previous %}
@@ -39,7 +28,15 @@ layout: SinglePage
       {% endif %}
     </ul>
   </nav>
-
+	<div class="article-footer">
+		<h5>文档信息</h5>
+		<p></p>
+		<ul>
+			<li>Documentation licensed under：<a href="http://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank">Creative Commons BY-NC-ND 4.0</a> | 自由转载-非商用-非衍生-保持署名</li>
+			<li>Code          licensed under：<a href="https://www.gnu.org/licenses/lgpl.html" target="_blank">GNU LGPL.</a></li>
+			<!--li>打赏一下：<img src="http://vivlong.qiniudn.com/github/alipay_gwl.png" title="支付宝-付费点赞" alt="支付宝-付费点赞" style="width: 4em;"></li-->
+		</ul>
+	</div>
   <div id="duoshuo">
     <a href="javascript:void(0);" onclick="toggleDuoshuoComments('#comment-box');">展开评论</a>
     <div id="comment-box" ></div>
