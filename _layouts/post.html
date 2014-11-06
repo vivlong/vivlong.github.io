@@ -8,13 +8,13 @@ layout: SinglePage
 	<div class="article-info">
 		<p>
       <div class="col-xs-12 col-md-1">
-        发布于&nbsp;&nbsp;<i class="fa fa-book"></i> {{ page.category }}&nbsp;&nbsp;&nbsp;&nbsp;
+        发布于&nbsp;&nbsp;<i class="fa fa-book"></i>&nbsp;{{ page.category }}&nbsp;&nbsp;&nbsp;&nbsp;
       </div>
       <div class="col-xs-12 col-md-1">
-        <i class="fa fa-calendar"></i> {{ page.date | date: "%Y-%m-%d" }}&nbsp;&nbsp;&nbsp;&nbsp;
+        时间：&nbsp;&nbsp;<i class="fa fa-calendar"></i>&nbsp;{{ page.date | date: "%Y-%m-%d" }}&nbsp;&nbsp;&nbsp;&nbsp;
       </div>
       <div class="col-xs-12 col-md-1">
-        字数：<span id="wordage_count"></span>
+        字数：&nbsp;<span id="wordage_count"></span>
       </div>
 		</p>
 	</div>
@@ -37,7 +37,7 @@ layout: SinglePage
     </ul>
   </nav>
 	<div class="article-footer">
-		<h5>文档信息</h5>
+		<h5>版权信息</h5>
 		<p></p>
 		<ul>
 			<li>Documentation licensed under：<a href="http://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank">Creative Commons BY-NC-ND 4.0</a> | 自由转载-非商用-非衍生-保持署名</li>
