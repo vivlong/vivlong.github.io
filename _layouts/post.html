@@ -7,7 +7,15 @@ layout: SinglePage
 	</div>
 	<div class="article-info">
 		<p>
-			发布于&nbsp;&nbsp;<i class="fa fa-book"></i> {{ page.category }}&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-calendar"></i> {{ page.date | date: "%Y-%m-%d" }}&nbsp;&nbsp;&nbsp;&nbsp;字数：<span id="wordage_count"></span>
+      <div class="col-xs-12 col-sm-8 col-md-4 col-lg-2">
+        发布于&nbsp;&nbsp;<i class="fa fa-book"></i> {{ page.category }}&nbsp;&nbsp;&nbsp;&nbsp;
+      </div>
+      <div class="col-xs-12 col-sm-8 col-md-4 col-lg-2">
+        <i class="fa fa-calendar"></i> {{ page.date | date: "%Y-%m-%d" }}&nbsp;&nbsp;&nbsp;&nbsp;
+      </div>
+      <div class="col-xs-12 col-sm-8 col-md-4 col-lg-2">
+        字数：<span id="wordage_count"></span>
+      </div>
 		</p>
 	</div>
 	<br>
