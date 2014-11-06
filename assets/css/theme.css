@@ -62,18 +62,6 @@ a:hover {
 code, pre {
   font-family: Monaco,Menlo,Consolas,"Courier New",monospace;
 }
-.pagination {
-	text-align: center;
-	margin-bottom: 2em;
-}
-.pagination span, .pagination a {
-	border-radius: 2px;
-	border: 1px solid #ddd;
-	padding: 3px 10px;
-	margin-left: 10px;
-	background: #fff;
-	box-shadow: 0 0 2px #f2f2f2;
-}
 .article-footer {
 	-moz-border-radius: 10px;
 	-webkit-border-radius: 10px;

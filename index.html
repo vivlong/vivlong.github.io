@@ -16,13 +16,11 @@ title: 日志
 <nav>
   <ul class="pagination">
   {% if paginator.total_pages > 1 %}
-    {% if paginator.previous_page %}
-    <li>
+    <li {% if paginator.previous_page %} class="" {% else %} class="disabled" {% endif %}>
       <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}" class="previous" id="prev-note-button">
         <i class="fa fa-arrow-left"></i> Prev
       </a>
     </li>
-    {% endif %}
     {% for page in (1..paginator.total_pages) %}
       {% if page == paginator.page %}
       <li class="active">
@@ -38,13 +36,11 @@ title: 日志
       </li>
       {% endif %}
     {% endfor %}
-    {% if paginator.next_page %}
-    <li>
+    <li {% if paginator.next_page %} class="" {% else %} class="disabled" {% endif %}>
       <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}" class="next" id="next-note-button">
         <i class="fa fa-arrow-right"></i> Next
       </a>
     </li>
-    {% endif %}
   {% endif %}
   </ul>
 </nav>
