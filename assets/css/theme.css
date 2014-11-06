@@ -5,18 +5,18 @@
 /* Latest update at 2014.05.08
 /*
 /*********/
-a {
-	color: #333333;
-	text-decoration: none;
-}
-a:link {
-	color: #3498db;/*#005580;*/
-	text-decoration: none;
-}
 a:hover {
 	color: #3498db;/*#0088cc;*/
 	text-decoration: none;
 }
+a, a:visited {
+	color: #333;
+	text-decoration: none;
+}
+/*a:link {
+	color: #3498db;#005580;
+	text-decoration: none;
+}*/
 .category-info {
 	color: gray;
 	padding-bottom: 0.8em;
