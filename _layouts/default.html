@@ -12,36 +12,36 @@
     <link rel="stylesheet" href="//cdn.staticfile.org/typo.css/1.1/typo.css">
     <link rel="stylesheet" href="//cdn.staticfile.org/twitter-bootstrap/3.3.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="//cdn.staticfile.org/font-awesome/4.0.3/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/assets/css/theme.css">
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="hidden-xs col-sm-4 col-md-3">
+          {% include sidebar.html %}
+        </div>
+        <div class="clearfix visible-xs"></div>
+        <div class="col-xs-12 col-sm-8 col-md-9">
+          <div class="post-preview">
+            {{ content }}
+          </div>
+          <div class="footer">
+            {% include footer.html %}
+          </div>
+        </div>
+      </div>	
+    </div>
+    {% include analytics.html %}
+    <div class="go-top hide-go-top">
+      <a href="#"><i class="icon-circle-arrow-up"></i></a>
+    </div>
+    <a href="https://github.com/vivlong" target="_blank">
+      <img style="position: absolute; top: 0; right: 0; border: 0;" src="http://vivlong.qiniudn.com/github/forkme_right_gray_6d6d6d.png" alt="Fork me on GitHub">
+    </a>
     <script type="text/javascript" src="//cdn.staticfile.org/jquery/2.1.1-rc2/jquery.min.js"></script>
     <script type="text/javascript">
       !window.jQuery && document.write('<script src=//lib.sinaapp.com/js/jquery/1.7.2/jquery.min.js><\/script>');
     </script>
     <script src="//cdn.staticfile.org/twitter-bootstrap/3.3.0/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="/assets/css/theme.css">
-  </head>
-  <body>
-    <div class="container">
-    <div class="row">
-      <div class="hidden-xs col-sm-4 col-md-3">
-        {% include sidebar.html %}
-      </div>
-      <div class="clearfix visible-xs"></div>
-      <div class="col-xs-12 col-sm-8 col-md-9">
-        <div class="post-preview">
-          {{ content }}
-        </div>
-        <div class="footer">
-          {% include footer.html %}
-        </div>
-      </div>
-    </div>	
-  </div>
-  {% include analytics.html %}
-  <div class="go-top hide-go-top">
-    <a href="#"><i class="icon-circle-arrow-up"></i></a>
-  </div>
-  <a href="https://github.com/vivlong" target="_blank">
-    <img style="position: absolute; top: 0; right: 0; border: 0;" src="http://vivlong.qiniudn.com/github/forkme_right_gray_6d6d6d.png" alt="Fork me on GitHub">
-  </a>
   </body>
 </html>

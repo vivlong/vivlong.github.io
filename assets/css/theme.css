@@ -44,6 +44,10 @@ a:hover {
 .article-info p {
 	color: #999;
 }
+.article-content {
+  min-height: 300px;
+  color: #2f2f2f;
+}
 .article-content ul li {
 	list-style: disc;
 }
@@ -51,7 +55,8 @@ a:hover {
 	list-style: decimal;
 }
 .post-preview {
-	padding: 3em;
+	/*padding: 3em;*/
+  padding: 70px 40px 30px;
 }
 .post-preview a {
 	color: #28a1c5;
