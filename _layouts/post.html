@@ -24,18 +24,22 @@ layout: SinglePage
 		</ul>
 	</div>
 	<br>
-  <div>
-    {% if page.previous %}
-    <div style="float: left;"> 
-      <a href="{{ page.previous.url }}" rel="prev" title="{{ page.previous.title }}"><i class="fa fa-arrow-circle-left"></i>&nbsp;{{ page.previous.title }}</a>  
-    </div>
-    {% endif %}
-    {% if page.next %}
-    <div style="float: right;"> 
-      <a href="{{ page.next.url }}" rel="next" title="{{ page.next.title }}"><i class="fa fa-arrow-circle-right"></i>&nbsp;{{ page.next.title }}</a>
-    </div>
-    {% endif %}
-  </div>
+ 
+  <nav>
+    <ul class="pager">
+      {% if page.previous %}
+      <li class="previous">
+        <a href="{{ page.previous.url }}" rel="prev" title="{{ page.previous.title }}"><i class="fa fa-arrow-circle-left"></i>&nbsp;{{ page.previous.title }}</a>
+      </li>
+      {% endif %}
+      {% if page.next %}
+      <li class="next">
+        <a href="{{ page.next.url }}" rel="next" title="{{ page.next.title }}"><i class="fa fa-arrow-circle-right"></i>&nbsp;{{ page.next.title }}</a>
+      </li>
+      {% endif %}
+    </ul>
+  </nav>
+
   <div id="duoshuo">
     <a href="javascript:void(0);" onclick="toggleDuoshuoComments('#comment-box');">展开评论</a>
     <div id="comment-box" ></div>

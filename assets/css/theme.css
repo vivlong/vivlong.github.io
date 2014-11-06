@@ -24,6 +24,10 @@ a:hover {
 #all-list {
 	padding: 1em;
 }
+#stalker i {
+  font-size: 1.6em;
+  margin-right: 0.2em;
+}
 .posts-list span {
 	color: #aaa;
 	font-size: 0.8em;
@@ -54,6 +58,9 @@ a:hover {
 }
 .post-preview p {
 	text-align: justify;
+}
+code, pre {
+  font-family: Monaco,Menlo,Consolas,"Courier New",monospace;
 }
 .pagination {
 	text-align: center;
@@ -108,8 +115,4 @@ a:hover {
 }
 .footer a {
 	color: #005580;
-}
-#stalker i {
-  font-size: 1.6em;
-  margin-right: 0.2em;
 }
