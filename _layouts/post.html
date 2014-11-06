@@ -71,7 +71,7 @@ layout: SinglePage
   function toggleDuoshuoComments(container){
     if(jQuery(container).has("div").length>0){
       jQuery(container).empty();
-      document.getElementById('duoshuo').html('展开评论');
+      document.getElementById('duoshuo').innerHTML="展开评论";
       return;
     }
     var el = document.createElement('div');
@@ -79,7 +79,7 @@ layout: SinglePage
     el.setAttribute('data-url', '{{ page.url }}');
     DUOSHUO.EmbedThread(el);
     jQuery(container).append(el);
-    document.getElementById('duoshuo').html('收起评论');
+    document.getElementById('duoshuo').innerHTML="收起评论";
   }
 	</script>
 </div>
