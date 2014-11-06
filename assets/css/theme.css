@@ -16,10 +16,9 @@ a:hover {
 	color: #3498db;/*#0088cc;*/
 	text-decoration: none;
 }
-/*a:link {
-	color: #3498db;#005580;
-	text-decoration: none;
-}*/
+.pagination {
+  margin: 0;
+}
 .category-info {
 	color: gray;
 	padding-bottom: 0.8em;
