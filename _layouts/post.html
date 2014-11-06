@@ -57,9 +57,8 @@ layout: SinglePage
 	<script language="javascript">
 	function countChar(){  
     var text = document.getElementById('wordage').innerHTML;
-    var counter = cn=(text.match(/[0-9]+[a-z]+|[\u4E00-\uFA29]/ig)||[]).length;
+    var counter = text.match(/[^\x00-\xff]/g).length;
     document.getElementById('wordage_count').innerHTML = counter;
-		//document.getElementById('wordage_count').innerHTML = document.getElementById('wordage').innerHTML.length;
 	}
 	countChar();
   var duoshuoQuery = {short_name:"vivlong-github"};
