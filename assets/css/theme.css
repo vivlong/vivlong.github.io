@@ -5,12 +5,12 @@
 /* Latest update at 2014.05.08
 /*
 /*********/
-a:hover {
-	color: #3498db;/*#0088cc;*/
-	text-decoration: none;
-}
 a, a:visited {
 	color: #333;
+	text-decoration: none;
+}
+a:hover {
+	color: #3498db;/*#0088cc;*/
 	text-decoration: none;
 }
 /*a:link {
