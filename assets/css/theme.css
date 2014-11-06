@@ -45,7 +45,6 @@ a:hover {
 	color: #999;
 }
 .article-content {
-  min-height: 300px;
   color: #2f2f2f;
 }
 .article-content ul li {
@@ -80,6 +79,9 @@ code, pre {
 }
 .article-footer  a {
 	color: #28a1c5;
+}
+.comment {
+  float:right;
 }
 .hide-go-top {
 	opacity: 0;
