@@ -6,9 +6,8 @@ layout: SinglePage
 		<h1 class="title"><a href="/"><i class="fa fa-home"></i></a>&nbsp;&nbsp;{{ page.title }}</h1>
 	</div>
 	<div class="article-info">
-		<p>
       <div class="col-xs-12 col-sm-2 col-md-2">
-        发布于&nbsp;&nbsp;<i class="fa fa-book"></i>&nbsp;{{ page.category }}&nbsp;&nbsp;&nbsp;&nbsp;
+        发布：&nbsp;&nbsp;<i class="fa fa-book"></i>&nbsp;{{ page.category }}&nbsp;&nbsp;&nbsp;&nbsp;
       </div>
       <div class="col-xs-12 col-sm-3 col-md-3">
         时间：&nbsp;&nbsp;<i class="fa fa-calendar"></i>&nbsp;{{ page.date | date: "%Y-%m-%d" }}&nbsp;&nbsp;&nbsp;&nbsp;
@@ -16,9 +15,8 @@ layout: SinglePage
       <div class="col-xs-12 col-sm-2 col-md-2">
         字数：&nbsp;<span id="wordage_count"></span>
       </div>
-		</p>
 	</div>
-	<br>
+	<br/>
 	<div id="wordage" class="article-content">
 		{{ content }}
 	</div>
