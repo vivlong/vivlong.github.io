@@ -10,11 +10,11 @@ a {
 	text-decoration: none;
 }
 a:link {
-	color: #005580;
+	color: #3498db;/*#005580;*/
 	text-decoration: none;
 }
 a:hover {
-	color: #0088cc;
+	color: #3498db;/*#0088cc;*/
 	text-decoration: none;
 }
 .category-info {
@@ -26,7 +26,7 @@ a:hover {
 }
 .posts-list span {
 	color: #aaa;
-	font-size: 0.9em;
+	font-size: 0.8em;
 }
 .posts-list li {
 	font-size: 1.3em;
@@ -110,6 +110,6 @@ a:hover {
 	color: #005580;
 }
 #stalker i {
-  font-size: 20px;
-  margin-right: 4px;
+  font-size: 1.6em;
+  margin-right: 0.2em;
 }
