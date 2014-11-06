@@ -3,16 +3,14 @@ layout: SinglePage
 ---
 <div class="content">
 	<div class="page-header">
-		<h1>
-			<a href="/"><i class="fa fa-home"></i></a>  {{ page.title }}
-		</h1>
+		<h1><a href="/"><i class="fa fa-home"></i></a>  {{ page.title }}</h1>
 	</div>
 	<div class="article-info">
 		<p>
 			发布于&nbsp;&nbsp;<i class="fa fa-book"></i> {{ page.category }}&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-calendar"></i> {{ page.date | date: "%Y-%m-%d" }}&nbsp;&nbsp;&nbsp;&nbsp;字数：<span id="wordage_count"></span>
 		</p>
 	</div>
-	<br/>
+	<br>
 	<div id="wordage" class="article-content">
 		{{ content }}
 	</div>
@@ -38,23 +36,11 @@ layout: SinglePage
     </div>
     {% endif %}
   </div>
-	
-  <a href="javascript:void(0);" onclick="toggleDuoshuoComments('#comment-box');">展开评论</a>
-  <div id="comment-box" ></div>
+  <div id="duoshuo">
+    <a href="javascript:void(0);" onclick="toggleDuoshuoComments('#comment-box');">展开评论</a>
+    <div id="comment-box" ></div>
+  </div>
 	<!--div class="ds-thread" data-thread-key="{{ page.title }}" data-title="{{ page.title }}" data-url="{{ page.url }}"></div-->
-	<div id="duoshuo">
-		<script type="text/javascript">
-      var duoshuoQuery = {short_name:"vivlong-github"};
-			(function() {
-				var ds = document.createElement('script');
-				ds.type = 'text/javascript';ds.async = true;
-				ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
-				ds.charset = 'UTF-8';
-				(document.getElementsByTagName('head')[0] 
-				 || document.getElementsByTagName('body')[0]).appendChild(ds);
-			})();
-		</script>
-	</div>
 	{% if site.theme.show_related %}
 	<div id="related">
 	  <h4>Related Posts</h4>
@@ -72,7 +58,20 @@ layout: SinglePage
 		document.getElementById('wordage_count').innerHTML = document.getElementById('wordage').innerHTML.length;
 	}
 	countChar();
+  var duoshuoQuery = {short_name:"vivlong-github"};
+  (function() {
+    var ds = document.createElement('script');
+    ds.type = 'text/javascript';ds.async = true;
+    ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+    ds.charset = 'UTF-8';
+    (document.getElementsByTagName('head')[0] 
+     || document.getElementsByTagName('body')[0]).appendChild(ds);
+  })();
   function toggleDuoshuoComments(container){
+    if(jQuery(container).has("div").length>0){
+      jQuery(container).empty();
+      return;
+    }
     var el = document.createElement('div');
     el.setAttribute('data-thread-key', '{{ page.title }}');
     el.setAttribute('data-url', '{{ page.url }}');
