@@ -37,8 +37,8 @@ layout: SinglePage
 			<!--li>打赏一下：<img src="http://vivlong.qiniudn.com/github/alipay_gwl.png" title="支付宝-付费点赞" alt="支付宝-付费点赞" style="width: 4em;"></li-->
 		</ul>
 	</div>
-  <div id="duoshuo">
-    <a href="javascript:void(0);" onclick="toggleDuoshuoComments('#comment-box');">展开评论</a>
+  <div>
+    <a href="javascript:void(0);" onclick="toggleDuoshuoComments('#comment-box');" id="duoshuo">展开评论</a>
     <div id="comment-box" ></div>
   </div>
 	<!--div class="ds-thread" data-thread-key="{{ page.title }}" data-title="{{ page.title }}" data-url="{{ page.url }}"></div-->
@@ -71,6 +71,7 @@ layout: SinglePage
   function toggleDuoshuoComments(container){
     if(jQuery(container).has("div").length>0){
       jQuery(container).empty();
+      document.getElementById('duoshuo').html("展开评论");
       return;
     }
     var el = document.createElement('div');
@@ -78,6 +79,7 @@ layout: SinglePage
     el.setAttribute('data-url', '{{ page.url }}');
     DUOSHUO.EmbedThread(el);
     jQuery(container).append(el);
+    document.getElementById('duoshuo').html("收起评论");
   }
 	</script>
 </div>
