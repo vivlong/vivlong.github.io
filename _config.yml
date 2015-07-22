@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # General Jekyll Config
 encoding: utf-8
 pygments: true
@@ -41,3 +42,48 @@ theme:
   show_disclaimer: false
   
   show_related: false
+=======
+# General Jekyll Config
+encoding: utf-8
+pygments: true
+url: http://vivlong.github.io
+lsi: false
+exclude: [LICENSE, CNAME, README.md, .gitignore]
+permalink: /:year/:month/:day/:title.html
+auto: true  
+markdown: rdiscount 
+paginate: 13
+paginate_path: "page:num"
+  
+# Theme customization - please change from the defaults!
+theme:
+  # Color for top bar, links, etc
+  highlight_color: '#3498db'
+
+  # Profile links on the left sidebar, leave blank to ignore
+  social:
+    github: vivlong
+    #bitbucket:  
+    #hacker_news: vivlong
+    #stackexchange: 2531052 
+    stackoverflow: 2531052 
+    #twitter: flyinit
+    #facebook: liaozheng 
+    #tumblr: 
+    #linkedin: 
+    gplus: 113114172117752769682
+    weibo: flyintech
+    #rss:
+
+  name: 廖小正
+  email: vivlong@163.com
+  tagline: "Lighting candles in the dark."
+
+  # Google Analytics key, leave blank to ignore
+  google_analytics_key:
+  
+  # Toggle "Postings are my own" disclaimer in footer
+  show_disclaimer: false
+  
+  show_related: false
+>>>>>>> edd9cdfc26db8f6e418d635b4e6b3538d7442ec6
