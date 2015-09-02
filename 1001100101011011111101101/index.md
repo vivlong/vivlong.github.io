@@ -26,6 +26,8 @@ Your browser does not support the audio element.
 ### Movies
 
 * 2014-05-09 「<del>[扬子江大鳄](http://movie.douban.com/subject/19975889/)</del>」 &#9733;&#9733;&#9733;&#9733;&#9734; &gt; 阿里巴巴
-* 2014-03-30 「<del>[天注定](http://movie.douban.com/subject/21941283/)</del>」 &#9733;&#9733;&#9733;&#9733;&#9734; &gt; 贾樟柯
+* 2014-03-30 「<del>[天注定](http://movie.douban.com/subject/21941283/)</del>」 &#9733;&#9733;&#9733;&#9733;&#9734; &gt; 贾樟柯  
+* 2015-09-01 「<del>[	
+我是路人甲](http://movie.douban.com/subject/21941283/)</del>」 &#9733;&#9733;&#9733;&#9733;&#9734; &gt; 尔冬升
 
 - - -
