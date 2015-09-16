@@ -4,13 +4,22 @@ title:  通过BitNami安装的Gitlab如何重启
 category: 架构  
 ---
 #### 通过BitNami安装的Gitlab如何重启？  
-先说怎么重启
 
-  1、找到BitNami gitlab的安装目录，我安装在默认目录下：/opt/gitlab-7.8.1-0
+查阅[Bitnami官方文档](https://bitnami.com/stack/gitlab/README.txt)  
 
-  2、运行命令：sudo ./ctlscript.sh start
 
-  3、然后你就会愉快的看到这个脚本在帮你慢慢重启mysql、redis、gitlab组件和apache  
+  To start/stop/restart application on Linux you can use the included ctlscript.sh
+utility, as shown below:
 
-今天遇到的问题是git服务器重启，但是BitNami没有加入启动项，就导致了访问git服务器的时候出现访问错误。
+       ./ctlscript.sh (start|stop|restart)
+       ./ctlscript.sh (start|stop|restart) postgres
+       ./ctlscript.sh (start|stop|restart) redis
+       ./ctlscript.sh (start|stop|restart) apache
+       ./ctlscript.sh (start|stop|restart) sidekiq
+
+  start      - start the service(s)
+  stop       - stop  the service(s)
+  restart    - restart or start the service(s)
+
+
 - - -
