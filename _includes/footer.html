@@ -1,16 +1,52 @@
 {% if site.theme.show_disclaimer %}
 <div class="disclaimer">
-  <p>
-    The postings on this site are my own and don't necessarily represent my 
-    employer’s positions, strategies or opinions.
-  </p>
+	<p>
+		The postings on this site are my own and don't necessarily represent my 
+		employer’s positions, strategies or opinions.
+	</p>
 </div>
 {% endif %}
 <footer>
-	<p>
-		&copy; {{ site.theme.name }}, 2014.
-	</p>
-	<p>
-		Powered by <a href="http://jekyllrb.com" target="_blank" rel="nofollow">Jekyll</a> &amp; <a href="http://twitter.github.com/bootstrap/" target="_blank" rel="nofollow">Twitter Bootstrap</a> &amp; <a href="http://github.com/" target="_blank" rel="nofollow">GitHub</a>.
-	</p>
+    <p>
+		&copy; {{ site.theme.name }}, 2015.
+		Made with <a href="http://jekyllrb.com/">Jekyll</a>,
+		hosted on <a href="https://github.com/vivlong/vivlong.github.io">Github Pages</a>.
+    </p>
+    <ul class="links">
+		{% if site.theme.social.github %}
+		<li>
+			<a title="{{ site.theme.social.github }} on Github" href="https://github.com/{{ site.theme.social.github }}" title="See my code on GitHub">
+				<i class="fa fa-github"></i>
+			</a>
+		</li>
+		{% endif %}
+		{% if site.theme.social.stackoverflow %}
+		<li>
+			<a title="{{ site.theme.name }} on Stack Overflow" href="http://stackoverflow.com/users/{{site.theme.social.stackoverflow }}" title="Learn with me on Stack Overflow">
+				<i class="fa fa-stack-overflow"></i>
+			</a>
+		</li>
+		{% endif %}
+		{% if site.theme.social.linkedin %}
+		<li>
+			<a title="{{ site.theme.name }} on LinkedIn" href="https://www.linkedin.com/in/{{ site.theme.social.linkedin }}" title="Connect with me on LinkedIn">
+				<i class="fa fa-linkedin"></i>
+			</a>
+		</li>
+		{% endif %}
+		{% if site.theme.social.gplus %}
+		<li>
+			<a title="{{ site.theme.name }} on Google Plus" href="https://plus.google.com/{{ site.theme.social.gplus }}" title="Join me on Google Plus">
+				<i class="fa fa-google-plus"></i>
+			</a>
+		</li>
+		{% endif %}
+		{% if site.theme.social.weibo %}
+		<li>
+			<a title="{{ site.theme.name }} on Weibo" href="http://weibo.com/{{ site.theme.social.weibo }}" title="Share with me on Weibo">
+				<i class="fa fa-weibo"></i>
+			</a>
+		</li>
+		{% endif %}
+	</ul>
 </footer>

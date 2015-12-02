@@ -1,50 +1,87 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
-  <head>
+<head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-    <title>{{ site.theme.name }} - {{ page.title }}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>
+		{% if page.category == 'blog' and page.url != '/blog/index.html' %}
+			{{ site.theme.name }} - 
+		{% endif %}
+		{{ page.title }}
+	</title>
     <meta name="author" content="{{ site.theme.name }}" />
     <meta name="description" content="The blog of {{ site.theme.name }}" />
     <link rel="canonical" href="{{ site.url }}{{ page.url | replace:'index.html','' }}" />
-    <link rel="shortcut icon" href="/favicon.ico">
+    <link rel="shortcut icon" href="/favicon.ico" ype="image/x-icon">
     <link rel="alternate" type="application/rss+xml" title="{{ site.theme.name }}" href="{{site.url}}/atom.xml" />
-    <link rel="stylesheet" href="//cdn.staticfile.org/typo.css/1.1/typo.css">
-    <link rel="stylesheet" href="//cdn.staticfile.org/twitter-bootstrap/3.3.0/css/bootstrap.min.css">
-    <link rel="stylesheet" href="//cdn.staticfile.org/font-awesome/4.2.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="/assets/css/theme.css">
+    <link rel="stylesheet" href="//cdn.staticfile.org/typo.css/1.1/typo.min.css">
+    <link rel="stylesheet" href="//cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="//cdn.staticfile.org/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/assets/css/site.css">
 	<div id="wx_pic" style="margin:0 auto;display:none;">
 		<img src="http://cdn.28story.com/github/YostNo_300.jpg"/>
 	</div>
-  </head>
-  <body>
-    <div class="container">
-      <div class="row">
-        <div class="hidden-xs col-sm-4 col-md-3">
-          {% include sidebar.html %}
-        </div>
-        <div class="clearfix visible-xs"></div>
-        <div class="col-xs-12 col-sm-8 col-md-9">
-          <div class="post-preview">
-            {{ content }}
-          </div>
-          <div class="footer">
-            {% include footer.html %}
-          </div>
-        </div>
-      </div>	
-    </div>
+</head>
+<body>
+	<div class="header-container">
+		<header class="inner">
+			<nav>
+				<a class="{% if page.category == 'about' %} selected {% endif %}" href="/">About</a>
+				<a class="{% if page.category == 'products' %} selected {% endif %}" href="/products/">Products</a>
+				<a class="{% if page.category == 'blog' %} selected {% endif %}" href="/blog/">Blog</a>
+				{% if site.theme.social.github %}
+				<a href="https://github.com/{{ site.theme.social.github }}">Github</a>
+				{% endif %}
+			</nav>
+			<div class="pull-right right logo">
+				<div class="name">
+					<a href="/">James Liao</a><br />
+					<small>
+						<em>
+							Technical guy at Kadima Studio
+						</em>
+					</small>
+				</div>
+				<img class="avatar" src="http://cdn.28story.com/github/gwl_100x100.png" alt="My profile picture" />
+			</div>
+			<div class="clear"></div>
+		</header>
+		<div class="clear"></div>
+	</div>
+	<div class="separator"></div>
+	<div  style="border-bottom: 1px solid #ddd"></div>
+	{{ content }}
+	{% include footer.html %}
     {% include analytics.html %}
     <div class="go-top hide-go-top">
       <a href="#"><i class="icon-circle-arrow-up"></i></a>
     </div>
-    <a href="https://github.com/vivlong" target="_blank">
-      <img style="position: absolute; top: 0; right: 0; border: 0;" src="http://cdn.28story.com/github/forkme_right_gray_6d6d6d.png" alt="Fork me on GitHub">
-    </a>
     <script type="text/javascript" src="//cdn.staticfile.org/jquery/2.1.1-rc2/jquery.min.js"></script>
     <script type="text/javascript">
-      !window.jQuery && document.write('<script src=//lib.sinaapp.com/js/jquery/1.7.2/jquery.min.js><\/script>');
+      !window.jQuery && document.write('<script src=//cdn.bootcss.com/jquery/1.11.3/jquery.min.js><\/script>');
     </script>
-    <script src="//cdn.staticfile.org/twitter-bootstrap/3.3.0/js/bootstrap.min.js"></script>
-  </body>
+    <script src="//cdn.bootcss.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+	<script type="text/javascript">
+		/*!
+		 * http://github.com/ssaunier/track-outbound-links
+		 * Copyright 2013 Sébastien Saunier
+		 * @license MIT
+		 */
+		!function(e,t){function n(){for(var n=t.getElementsByTagName("a"),a=[],r=0;r<n.length;++r){var o=n[r];o.host!=e.location.host&&a.push(o)}return a}function a(n){for(var a=n.srcElement||n.target;a&&("undefined"==typeof a.tagName||"a"!=a.tagName.toLowerCase()||!a.href);)a=a.parentNode;a&&a.href&&(e._gaq&&_gaq.push(["_trackEvent","Outbound link","Click",a.href]),(!a.target||a.target.match(/^_(self|parent|top)$/i))&&(setTimeout(function(){t.location.href=a.href},150),n.preventDefault?n.preventDefault():n.returnValue=!1))}e.addEventListener("load",function(){var e=n();for(var t in e)e[t].addEventListener("click",a)})}(window,document);
+		var links = document.links;
+		for (var i = 0, linksLength = links.length; i < linksLength; i++) {
+		   if (links[i].hostname != window.location.hostname) { links[i].target = '_blank'; }
+		}
+		/*
+		function addBlankTargetForLinks () {
+			$('a[href^="http"]').each(function(){
+				$(this).attr('target', '_blank');
+			});
+		}
+		$(document).bind('DOMNodeInserted', function(event) {
+			addBlankTargetForLinks();
+		});
+		*/
+	</script>
+</body>
 </html>

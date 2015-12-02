@@ -1,0 +1,56 @@
+---
+layout: default
+title: 廖小正 - Blog
+category: blog
+---
+<section class="inner">
+	<h1>Blog</h1>
+	<p>My thoughts on Technology, Software Engineering, Lean Startup, Tools and Freelancing.</p>
+	<ul class="posts">
+		{% for post in paginator.posts %}
+		<li>
+			<strong><a href="{{ post.url }}">{{ post.title }}</a></strong>
+			<br />
+			<span class="date">{{ post.date | date_to_string }}</span>
+			<br />
+		</li>
+		{% endfor %}
+	</ul>
+	<!--
+		{% for post in paginator.posts %}
+			<li><span>{{ post.date | date: "%Y-%m-%d" }}</span>&nbsp;&nbsp;&raquo;&nbsp;&nbsp;<a href="{{ post.url }}">{{ post.title }}</a></li>	
+		{% endfor %}
+	-->
+	<!-- Pagination links -->
+	<nav>
+	  <ul class="pagination">
+	  {% if paginator.total_pages > 1 %}
+		<li {% if paginator.previous_page %} class="" {% else %} class="disabled" {% endif %}>
+		  <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}" class="previous" id="prev-note-button">
+			<i class="fa fa-arrow-left"></i> Prev
+		  </a>
+		</li>
+		{% for page in (1..paginator.total_pages) %}
+		  {% if page == paginator.page %}
+		  <li class="active">
+			<span>{{ page }}</span>
+		  </li>
+		  {% elsif page == 1 %}
+		  <li>
+			<a href="{{ '/index.html' | prepend: site.baseurl | replace: '//', '/' }}">{{ page }}</a>
+		  </li>
+		  {% else %}
+		  <li>
+			<a href="/page{{ page }}">{{ page }}</a>
+		  </li>
+		  {% endif %}
+		{% endfor %}
+		<li {% if paginator.next_page %} class="" {% else %} class="disabled" {% endif %}>
+		  <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}" class="next" id="next-note-button">
+			<i class="fa fa-arrow-right"></i> Next
+		  </a>
+		</li>
+	  {% endif %}
+	  </ul>
+	</nav>
+</section>
