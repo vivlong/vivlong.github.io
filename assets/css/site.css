@@ -1,3 +1,5 @@
+@import url('syntax.css');
+@import url("tinyIamge.css") screen and (max-device-width: 400px);
 /* Font */
 @font-face {
   font-family: "proxima-nova";
