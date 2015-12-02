@@ -10,9 +10,7 @@ category: blog
 	<ul class="posts">
 		{% for post in site.posts %}
 		<li>
-			<strong><a href="{{ post.url }}">{{ post.title }}</a></strong>
-			<br />
-			<span class="date">{{ post.date | date: "%Y-%m-%d" }}</span>
+			<span class="date">{{ post.date | date: "%Y-%m-%d" }}</span>&nbsp;&nbsp;&nbsp;&nbsp;<strong><a href="{{ post.url }}">{{ post.title }}</a></strong>
 			<br />
 		</li>
 		{% endfor %}
