@@ -1,7 +1,8 @@
 ---
 layout: post  
 title:  通过BitNami安装的Gitlab如何重启
-category: 架构  
+category: blog  
+tags: [架构]  
 ---
 #### 通过BitNami安装的Gitlab如何重启？  
 

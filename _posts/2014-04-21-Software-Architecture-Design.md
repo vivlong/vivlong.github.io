@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Software-Architecture-Design  
-category: Architecture
+category: blog  
+tags: [架构]  
 ---
 # RESTful
 
