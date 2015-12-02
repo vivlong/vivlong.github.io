@@ -1,14 +1,23 @@
 # General Jekyll Config
 encoding: utf-8
-pygments: true
+#pygments: true
 url: http://vivlong.github.io
+safe: true
 lsi: false
 exclude: [LICENSE, CNAME, README.md, .gitignore]
-permalink: /blog/:year/:month/:day/:title.html
-auto: true  
-markdown: rdiscount 
-paginate: 13
-paginate_path: "page:num"
+#permalink: /blog/:year/:month/:day/:title.html
+auto: true
+markdown: redcarpet
+redcarpet:
+  extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "with_toc_data"]
+#markdown: rdiscount 
+#paginate: 13
+#paginate_path: "page:num"
+
+# White-listed plugins
+gems:
+  - jekyll-sitemap
+  - jekyll-redirect-from
   
 # Theme customization - please change from the defaults!
 theme:

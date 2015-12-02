@@ -12,9 +12,6 @@ layout: default
 	<div class="post">
 		{{ content }}
 	</div>
-</article>
-
-<section class="inner">
 	<nav>
 		<ul class="pager">
 			{% if page.previous %}
@@ -41,17 +38,7 @@ layout: default
 	  </ul>
 	</div>
 	{% endif %}
-	<script language="javascript">
-		function countChar(){  
-			var text = document.getElementById('wordage').innerHTML;
-			var counter = text.match(/[^\x00-\xff]/g).length;
-			document.getElementById('wordage_count').innerHTML = counter;
-		}
-		countChar();
-	</script>
-</section>
-
-<div class="separator"></div>
+</article>
 
 <section class="post-footer-self-promotion inner">
 	<img class="avatar" src="http://cdn.28story.com/github/gwl_100x100.png" />
@@ -59,8 +46,6 @@ layout: default
 	<p>Code          licensed under：<a href="https://www.gnu.org/licenses/lgpl.html" target="_blank">GNU LGPL.</a></p>
 	<!--li>打赏一下：<img src="http://cdn.28story.com/github/alipay_gwl.png" title="支付宝-付费点赞" alt="支付宝-付费点赞" style="width: 4em;"></li-->
 </section>
-
-<div class="separator"></div>
 
 <section class="comments inner">
 	<div>
@@ -70,7 +55,13 @@ layout: default
 	</div>	
 </section>
 
-<script language="javascript">		
+<script language="javascript">
+	function countChar(){  
+		var text = document.getElementById('wordage').innerHTML;
+		var counter = text.match(/[^\x00-\xff]/g).length;
+		document.getElementById('wordage_count').innerHTML = counter;
+	}
+	countChar();	
 	var duoshuoQuery = {short_name:"vivlong-github"};
 	(function() {
 		var ds = document.createElement('script');
