@@ -4,13 +4,12 @@ title: 廖小正 - Blog
 category: blog  
 ---
 <section class="inner">
-	<h1>Blog</h1>
-	<p>My thoughts on Technology, Software Engineering, Lean Startup, Tools and Freelancing.</p>
-	<br />
 	<ul class="posts">
 		{% for post in site.posts %}
 		<li>
-			<span class="date">{{ post.date | date_to_string }}</span>&nbsp;&nbsp;&nbsp;&nbsp;<strong><a href="{{ post.url }}">{{ post.title }}</a></strong>
+			<span class="date">{{ post.date | date_to_string }}</span>
+			<br />
+			<strong><a href="{{ post.url }}">{{ post.title }}</a></strong>
 			<br />
 		</li>
 		{% endfor %}
