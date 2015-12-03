@@ -7,7 +7,7 @@ layout: default
 	</h1>	
 	<p class="inner meta">
 		<i class="fa fa-calendar"></i>&nbsp;&nbsp;{{ page.date | date: "%A %-d %B %Y" }}&nbsp;&nbsp;&nbsp;&nbsp;
-		<!--i class="fa fa-file-word-o"></i>&nbsp;<span id="wordage_count"></span-->
+		<i class="fa fa-file-word-o"></i>&nbsp;&nbsp;{{ page.content | number_of_words }}</span>
 	</p>
 	<div class="post">
 		{{ content }}

@@ -1,20 +1,28 @@
 # General Jekyll Config
+
+# Handling Reading
 encoding: utf-8
-#pygments: true
-url: http://vivlong.github.io
-safe: true
-lsi: false
 exclude: [LICENSE, CNAME, README.md, .gitignore]
+#safe: true
+
+# Conversion
+lsi: false
+#pygments: true
+
+# Outputting
+timezone: Asia/Shanghai
+permalink: date
 #permalink: /blog/:year/:month/:day/:title.html
-auto: true
-markdown: redcarpet
-redcarpet:
-  extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "with_toc_data"]
-#markdown: rdiscount 
 #paginate: 13
 #paginate_path: "page:num"
 
-# White-listed plugins
+# Markdown Processors
+markdown: redcarpet
+#markdown: rdiscount 
+redcarpet:
+  extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "with_toc_data"]
+
+# Plugins
 gems:
   - jekyll-sitemap
   - jekyll-redirect-from
@@ -22,7 +30,7 @@ gems:
 # Theme customization - please change from the defaults!
 theme:
   # Color for top bar, links, etc
-  highlight_color: '#3498db'
+  #highlight_color: '#3498db'
 
   # Profile links on the left sidebar, leave blank to ignore
   social:
