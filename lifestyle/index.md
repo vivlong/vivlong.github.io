@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 礼 乐 射 御 书 数
+category: lifestyle  
 ---
 
 <audio controls="controls" autoplay="autoplay" loop="loop" height="100" width="100">
