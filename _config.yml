@@ -10,7 +10,7 @@ lsi: false
 #pygments: true
 
 # Outputting
-timezone: Asia/Shanghai
+#timezone: Asia/Shanghai
 permalink: date
 #permalink: /blog/:year/:month/:day/:title.html
 #paginate: 13
