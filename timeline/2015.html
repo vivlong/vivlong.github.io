@@ -7,6 +7,7 @@
     <meta name="apple-touch-fullscreen" content="yes">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"/>
 	<meta name="description" content="JamesLiao's Life"/>
+	<link rel="stylesheet" href="//cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.min.css">
     <link rel="stylesheet" href="http://cdn.28story.com/static/timeline/css/timeline.css">
     <link rel="stylesheet" href="http://cdn.28story.com/static/timeline/css/fonts/font.default.css">
 	<script>
@@ -20,11 +21,15 @@
 	<!--[if lt IE 9>
 		<div style="width:100%; background:red; color:white;">我们已停止了对你正在使用的浏览器的支持。请升级您的浏览器至最新版，或者使用 Google Chrome，Firefox，Opera 等浏览器浏览。</div>
 	<![endif]-->
-	<div id="timeline"></div>
-    <!-- JavaScript-->
+	<div class="container-fluid">
+		<div id="timeline" style="height:500px;"></div>
+	</div>
+	<script src="//cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>
+	<script src="//cdn.bootcss.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
     <script src="http://cdn.28story.com/static/timeline/js/timeline-min.js"></script>
     <script>
       var timeline = new TL.Timeline('timeline', '2015-data.json', {
+		/*
 		//height:                     this._el.container.offsetHeight,
 		//width:                      this._el.container.offsetWidth,
 		is_embed:                   false,
@@ -34,16 +39,18 @@
 		timenav_position:           "bottom",       // timeline on top or bottom
 		optimal_tick_width:         100,            // optimal distance (in pixels) between ticks on axis
 		base_class:                 "",
-		timenav_height:             150,
-		timenav_height_percentage:  25,             // Overrides timenav height as a percentage of the screen
-		timenav_height_min:         150,            // Minimum timenav height
+		*/
+		timenav_height:             120,
+		timenav_height_percentage:  20,             // Overrides timenav height as a percentage of the screen
+		timenav_height_min:         100,            // Minimum timenav height
+		/*
 		marker_height_min:          30,             // Minimum Marker Height
 		marker_width_min:           100,            // Minimum Marker Width
 		marker_padding:             5,              // Top Bottom Marker Padding
 		start_at_slide:             0,
 		start_at_end:				false,
 		menubar_height:             0,
-		//skinny_size:                650,
+		skinny_size:                550,
 		relative_date:              false,          // Use momentjs to show a relative date from the slide.text.date.created_time field
 		use_bc:                     false,          // Use declared suffix on dates earlier than 0
 		// animation
@@ -56,6 +63,7 @@
 		slide_padding_lr:           100,            // padding on slide of slide
 		slide_default_fade:         "0%",           // landscape fade
 		api_key_flickr:             "",             // Flickr API Key
+		*/
       	language:                   "zh-cn"
       });
       window.onresize = function(event) {
