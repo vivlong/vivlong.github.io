@@ -1,5 +1,5 @@
 {
-    "scale": "Goodbye 2015 Hello 2016",
+    "scale": "human",
 	"title": {
 		        "media": {
 		            "caption": "",
@@ -16,8 +16,8 @@
         {
             "start_date": {
                 "year":			"2015",
-                "month":		"01",
-                "day": 			"01",
+                "month":		"1",
+                "day": 			"1",
                 "hour": 		"",
                 "minute": 		"",
                 "second": 		"",
@@ -39,7 +39,7 @@
         {
             "start_date": {
                 "year":			"2015",
-                "month":		"02",
+                "month":		"2",
                 "day": 			"",
                 "hour": 		"",
                 "minute": 		"",
@@ -62,7 +62,7 @@
         {
             "start_date": {
                 "year":			"2015",
-                "month":		"03",
+                "month":		"3",
                 "day": 			"",
                 "hour": 		"",
                 "minute": 		"",
@@ -85,7 +85,7 @@
         {
             "start_date": {
                 "year":			"2015",
-                "month":		"04",
+                "month":		"4",
                 "day": 			"",
                 "hour": 		"",
                 "minute": 		"",
@@ -108,7 +108,7 @@
         {
             "start_date": {
                 "year":			"2015",
-                "month":		"06",
+                "month":		"6",
                 "day": 			"",
                 "hour": 		"",
                 "minute": 		"",
@@ -131,7 +131,7 @@
         {
             "start_date": {
                 "year":			"2015",
-                "month":		"08",
+                "month":		"8",
                 "day": 			"",
                 "hour": 		"",
                 "minute": 		"",
@@ -165,7 +165,7 @@
             "end_date": {
                 "year":			"2015",
                 "month":		"10",
-                "day": 			"",
+                "day": 			"8",
                 "hour": 		"",
                 "minute": 		"",
                 "second": 		"",

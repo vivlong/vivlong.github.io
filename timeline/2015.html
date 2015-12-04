@@ -20,15 +20,17 @@
 	<!--[if lt IE 9>
 		<div style="width:100%; background:red; color:white;">我们已停止了对你正在使用的浏览器的支持。请升级您的浏览器至最新版，或者使用 Google Chrome，Firefox，Opera 等浏览器浏览。</div>
 	<![endif]-->
-	<div id="container">
-		<div id="timeline"></div>
-	</div>	
+	<div id="timeline"></div>
     <!-- JavaScript-->
     <script src="http://cdn.28story.com/static/timeline/js/timeline-min.js"></script>
     <script>
-      var timeline = new TL.Timeline('timeline', 'data.json', {
-		height:                     this._el.container.offsetHeight,
-		width:                      this._el.container.offsetWidth,
+      var timeline = new TL.Timeline('timeline', '2015-data.json', {
+		//height:                     this._el.container.offsetHeight,
+		//width:                      this._el.container.offsetWidth,
+		is_embed:                   false,
+		is_full_embed:              false,
+		hash_bookmark:				false,
+		default_bg_color:			white,
 		layout:                     "landscape",    // portrait or landscape
 		timenav_position:           "bottom",       // timeline on top or bottom
 		optimal_tick_width:         100,            // optimal distance (in pixels) between ticks on axis
@@ -40,6 +42,7 @@
 		marker_width_min:           100,            // Minimum Marker Width
 		marker_padding:             5,              // Top Bottom Marker Padding
 		start_at_slide:             0,
+		start_at_end:				false,
 		menubar_height:             0,
 		skinny_size:                650,
 		relative_date:              false,          // Use momentjs to show a relative date from the slide.text.date.created_time field
