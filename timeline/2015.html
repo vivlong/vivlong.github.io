@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+	<title>Goodbye 2015 Hello 2016</title>
+	<meta charset="utf-8" />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-touch-fullscreen" content="yes">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"/>
+	<meta name="description" content="JamesLiao's Life"/>	
+    <link rel="stylesheet" href="http://cdn.28story.com/static/timeline/css/timeline.css?v1">
+	<script>
+		if ((navigator.userAgent.indexOf('Android') != -1) || (navigator.userAgent.indexOf('iPhone') != -1) || (navigator.userAgent.indexOf('iPod') != -1) || (navigator.userAgent.indexOf('iPad') != -1)) {
+			//document.location = "./notsupport.html";
+		}
+   </script>   
+</head>
+
+<body>
+	<!--[if lt IE 9>
+		<div style="width:100%; background:red; color:white;">我们已停止了对你正在使用的浏览器的支持。请升级您的浏览器至最新版，或者使用 Google Chrome，Firefox，Opera 等浏览器浏览。</div>
+	<![endif]-->
+	<div id="timeline"></div>
+	<footer id="colophon" role="contentinfo">
+		<div class="site-info">
+			<p>Powered by <a href="http://vivlong.github.io" target="_blank">James Leo</a> | Licensed under <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/2.5/cn/" target="_blank"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-nc-sa/2.5/cn/80x15.png"></a>
+			</p>
+		</div>
+	</footer>
+    <!-- JavaScript-->
+    <script src="http://cdn.28story.com/static/timeline/js/timeline-min.js"></script>
+    <script>
+      var timeline = new TL.Timeline('timeline', 'data.json', {
+      	
+      });
+      window.onresize = function(event) {
+      	timeline.updateDisplay();
+      }
+    </script>
+</body>
+</html>

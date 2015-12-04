@@ -5,8 +5,8 @@ category: lifestyle
 ---
 
 <audio controls="controls" autoplay="autoplay" loop="loop" height="100" width="100">
-	<source src="http://vivlong.qiniudn.com/github/%E5%88%9D%E9%9B%AA-Bandari.mp3" type="audio/mp3" />
-	<embed height="100" width="100" src="http://vivlong.qiniudn.com/github/%E5%88%9D%E9%9B%AA-Bandari.mp3" />
+	<source src="http://cdn.28story.com/github/%E5%88%9D%E9%9B%AA-Bandari.mp3" type="audio/mp3" />
+	<embed height="100" width="100" src="http://cdn.28story.com/github/%E5%88%9D%E9%9B%AA-Bandari.mp3" />
 Your browser does not support the audio element.
 </audio>
 
@@ -28,7 +28,6 @@ Your browser does not support the audio element.
 
 * 2014-05-09 「<del>[扬子江大鳄](http://movie.douban.com/subject/19975889/)</del>」 &#9733;&#9733;&#9733;&#9733;&#9734; &gt; 阿里巴巴
 * 2014-03-30 「<del>[天注定](http://movie.douban.com/subject/21941283/)</del>」 &#9733;&#9733;&#9733;&#9733;&#9734; &gt; 贾樟柯  
-* 2015-09-01 「<del>[	
-我是路人甲](http://movie.douban.com/subject/21941283/)</del>」 &#9733;&#9733;&#9733;&#9733;&#9734; &gt; 尔冬升
+* 2015-09-01 「<del>[我是路人甲](http://movie.douban.com/subject/21941283/)</del>」 &#9733;&#9733;&#9733;&#9733;&#9734; &gt; 尔冬升
 
 - - -
