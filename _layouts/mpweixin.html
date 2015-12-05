@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+	<link rel="dns-prefetch" href="//vivlong.28story.com">
+	<link rel="dns-prefetch" href="//cdn.28story.com">
+	<link rel="dns-prefetch" href="//vivlong.github.io">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<meta name="format-detection" content="telephone=no">
+	<title>
+		{% if page.category == 'blog' and page.url != '/blog/index.html' %}
+			{{ site.theme.name }} - 
+		{% endif %}
+		{{ page.title }}
+	</title>
+    <meta name="author" content="{{ site.theme.name }}" />
+    <meta name="description" content="The blog of {{ site.theme.name }}" />
+	<link rel="apple-touch-icon" href="http://cdn.28story.com/github/YostNo_300.jpg">
+	<link rel="apple-touch-icon" sizes="120x120" href="http://cdn.28story.com/github/YostNo_300.jpg">
+    <link rel="canonical" href="{{ site.url }}{{ page.url | replace:'index.html','' }}" />
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="alternate" type="application/rss+xml" title="{{ site.theme.name }}" href="{{site.url}}/atom.xml" />	
+    <link rel="stylesheet" href="//cdn.staticfile.org/typo.css/1.1/typo.min.css">
+    <link rel="stylesheet" href="/assets/css/page_mp_article_improve.css">
+	<div id="wx_pic" style="margin:0 auto;display:none;">
+		<img src="http://cdn.28story.com/github/YostNo_300.jpg"/>
+	</div>
+</head>
+<body>
+	{{ content }}
+	<div class="separator"></div>
+    <script type="text/javascript" src="//upcdn.b0.upaiyun.com/libs/jquery/jquery-2.0.3.min.js"></script>
+    <script type="text/javascript">
+      !window.jQuery && document.write('<script src=//cdn.bootcss.com/jquery/1.11.3/jquery.min.js><\/script>');
+    </script>
+	<script type="text/javascript">
+		var links = document.links;
+		for (var i = 0, linksLength = links.length; i < linksLength; i++) {
+		   if (links[i].hostname != window.location.hostname) { links[i].target = '_blank'; }
+		}
+		/*
+		function addBlankTargetForLinks () {
+			$('a[href^="http"]').each(function(){
+				$(this).attr('target', '_blank');
+			});
+		}
+		$(document).bind('DOMNodeInserted', function(event) {
+			addBlankTargetForLinks();
+		});
+		*/
+	</script>
+</body>
+</html>

@@ -1,20 +1,30 @@
 ---
-layout: default
+layout: mpweixin
 ---
-<article>
-	<h1 class="inner">
-		{{ page.title }}
-	</h1>	
-	<p class="inner meta">
-		<i class="fa fa-calendar"></i>&nbsp;&nbsp;{{ page.date | date: "%A %-d %B %Y" }}&nbsp;&nbsp;&nbsp;&nbsp;
-		<!--i class="fa fa-file-word-o"></i>&nbsp;&nbsp;{{ page.content | number_of_words }}</span-->
-	</p>
-	<div class="post typo">
-		{{ content }}
+<style>
+	.rich_media_content{font-size:18px;}
+</style>
+<div class="rich_media_inner">
+	<div id="page-content">
+		<div id="img-content" class="rich_media_area_primary">
+			<h2 class="rich_media_title" id="activity-name">
+				{{ page.title }}
+			</h2>
+			<div class="rich_media_meta_list">
+				<em id="post-date" class="rich_media_meta rich_media_meta_text">{{ page.date | date: "%Y-%m-%d" }}</em>
+				<em class="rich_media_meta rich_media_meta_text">@廖小正</em>
+			</div>
+			<div class="rich_media_content " id="js_content">
+			{{ content }}
+			</div>			
+			<div class="rich_media_tool" id="js_toobar3">
+				<a class="media_tool_meta meta_primary" href="{{ site.url }}/blog/">阅读更多</a>
+			</div>
+		</div>
 	</div>
-</article>
+</div>
 
-<section class="inner">
+<!--section class="inner">
 	<nav>
 		<ul class="pager">
 			{% if page.previous %}
@@ -47,14 +57,14 @@ layout: default
 	<img class="avatar" src="http://cdn.28story.com/github/gwl_100x100.png" />
 	<p>Documentation licensed under：<a href="http://creativecommons.org/licenses/by-nc-nd/4.0/">Creative Commons BY-NC-ND 4.0</a> | 自由转载-非商用-非衍生-保持署名</p>
 	<p>Code licensed under：<a href="https://www.gnu.org/licenses/lgpl.html">GNU LGPL.</a></p>
-	<!--li>打赏一下：<img src="http://cdn.28story.com/github/alipay_gwl.png" title="支付宝-付费点赞" alt="支付宝-付费点赞" style="width: 4em;"></li-->
+	<!--li>打赏一下：<img src="http://cdn.28story.com/github/alipay_gwl.png" title="支付宝-付费点赞" alt="支付宝-付费点赞" style="width: 4em;"></li>
 </section>
 
 <section class="comments inner">
 	<div>
 		<a href="javascript:void(0);" onclick="toggleDuoshuoComments('#comment-box');" id="duoshuo" class="btn btn-default btn-sm btn-block" role="button">展开评论</a>
 		<div id="comment-box" ></div>
-		<!--div class="ds-thread" data-thread-key="{{ page.title }}" data-title="{{ page.title }}" data-url="{{ page.url }}"></div-->
+		<!--div class="ds-thread" data-thread-key="{{ page.title }}" data-title="{{ page.title }}" data-url="{{ page.url }}"></div>
 	</div>	
 </section>
 
@@ -89,5 +99,5 @@ layout: default
 		jQuery(container).append(el);
 		document.getElementById('duoshuo').innerHTML="收起评论";
 	}
-</script>
+</script-->
 	
