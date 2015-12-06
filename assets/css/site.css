@@ -651,3 +651,9 @@ img {
 .uslide-container {
   max-width: 1000px;
 }
+
+progress {
+	border: 0px solid #0064B4; background-color:#EBEBEB; color: #09BB07; /*IE10*/
+}
+progress::-moz-progress-bar { background: #09BB07; }
+progress::-webkit-progress-value { background: #09BB07; }
