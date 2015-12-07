@@ -1,9 +1,10 @@
 [
 	{
 		"id"		:	"1",
-		"name"		:	"乌合之众-群体心理研究",
+		"name"		:	"乌合之众：群体心理研究",
 		"url"		:	"http://book.douban.com/subject/26416883/",
 		"type"		:	"社科类",
+		"year"		:	"2015",
 		"star"		:	"",
 		"progress"	:	"0%"
 	},
@@ -12,6 +13,7 @@
 		"name"		:	"影响力",
 		"url"		:	"http://book.douban.com/subject/26647384/",
 		"type"		:	"社科类",
+		"year"		:	"2015",
 		"star"		:	"",
 		"progress"	:	"0%"
 	},
@@ -20,6 +22,7 @@
 		"name"		:	"中国人的一天：变与不变的中国人",
 		"url"		:	"http://book.douban.com/subject/26588890/",
 		"type"		:	"社科类",
+		"year"		:	"2015",
 		"star"		:	"",
 		"progress"	:	"2%"
 	},
@@ -28,6 +31,7 @@
 		"name"		:	"最好的时光在路上",
 		"url"		:	"http://book.douban.com/subject/6872434/",
 		"type"		:	"社科类",
+		"year"		:	"2015",
 		"star"		:	"",
 		"progress"	:	"2%"
 	},
@@ -36,6 +40,7 @@
 		"name"		:	"人类简史",
 		"url"		:	"http://book.douban.com/subject/25985021/",
 		"type"		:	"社科类",
+		"year"		:	"2015",
 		"star"		:	"5",
 		"progress"	:	"100%"
 	},
@@ -44,6 +49,7 @@
 		"name"		:	"人类的群星闪耀时",
 		"url"		:	"http://book.douban.com/subject/1636374/",
 		"type"		:	"社科类",
+		"year"		:	"2015",
 		"star"		:	"5",
 		"progress"	:	"20%"
 	},
@@ -52,6 +58,7 @@
 		"name"		:	"台湾念真情",
 		"url"		:	"http://book.douban.com/subject/10794355/",
 		"type"		:	"文学类",
+		"year"		:	"2015",
 		"star"		:	"",
 		"progress"	:	"0%"
 	},
@@ -60,6 +67,7 @@
 		"name"		:	"我们家",
 		"url"		:	"http://book.douban.com/subject/23186549/",
 		"type"		:	"文学类",
+		"year"		:	"2015",
 		"star"		:	"",
 		"progress"	:	"0%"
 	},
@@ -68,14 +76,16 @@
 		"name"		:	"吾国与吾民",
 		"url"		:	"http://book.douban.com/subject/4241023/",
 		"type"		:	"文学类",
+		"year"		:	"2015",
 		"star"		:	"",
 		"progress"	:	"0%"
 	},
 	{
 		"id"		:	"10",
-		"name"		:	"男人都是智障2-屌丝斗士",
+		"name"		:	"男人都是智障2：屌丝斗士",
 		"url"		:	"http://book.douban.com/subject/25784442/",
 		"type"		:	"文学类",
+		"year"		:	"2015",
 		"star"		:	"",
 		"progress"	:	"20%"
 	},
@@ -84,14 +94,16 @@
 		"name"		:	"一只特立独行的猪",
 		"url"		:	"http://book.douban.com/subject/19986371/",
 		"type"		:	"文学类",
+		"year"		:	"2015",
 		"star"		:	"",
 		"progress"	:	"30%"
 	},
 	{
 		"id"		:	"12",
-		"name"		:	"我们这一代-最初的面孔",
+		"name"		:	"我们这一代：最初的面孔",
 		"url"		:	"http://book.douban.com/subject/25866762/",
-		"type"		:	"文学类",
+		"type"		:	"艺术类",
+		"year"		:	"2015",
 		"star"		:	"5",
 		"progress"	:	"100%"
 	},
@@ -100,6 +112,7 @@
 		"name"		:	"解忧杂货店",
 		"url"		:	"http://book.douban.com/subject/25862578/",
 		"type"		:	"文学类",
+		"year"		:	"2015",
 		"star"		:	"5",
 		"progress"	:	"100%"
 	},
@@ -108,6 +121,7 @@
 		"name"		:	"1988：我想和这个世界谈谈",
 		"url"		:	"http://book.douban.com/subject/24851617/",
 		"type"		:	"文学类",
+		"year"		:	"2015",
 		"star"		:	"4",
 		"progress"	:	"100%"
 	},
@@ -116,22 +130,25 @@
 		"name"		:	"贾想1996—2008：贾樟柯电影手记",
 		"url"		:	"http://book.douban.com/subject/3547099/",
 		"type"		:	"艺术类",
+		"year"		:	"2015",
 		"star"		:	"",
 		"progress"	:	"0%"
 	},
 	{
 		"id"		:	"16",
-		"name"		:	"小武-贾樟柯故乡三部曲",
+		"name"		:	"小武：贾樟柯故乡三部曲",
 		"url"		:	"http://book.douban.com/subject/4319553/",
 		"type"		:	"艺术类",
+		"year"		:	"2015",
 		"star"		:	"",
 		"progress"	:	"0%"
 	},
 	{
 		"id"		:	"17",
-		"name"		:	"再见杨德昌-台湾电影人访谈纪事",
+		"name"		:	"再见杨德昌：台湾电影人访谈纪事",
 		"url"		:	"http://book.douban.com/subject/25925760/",
 		"type"		:	"艺术类",
+		"year"		:	"2015",
 		"star"		:	"",
 		"progress"	:	"0%"
 	},
@@ -140,6 +157,7 @@
 		"name"		:	"幸福的建筑",
 		"url"		:	"http://book.douban.com/subject/2036993/",
 		"type"		:	"艺术类",
+		"year"		:	"2015",
 		"star"		:	"",
 		"progress"	:	"0%"
 	},
@@ -148,6 +166,7 @@
 		"name"		:	"设计中的设计",
 		"url"		:	"http://book.douban.com/subject/1941558/",
 		"type"		:	"艺术类",
+		"year"		:	"2015",
 		"star"		:	"",
 		"progress"	:	"10%"
 	},
@@ -156,6 +175,7 @@
 		"name"		:	"會說故事，讓世界聽你的",
 		"url"		:	"http://book.douban.com/subject/25926143/",
 		"type"		:	"艺术类",
+		"year"		:	"2015",
 		"star"		:	"5",
 		"progress"	:	"100%"
 	},
@@ -164,6 +184,7 @@
 		"name"		:	"我是开豆腐店的，我只做豆腐",
 		"url"		:	"http://book.douban.com/subject/22542435/",
 		"type"		:	"艺术类",
+		"year"		:	"2014",
 		"star"		:	"4",
 		"progress"	:	"100%"
 	},
@@ -172,22 +193,25 @@
 		"name"		:	"亚历克斯弗格森：我的自传",
 		"url"		:	"http://book.douban.com/subject/25956005/",
 		"type"		:	"传记类",
+		"year"		:	"2015",
 		"star"		:	"",
 		"progress"	:	"0%"
 	},
 	{
 		"id"		:	"23",
-		"name"		:	"三位一体-英特尔传奇",
+		"name"		:	"三位一体：英特尔传奇",
 		"url"		:	"http://book.douban.com/subject/26340695/",
 		"type"		:	"传记类",
+		"year"		:	"2015",
 		"star"		:	"",
 		"progress"	:	"0%"
 	},
 	{
 		"id"		:	"24",
-		"name"		:	"永无止境-Google传",
+		"name"		:	"永无止境：Google传",
 		"url"		:	"http://book.douban.com/subject/20366373/",
 		"type"		:	"传记类",
+		"year"		:	"2014",
 		"star"		:	"",
 		"progress"	:	"0%"
 	},
@@ -196,6 +220,7 @@
 		"name"		:	"吴敬琏传",
 		"url"		:	"http://book.douban.com/subject/4238939/",
 		"type"		:	"传记类",
+		"year"		:	"2015",
 		"star"		:	"",
 		"progress"	:	"0%"
 	},
@@ -204,14 +229,16 @@
 		"name"		:	"邓小平时代",
 		"url"		:	"http://book.douban.com/subject/20424526/",
 		"type"		:	"传记类",
+		"year"		:	"2014",
 		"star"		:	"",
 		"progress"	:	"0%"
 	},
 	{
 		"id"		:	"27",
-		"name"		:	"野心优雅-任志强回忆录",
+		"name"		:	"野心优雅：任志强回忆录",
 		"url"		:	"http://book.douban.com/subject/25723799/",
 		"type"		:	"传记类",
+		"year"		:	"2014",
 		"star"		:	"",
 		"progress"	:	"2%"
 	},
@@ -220,6 +247,7 @@
 		"name"		:	"逐梦之旅：SAP全球CEO孟鼎铭的职业传奇",
 		"url"		:	"http://book.douban.com/subject/26417955/",
 		"type"		:	"传记类",
+		"year"		:	"2015",
 		"star"		:	"",
 		"progress"	:	"0%"
 	},
@@ -228,30 +256,34 @@
 		"name"		:	"邵逸夫全传",
 		"url"		:	"http://book.douban.com/subject/3519777/",
 		"type"		:	"传记类",
+		"year"		:	"2014",
 		"star"		:	"3",
 		"progress"	:	"100%"
 	},
 	{
 		"id"		:	"30",
-		"name"		:	"创业维艰-如何完成比难更难的事",
+		"name"		:	"创业维艰：如何完成比难更难的事",
 		"url"		:	"http://book.douban.com/subject/26306686/",
 		"type"		:	"经管类",
+		"year"		:	"2015",
 		"star"		:	"",
 		"progress"	:	"0%"
 	},
 	{
 		"id"		:	"31",
-		"name"		:	"零售的哲学：7-Eleven便利店创始人自述",
+		"name"		:	"零售的哲学：7：Eleven便利店创始人自述",
 		"url"		:	"http://book.douban.com/subject/26270679/",
 		"type"		:	"经管类",
+		"year"		:	"2015",
 		"star"		:	"",
 		"progress"	:	"0%"
 	},
 	{
 		"id"		:	"32",
-		"name"		:	"摩根财团-美国一代银行王朝和现代金融业的崛起",
+		"name"		:	"摩根财团：美国一代银行王朝和现代金融业的崛起",
 		"url"		:	"http://book.douban.com/subject/25844463/",
 		"type"		:	"经管类",
+		"year"		:	"2015",
 		"star"		:	"",
 		"progress"	:	"0%"
 	},
@@ -260,6 +292,7 @@
 		"name"		:	"IBM：蓝色基因，百年智慧",
 		"url"		:	"http://book.douban.com/subject/6965594/",
 		"type"		:	"经管类",
+		"year"		:	"2014",
 		"star"		:	"",
 		"progress"	:	"0%"
 	},
@@ -273,9 +306,10 @@
 	},
 	{
 		"id"		:	"35",
-		"name"		:	"重新定义公司-Google是如何运营的",
+		"name"		:	"重新定义公司：Google是如何运营的",
 		"url"		:	"http://book.douban.com/subject/26582822/",
 		"type"		:	"经管类",
+		"year"		:	"2015",
 		"star"		:	"",
 		"progress"	:	"0%"
 	},
@@ -284,14 +318,16 @@
 		"name"		:	"平台战略",
 		"url"		:	"http://book.douban.com/subject/20492093/",
 		"type"		:	"经管类",
+		"year"		:	"2015",
 		"star"		:	"",
 		"progress"	:	"5%"
 	},
 	{
 		"id"		:	"37",
-		"name"		:	"增长黑客-创业公司的用户与收入增长秘籍",
+		"name"		:	"增长黑客：创业公司的用户与收入增长秘籍",
 		"url"		:	"http://book.douban.com/subject/26541801/",
 		"type"		:	"经管类",
+		"year"		:	"2015",
 		"star"		:	"",
 		"progress"	:	"0%"
 	},
@@ -300,14 +336,16 @@
 		"name"		:	"找我2",
 		"url"		:	"http://book.douban.com/subject/24713765/",
 		"type"		:	"经管类",
+		"year"		:	"2015",
 		"star"		:	"",
 		"progress"	:	"0%"
 	},
 	{
 		"id"		:	"39",
-		"name"		:	"失控",
+		"name"		:	"失控：全人类的最终命运和结局",
 		"url"		:	"http://book.douban.com/subject/5375620/",
 		"type"		:	"经管类",
+		"year"		:	"2015",
 		"star"		:	"",
 		"progress"	:	"0%"
 	},
@@ -316,6 +354,7 @@
 		"name"		:	"轻公司",
 		"url"		:	"http://book.douban.com/subject/3793884/",
 		"type"		:	"经管类",
+		"year"		:	"2014",
 		"star"		:	"",
 		"progress"	:	"0%"
 	},
@@ -324,6 +363,7 @@
 		"name"		:	"創意電力公司：我如何打造皮克斯動畫",
 		"url"		:	"http://book.douban.com/subject/26383791/",
 		"type"		:	"经管类",
+		"year"		:	"2015",
 		"star"		:	"",
 		"progress"	:	"0%"
 	},
@@ -332,38 +372,43 @@
 		"name"		:	"巴菲特之道",
 		"url"		:	"http://book.douban.com/subject/26335181/",
 		"type"		:	"经管类",
+		"year"		:	"2015",
 		"star"		:	"",
 		"progress"	:	"0%"
 	},
 	{
 		"id"		:	"43",
-		"name"		:	"可口可乐的征服-全球超级商业帝国董事长自述",
+		"name"		:	"可口可乐的征服：全球超级商业帝国董事长自述",
 		"url"		:	"http://book.douban.com/subject/20285396/",
 		"type"		:	"经管类",
+		"year"		:	"2015",
 		"star"		:	"",
 		"progress"	:	"0%"
 	},
 	{
 		"id"		:	"44",
-		"name"		:	"匠人精神-一流人才育成的30条法则",
+		"name"		:	"匠人精神：一流人才育成的30条法则",
 		"url"		:	"http://book.douban.com/subject/26335964/",
 		"type"		:	"经管类",
+		"year"		:	"2015",
 		"star"		:	"",
 		"progress"	:	"10%"
 	},
 	{
 		"id"		:	"45",
-		"name"		:	"摩托车修理店的未来工作哲学-让工匠精神回归",
+		"name"		:	"摩托车修理店的未来工作哲学：让工匠精神回归",
 		"url"		:	"http://book.douban.com/subject/25885921/",
 		"type"		:	"经管类",
+		"year"		:	"2015",
 		"star"		:	"",
 		"progress"	:	"10%"
 	},
 	{
 		"id"		:	"46",
-		"name"		:	"柳问-柳传志的管理三要素",
+		"name"		:	"柳问：柳传志的管理三要素",
 		"url"		:	"http://book.douban.com/subject/26292367/",
 		"type"		:	"经管类",
+		"year"		:	"2015",
 		"star"		:	"3",
 		"progress"	:	"30%"
 	},
@@ -372,38 +417,43 @@
 		"name"		:	"黑客与画家",
 		"url"		:	"http://book.douban.com/subject/6021440/",
 		"type"		:	"经管类",
+		"year"		:	"2014",
 		"star"		:	"5",
 		"progress"	:	"60%"
 	},
 	{
 		"id"		:	"48",
-		"name"		:	"创业的国度-以色列经济奇迹的启示",
+		"name"		:	"创业的国度：以色列经济奇迹的启示",
 		"url"		:	"http://book.douban.com/subject/5269192/",
 		"type"		:	"经管类",
+		"year"		:	"2015",
 		"star"		:	"5",
 		"progress"	:	"90%"
 	},
 	{
 		"id"		:	"49",
-		"name"		:	"万达哲学-王健林首次自述经营之道",
+		"name"		:	"万达哲学：王健林首次自述经营之道",
 		"url"		:	"http://book.douban.com/subject/26302594/",
 		"type"		:	"经管类",
+		"year"		:	"2015",
 		"star"		:	"3",
 		"progress"	:	"100%"
 	},
 	{
 		"id"		:	"50",
-		"name"		:	"心若菩提-曹德旺自传",
+		"name"		:	"心若菩提：曹德旺自传",
 		"url"		:	"http://book.douban.com/subject/26287433/",
 		"type"		:	"经管类",
+		"year"		:	"2015",
 		"star"		:	"4",
 		"progress"	:	"100%"
 	},
 	{
 		"id"		:	"51",
-		"name"		:	"从0到1-开启商业与未来的秘密",
+		"name"		:	"从0到1：开启商业与未来的秘密",
 		"url"		:	"http://book.douban.com/subject/26297606/",
 		"type"		:	"经管类",
+		"year"		:	"2015",
 		"star"		:	"4",
 		"progress"	:	"100%"
 	},
@@ -412,6 +462,7 @@
 		"name"		:	"褚橙你也学不会",
 		"url"		:	"http://book.douban.com/subject/26356045/",
 		"type"		:	"经管类",
+		"year"		:	"2015",
 		"star"		:	"4",
 		"progress"	:	"100%"
 	},
@@ -420,6 +471,7 @@
 		"name"		:	"创京东",
 		"url"		:	"http://book.douban.com/subject/26400900/",
 		"type"		:	"经管类",
+		"year"		:	"2015",
 		"star"		:	"4",
 		"progress"	:	"100%"
 	},
@@ -428,14 +480,16 @@
 		"name"		:	"富甲美国",
 		"url"		:	"http://book.douban.com/subject/26411602/",
 		"type"		:	"经管类",
+		"year"		:	"2015",
 		"star"		:	"5",
 		"progress"	:	"100%"
 	},
 	{
 		"id"		:	"55",
-		"name"		:	"重来-更为简单有效的商业思维",
+		"name"		:	"重来：更为简单有效的商业思维",
 		"url"		:	"http://book.douban.com/subject/5320866/",
 		"type"		:	"经管类",
+		"year"		:	"2015",
 		"star"		:	"4",
 		"progress"	:	"100%"
 	},
@@ -444,6 +498,7 @@
 		"name"		:	"大败局2",
 		"url"		:	"http://book.douban.com/subject/25908390/",
 		"type"		:	"经管类",
+		"year"		:	"2015",
 		"star"		:	"5",
 		"progress"	:	"100%"
 	},
@@ -452,6 +507,7 @@
 		"name"		:	"大败局1",
 		"url"		:	"http://book.douban.com/subject/25908391/",
 		"type"		:	"经管类",
+		"year"		:	"2015",
 		"star"		:	"5",
 		"progress"	:	"100%"
 	},
@@ -460,6 +516,7 @@
 		"name"		:	"穿布鞋的马云",
 		"url"		:	"http://book.douban.com/subject/25975485/",
 		"type"		:	"经管类",
+		"year"		:	"2015",
 		"star"		:	"3",
 		"progress"	:	"100%"
 	},
@@ -468,6 +525,7 @@
 		"name"		:	"再看电商",
 		"url"		:	"http://book.douban.com/subject/25925083/",
 		"type"		:	"经管类",
+		"year"		:	"2014",
 		"star"		:	"4",
 		"progress"	:	"100%"
 	},
@@ -476,6 +534,7 @@
 		"name"		:	"华为还能走多远",
 		"url"		:	"http://item.jd.com/11209725.html",
 		"type"		:	"经管类",
+		"year"		:	"2015",
 		"star"		:	"3",
 		"progress"	:	"100%"
 	},
@@ -484,14 +543,16 @@
 		"name"		:	"人件",
 		"url"		:	"http://book.douban.com/subject/25956450/",
 		"type"		:	"IT类",
+		"year"		:	"2015",
 		"star"		:	"",
 		"progress"	:	"0%"
 	},
 	{
 		"id"		:	"62",
-		"name"		:	"构建之法-现代软件工程",
+		"name"		:	"构建之法：现代软件工程",
 		"url"		:	"http://book.douban.com/subject/25965995/",
 		"type"		:	"IT类",
+		"year"		:	"2014",
 		"star"		:	"",
 		"progress"	:	"0%"
 	},
@@ -500,22 +561,25 @@
 		"name"		:	"世界500强互联网产品经理管理笔记",
 		"url"		:	"http://book.douban.com/subject/25820256/",
 		"type"		:	"IT类",
+		"year"		:	"2014",
 		"star"		:	"",
 		"progress"	:	"0%"
 	},
 	{
 		"id"		:	"64",
-		"name"		:	"启示录-打造用户喜爱的产品",
+		"name"		:	"启示录：打造用户喜爱的产品",
 		"url"		:	"http://book.douban.com/subject/5914587/",
 		"type"		:	"IT类",
+		"year"		:	"2014",
 		"star"		:	"",
 		"progress"	:	"10%"
 	},
 	{
 		"id"		:	"65",
-		"name"		:	"点石成金-访客至上的网页设计秘笈",
+		"name"		:	"点石成金：访客至上的网页设计秘笈",
 		"url"		:	"http://book.douban.com/subject/1827702/",
 		"type"		:	"IT类",
+		"year"		:	"2015",
 		"star"		:	"",
 		"progress"	:	"20%"
 	},
@@ -524,6 +588,7 @@
 		"name"		:	"人人都是产品经理",
 		"url"		:	"http://book.douban.com/subject/4723970/",
 		"type"		:	"IT类",
+		"year"		:	"2014",
 		"star"		:	"",
 		"progress"	:	"20%"
 	},
@@ -532,6 +597,7 @@
 		"name"		:	"在你身边，为你设计",
 		"url"		:	"http://book.douban.com/subject/20471302/",
 		"type"		:	"IT类",
+		"year"		:	"2014",
 		"star"		:	"3",
 		"progress"	:	"80%"
 	},
@@ -540,6 +606,7 @@
 		"name"		:	"一日一课",
 		"url"		:	"http://book.douban.com/subject/25924952/",
 		"type"		:	"励志类",
+		"year"		:	"2015",
 		"star"		:	"",
 		"progress"	:	"0%"
 	},
@@ -548,6 +615,7 @@
 		"name"		:	"将来的你一定会感谢现在拼命的自己",
 		"url"		:	"http://book.douban.com/subject/25913208/",
 		"type"		:	"励志类",
+		"year"		:	"2015",
 		"star"		:	"",
 		"progress"	:	"0%"
 	},
@@ -556,6 +624,7 @@
 		"name"		:	"有些路只能一个人走",
 		"url"		:	"http://book.douban.com/subject/25866817/",
 		"type"		:	"励志类",
+		"year"		:	"2014",
 		"star"		:	"",
 		"progress"	:	"10%"
 	},
@@ -564,6 +633,7 @@
 		"name"		:	"当我放过自己的时候",
 		"url"		:	"http://book.douban.com/subject/25885764/",
 		"type"		:	"励志类",
+		"year"		:	"2014",
 		"star"		:	"",
 		"progress"	:	"10%"
 	},
@@ -572,6 +642,7 @@
 		"name"		:	"淘宝技术这十年",
 		"url"		:	"http://book.douban.com/subject/24335672/",
 		"type"		:	"IT类",
+		"year"		:	"2013",
 		"star"		:	"3",
 		"progress"	:	"100%"
 	},
@@ -580,6 +651,7 @@
 		"name"		:	"编写可读代码的艺术",
 		"url"		:	"http://book.douban.com/subject/10797189/",
 		"type"		:	"IT类",
+		"year"		:	"2012",
 		"star"		:	"5",
 		"progress"	:	"100%"
 	},
@@ -588,6 +660,7 @@
 		"name"		:	"你若坚强，岁月无恙",
 		"url"		:	"http://book.douban.com/subject/25903512/",
 		"type"		:	"励志类",
+		"year"		:	"2012",
 		"star"		:	"2",
 		"progress"	:	"100%"
 	},
@@ -596,6 +669,7 @@
 		"name"		:	"梦想还是要有的，万一实现了呢",
 		"url"		:	"http://book.douban.com/subject/25879321/",
 		"type"		:	"励志类",
+		"year"		:	"2014",
 		"star"		:	"4",
 		"progress"	:	"100%"
 	},
@@ -604,6 +678,7 @@
 		"name"		:	"告白与告别",
 		"url"		:	"http://book.douban.com/subject/25931540/",
 		"type"		:	"艺术类",
+		"year"		:	"2014",
 		"star"		:	"4",
 		"progress"	:	"100%"
 	},
@@ -612,22 +687,25 @@
 		"name"		:	"创业小败局",
 		"url"		:	"http://book.douban.com/subject/25956628/",
 		"type"		:	"经管类",
+		"year"		:	"2014",
 		"star"		:	"4",
 		"progress"	:	"100%"
 	},
 	{
 		"id"		:	"78",
-		"name"		:	"参与感-小米口碑营销内部手册",
+		"name"		:	"参与感：小米口碑营销内部手册",
 		"url"		:	"http://book.douban.com/subject/25942507/",
 		"type"		:	"经管类",
+		"year"		:	"2014",
 		"star"		:	"4",
 		"progress"	:	"100%"
 	},
 	{
 		"id"		:	"79",
-		"name"		:	"史玉柱自述-我的营销心得",
+		"name"		:	"史玉柱自述：我的营销心得",
 		"url"		:	"http://book.douban.com/subject/24541955/",
 		"type"		:	"经管类",
+		"year"		:	"2014",
 		"star"		:	"4",
 		"progress"	:	"100%"
 	},
@@ -636,6 +714,7 @@
 		"name"		:	"野蛮生长",
 		"url"		:	"http://book.douban.com/subject/2348372/",
 		"type"		:	"经管类",
+		"year"		:	"2014",
 		"star"		:	"5",
 		"progress"	:	"100%"
 	},
@@ -644,6 +723,7 @@
 		"name"		:	"伟大是熬出来的",
 		"url"		:	"http://book.douban.com/subject/5410582/",
 		"type"		:	"经管类",
+		"year"		:	"2013",
 		"star"		:	"4",
 		"progress"	:	"100%"
 	},
@@ -652,22 +732,25 @@
 		"name"		:	"史蒂夫乔布斯传",
 		"url"		:	"http://book.douban.com/subject/6798611/",
 		"type"		:	"传记类",
+		"year"		:	"2013",
 		"star"		:	"4",
 		"progress"	:	"100%"
 	},
 	{
 		"id"		:	"83",
-		"name"		:	"周鸿祎自述-我的互联网方法论",
+		"name"		:	"周鸿祎自述：我的互联网方法论",
 		"url"		:	"http://book.douban.com/subject/25928983/",
 		"type"		:	"经管类",
+		"year"		:	"2014",
 		"star"		:	"4",
 		"progress"	:	"100%"
 	},
 	{
 		"id"		:	"84",
-		"name"		:	"俞敏洪口述-在痛苦的世界中尽力而为",
+		"name"		:	"俞敏洪口述：在痛苦的世界中尽力而为",
 		"url"		:	"http://book.douban.com/subject/10831855/",
 		"type"		:	"经管类",
+		"year"		:	"2014",
 		"star"		:	"4",
 		"progress"	:	"100%"
 	},
@@ -676,14 +759,16 @@
 		"name"		:	"将心注入",
 		"url"		:	"http://book.douban.com/subject/6080059/",
 		"type"		:	"经管类",
+		"year"		:	"2014",
 		"star"		:	"5",
 		"progress"	:	"100%"
 	},
 	{
 		"id"		:	"86",
-		"name"		:	"勇者激扬-褚时健传",
+		"name"		:	"勇者激扬：褚时健传",
 		"url"		:	"http://book.douban.com/subject/25858149/",
 		"type"		:	"传记类",
+		"year"		:	"2014",
 		"star"		:	"3",
 		"progress"	:	"100%"
 	},
@@ -692,22 +777,25 @@
 		"name"		:	"MBA教不了的创富课",
 		"url"		:	"http://book.douban.com/subject/5921213/",
 		"type"		:	"经管类",
+		"year"		:	"2014",
 		"star"		:	"5",
 		"progress"	:	"100%"
 	},
 	{
 		"id"		:	"88",
-		"name"		:	"结网-改变世界的互联网产品经理",
+		"name"		:	"结网：改变世界的互联网产品经理",
 		"url"		:	"http://book.douban.com/subject/24305938/",
 		"type"		:	"IT类",
+		"year"		:	"2014",
 		"star"		:	"3",
 		"progress"	:	"100%"
 	},
 	{
 		"id"		:	"89",
-		"name"		:	"商战-电商时代",
+		"name"		:	"商战：电商时代",
 		"url"		:	"http://book.douban.com/subject/25789586/",
 		"type"		:	"经管类",
+		"year"		:	"2014",
 		"star"		:	"4",
 		"progress"	:	"100%"
 	},
@@ -716,6 +804,7 @@
 		"name"		:	"浪潮之巅",
 		"url"		:	"http://book.douban.com/subject/24738302/",
 		"type"		:	"经管类",
+		"year"		:	"2014",
 		"star"		:	"5",
 		"progress"	:	"100%"
 	},
@@ -724,6 +813,7 @@
 		"name"		:	"你們你們好",
 		"url"		:	"http://book.douban.com/subject/25813275/",
 		"type"		:	"文学类",
+		"year"		:	"2013",
 		"star"		:	"3",
 		"progress"	:	"10%"
 	},
@@ -732,7 +822,17 @@
 		"name"		:	"微博：改变一切",
 		"url"		:	"http://book.douban.com/subject/5904053/",
 		"type"		:	"经管类",
+		"year"		:	"2012",
 		"star"		:	"2",
 		"progress"	:	"10%"
+	},
+	{
+		"id"		:	"93",
+		"name"		:	"人性的弱点",
+		"url"		:	"http://book.douban.com/subject/20386249/",
+		"type"		:	"社科类",
+		"year"		:	"2015",
+		"star"		:	"",
+		"progress"	:	"0%"
 	}
 ]

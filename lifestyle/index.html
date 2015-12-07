@@ -4,26 +4,29 @@ title: 廖小正 - Life Style
 category: lifestyle  
 ---
 <section class="inner">
+
+	<div id="BooksRadar" style="height:400px;"></div>
+	<div id="BooksWordCloud" style="height:400px;"></div>
 	
-<h3>书单</h3>
-{% for book in site.data.books %}
+{% assign books = site.data.books %}
+
+<h3>2015书单</h3>
+<h4>社科类</h4>
+{% for book in books %}
+{% if book.type == '社科类' and book.year == "2015" %}
 <div>
 	<a href="{{ book.url }}">[{{ book.name }}]</a>
 	{% if book.star != '' %}
 		&nbsp;&gt;&nbsp;
 		{% if book.star == '5' %}
 			&#9733;&#9733;&#9733;&#9733;&#9733;
-		{% endif %}
-		{% if book.star == '4' %}
+		{% elsif book.star == '4' %}
 			&#9733;&#9733;&#9733;&#9733;&#9734;
-		{% endif %}
-		{% if book.star == '3' %}
+		{% elsif book.star == '3' %}
 			&#9733;&#9733;&#9733;&#9734;&#9734;
-		{% endif %}
-		{% if book.star == '2' %}
+		{% elsif book.star == '2' %}
 			&#9733;&#9733;&#9734;&#9734;&#9734;
-		{% endif %}
-		{% if book.star == '1' %}
+		{% elsif book.star == '1' %}
 			&#9733;&#9734;&#9734;&#9734;&#9734;
 		{% endif %}
 	{% endif %}
@@ -35,8 +38,400 @@ category: lifestyle
 		</div>
 	</div>
 </div>
+{% endif %}
 {% endfor %}
 
+<h4>文学类</h4>
+{% for book in books %}
+{% if book.type == '文学类' and book.year == "2015" %}
+<div>
+	<a href="{{ book.url }}">[{{ book.name }}]</a>
+	{% if book.star != '' %}
+		&nbsp;&gt;&nbsp;
+		{% if book.star == '5' %}
+			&#9733;&#9733;&#9733;&#9733;&#9733;
+		{% elsif book.star == '4' %}
+			&#9733;&#9733;&#9733;&#9733;&#9734;
+		{% elsif book.star == '3' %}
+			&#9733;&#9733;&#9733;&#9734;&#9734;
+		{% elsif book.star == '2' %}
+			&#9733;&#9733;&#9734;&#9734;&#9734;
+		{% elsif book.star == '1' %}
+			&#9733;&#9734;&#9734;&#9734;&#9734;
+		{% endif %}
+	{% endif %}
+	<br/>
+	<div class="weui_progress">
+		<small>阅读进度：</small>&nbsp;&nbsp;
+		<div class="weui_progress_bar">
+			<div class="weui_progress_inner_bar" style="width: {{ book.progress }};"></div>
+		</div>
+	</div>
+</div>
+{% endif %}
+{% endfor %}
+
+<h4>艺术类</h4>
+{% for book in books %}
+{% if book.type == '艺术类' and book.year == "2015" %}
+<div>
+	<a href="{{ book.url }}">[{{ book.name }}]</a>
+	{% if book.star != '' %}
+		&nbsp;&gt;&nbsp;
+		{% if book.star == '5' %}
+			&#9733;&#9733;&#9733;&#9733;&#9733;
+		{% elsif book.star == '4' %}
+			&#9733;&#9733;&#9733;&#9733;&#9734;
+		{% elsif book.star == '3' %}
+			&#9733;&#9733;&#9733;&#9734;&#9734;
+		{% elsif book.star == '2' %}
+			&#9733;&#9733;&#9734;&#9734;&#9734;
+		{% elsif book.star == '1' %}
+			&#9733;&#9734;&#9734;&#9734;&#9734;
+		{% endif %}
+	{% endif %}
+	<br/>
+	<div class="weui_progress">
+		<small>阅读进度：</small>&nbsp;&nbsp;
+		<div class="weui_progress_bar">
+			<div class="weui_progress_inner_bar" style="width: {{ book.progress }};"></div>
+		</div>
+	</div>
+</div>
+{% endif %}
+{% endfor %}
+
+<h4>传记类</h4>
+{% for book in books %}
+{% if book.type == '传记类' and book.year == "2015" %}
+<div>
+	<a href="{{ book.url }}">[{{ book.name }}]</a>
+	{% if book.star != '' %}
+		&nbsp;&gt;&nbsp;
+		{% if book.star == '5' %}
+			&#9733;&#9733;&#9733;&#9733;&#9733;
+		{% elsif book.star == '4' %}
+			&#9733;&#9733;&#9733;&#9733;&#9734;
+		{% elsif book.star == '3' %}
+			&#9733;&#9733;&#9733;&#9734;&#9734;
+		{% elsif book.star == '2' %}
+			&#9733;&#9733;&#9734;&#9734;&#9734;
+		{% elsif book.star == '1' %}
+			&#9733;&#9734;&#9734;&#9734;&#9734;
+		{% endif %}
+	{% endif %}
+	<br/>
+	<div class="weui_progress">
+		<small>阅读进度：</small>&nbsp;&nbsp;
+		<div class="weui_progress_bar">
+			<div class="weui_progress_inner_bar" style="width: {{ book.progress }};"></div>
+		</div>
+	</div>
+</div>
+{% endif %}
+{% endfor %}
+
+<h4>经管类</h4>
+{% for book in books %}
+{% if book.type == '经管类' and book.year == "2015" %}
+<div>
+	<a href="{{ book.url }}">[{{ book.name }}]</a>
+	{% if book.star != '' %}
+		&nbsp;&gt;&nbsp;
+		{% if book.star == '5' %}
+			&#9733;&#9733;&#9733;&#9733;&#9733;
+		{% elsif book.star == '4' %}
+			&#9733;&#9733;&#9733;&#9733;&#9734;
+		{% elsif book.star == '3' %}
+			&#9733;&#9733;&#9733;&#9734;&#9734;
+		{% elsif book.star == '2' %}
+			&#9733;&#9733;&#9734;&#9734;&#9734;
+		{% elsif book.star == '1' %}
+			&#9733;&#9734;&#9734;&#9734;&#9734;
+		{% endif %}
+	{% endif %}
+	<br/>
+	<div class="weui_progress">
+		<small>阅读进度：</small>&nbsp;&nbsp;
+		<div class="weui_progress_bar">
+			<div class="weui_progress_inner_bar" style="width: {{ book.progress }};"></div>
+		</div>
+	</div>
+</div>
+{% endif %}
+{% endfor %}
+
+<h4>IT类</h4>
+{% for book in books %}
+{% if book.type == 'IT类' and book.year == "2015" %}
+<div>
+	<a href="{{ book.url }}">[{{ book.name }}]</a>
+	{% if book.star != '' %}
+		&nbsp;&gt;&nbsp;
+		{% if book.star == '5' %}
+			&#9733;&#9733;&#9733;&#9733;&#9733;
+		{% elsif book.star == '4' %}
+			&#9733;&#9733;&#9733;&#9733;&#9734;
+		{% elsif book.star == '3' %}
+			&#9733;&#9733;&#9733;&#9734;&#9734;
+		{% elsif book.star == '2' %}
+			&#9733;&#9733;&#9734;&#9734;&#9734;
+		{% elsif book.star == '1' %}
+			&#9733;&#9734;&#9734;&#9734;&#9734;
+		{% endif %}
+	{% endif %}
+	<br/>
+	<div class="weui_progress">
+		<small>阅读进度：</small>&nbsp;&nbsp;
+		<div class="weui_progress_bar">
+			<div class="weui_progress_inner_bar" style="width: {{ book.progress }};"></div>
+		</div>
+	</div>
+</div>
+{% endif %}
+{% endfor %}
+
+<h4>励志类</h4>
+{% for book in books %}
+{% if book.type == '励志类' and book.year == "2015" %}
+<div>
+	<a href="{{ book.url }}">[{{ book.name }}]</a>
+	{% if book.star != '' %}
+		&nbsp;&gt;&nbsp;
+		{% if book.star == '5' %}
+			&#9733;&#9733;&#9733;&#9733;&#9733;
+		{% elsif book.star == '4' %}
+			&#9733;&#9733;&#9733;&#9733;&#9734;
+		{% elsif book.star == '3' %}
+			&#9733;&#9733;&#9733;&#9734;&#9734;
+		{% elsif book.star == '2' %}
+			&#9733;&#9733;&#9734;&#9734;&#9734;
+		{% elsif book.star == '1' %}
+			&#9733;&#9734;&#9734;&#9734;&#9734;
+		{% endif %}
+	{% endif %}
+	<br/>
+	<div class="weui_progress">
+		<small>阅读进度：</small>&nbsp;&nbsp;
+		<div class="weui_progress_bar">
+			<div class="weui_progress_inner_bar" style="width: {{ book.progress }};"></div>
+		</div>
+	</div>
+</div>
+{% endif %}
+{% endfor %}
+
+<h3>2014书单</h3>
+{% assign books = site.data.books %}
+<h4>社科类</h4>
+{% for book in books %}
+{% if book.type == '社科类' and book.year == "2014" %}
+<div>
+	<a href="{{ book.url }}">[{{ book.name }}]</a>
+	{% if book.star != '' %}
+		&nbsp;&gt;&nbsp;
+		{% if book.star == '5' %}
+			&#9733;&#9733;&#9733;&#9733;&#9733;
+		{% elsif book.star == '4' %}
+			&#9733;&#9733;&#9733;&#9733;&#9734;
+		{% elsif book.star == '3' %}
+			&#9733;&#9733;&#9733;&#9734;&#9734;
+		{% elsif book.star == '2' %}
+			&#9733;&#9733;&#9734;&#9734;&#9734;
+		{% elsif book.star == '1' %}
+			&#9733;&#9734;&#9734;&#9734;&#9734;
+		{% endif %}
+	{% endif %}
+	<br/>
+	<div class="weui_progress">
+		<small>阅读进度：</small>&nbsp;&nbsp;
+		<div class="weui_progress_bar">
+			<div class="weui_progress_inner_bar" style="width: {{ book.progress }};"></div>
+		</div>
+	</div>
+</div>
+{% endif %}
+{% endfor %}
+
+<h4>文学类</h4>
+{% for book in books %}
+{% if book.type == '文学类' and book.year == "2014" %}
+<div>
+	<a href="{{ book.url }}">[{{ book.name }}]</a>
+	{% if book.star != '' %}
+		&nbsp;&gt;&nbsp;
+		{% if book.star == '5' %}
+			&#9733;&#9733;&#9733;&#9733;&#9733;
+		{% elsif book.star == '4' %}
+			&#9733;&#9733;&#9733;&#9733;&#9734;
+		{% elsif book.star == '3' %}
+			&#9733;&#9733;&#9733;&#9734;&#9734;
+		{% elsif book.star == '2' %}
+			&#9733;&#9733;&#9734;&#9734;&#9734;
+		{% elsif book.star == '1' %}
+			&#9733;&#9734;&#9734;&#9734;&#9734;
+		{% endif %}
+	{% endif %}
+	<br/>
+	<div class="weui_progress">
+		<small>阅读进度：</small>&nbsp;&nbsp;
+		<div class="weui_progress_bar">
+			<div class="weui_progress_inner_bar" style="width: {{ book.progress }};"></div>
+		</div>
+	</div>
+</div>
+{% endif %}
+{% endfor %}
+
+<h4>艺术类</h4>
+{% for book in books %}
+{% if book.type == '艺术类' and book.year == "2014" %}
+<div>
+	<a href="{{ book.url }}">[{{ book.name }}]</a>
+	{% if book.star != '' %}
+		&nbsp;&gt;&nbsp;
+		{% if book.star == '5' %}
+			&#9733;&#9733;&#9733;&#9733;&#9733;
+		{% elsif book.star == '4' %}
+			&#9733;&#9733;&#9733;&#9733;&#9734;
+		{% elsif book.star == '3' %}
+			&#9733;&#9733;&#9733;&#9734;&#9734;
+		{% elsif book.star == '2' %}
+			&#9733;&#9733;&#9734;&#9734;&#9734;
+		{% elsif book.star == '1' %}
+			&#9733;&#9734;&#9734;&#9734;&#9734;
+		{% endif %}
+	{% endif %}
+	<br/>
+	<div class="weui_progress">
+		<small>阅读进度：</small>&nbsp;&nbsp;
+		<div class="weui_progress_bar">
+			<div class="weui_progress_inner_bar" style="width: {{ book.progress }};"></div>
+		</div>
+	</div>
+</div>
+{% endif %}
+{% endfor %}
+
+<h4>传记类</h4>
+{% for book in books %}
+{% if book.type == '传记类' and book.year == "2014" %}
+<div>
+	<a href="{{ book.url }}">[{{ book.name }}]</a>
+	{% if book.star != '' %}
+		&nbsp;&gt;&nbsp;
+		{% if book.star == '5' %}
+			&#9733;&#9733;&#9733;&#9733;&#9733;
+		{% elsif book.star == '4' %}
+			&#9733;&#9733;&#9733;&#9733;&#9734;
+		{% elsif book.star == '3' %}
+			&#9733;&#9733;&#9733;&#9734;&#9734;
+		{% elsif book.star == '2' %}
+			&#9733;&#9733;&#9734;&#9734;&#9734;
+		{% elsif book.star == '1' %}
+			&#9733;&#9734;&#9734;&#9734;&#9734;
+		{% endif %}
+	{% endif %}
+	<br/>
+	<div class="weui_progress">
+		<small>阅读进度：</small>&nbsp;&nbsp;
+		<div class="weui_progress_bar">
+			<div class="weui_progress_inner_bar" style="width: {{ book.progress }};"></div>
+		</div>
+	</div>
+</div>
+{% endif %}
+{% endfor %}
+
+<h4>经管类</h4>
+{% for book in books %}
+{% if book.type == '经管类' and book.year == "2014" %}
+<div>
+	<a href="{{ book.url }}">[{{ book.name }}]</a>
+	{% if book.star != '' %}
+		&nbsp;&gt;&nbsp;
+		{% if book.star == '5' %}
+			&#9733;&#9733;&#9733;&#9733;&#9733;
+		{% elsif book.star == '4' %}
+			&#9733;&#9733;&#9733;&#9733;&#9734;
+		{% elsif book.star == '3' %}
+			&#9733;&#9733;&#9733;&#9734;&#9734;
+		{% elsif book.star == '2' %}
+			&#9733;&#9733;&#9734;&#9734;&#9734;
+		{% elsif book.star == '1' %}
+			&#9733;&#9734;&#9734;&#9734;&#9734;
+		{% endif %}
+	{% endif %}
+	<br/>
+	<div class="weui_progress">
+		<small>阅读进度：</small>&nbsp;&nbsp;
+		<div class="weui_progress_bar">
+			<div class="weui_progress_inner_bar" style="width: {{ book.progress }};"></div>
+		</div>
+	</div>
+</div>
+{% endif %}
+{% endfor %}
+
+<h4>IT类</h4>
+{% for book in books %}
+{% if book.type == 'IT类' and book.year == "2014" %}
+<div>
+	<a href="{{ book.url }}">[{{ book.name }}]</a>
+	{% if book.star != '' %}
+		&nbsp;&gt;&nbsp;
+		{% if book.star == '5' %}
+			&#9733;&#9733;&#9733;&#9733;&#9733;
+		{% elsif book.star == '4' %}
+			&#9733;&#9733;&#9733;&#9733;&#9734;
+		{% elsif book.star == '3' %}
+			&#9733;&#9733;&#9733;&#9734;&#9734;
+		{% elsif book.star == '2' %}
+			&#9733;&#9733;&#9734;&#9734;&#9734;
+		{% elsif book.star == '1' %}
+			&#9733;&#9734;&#9734;&#9734;&#9734;
+		{% endif %}
+	{% endif %}
+	<br/>
+	<div class="weui_progress">
+		<small>阅读进度：</small>&nbsp;&nbsp;
+		<div class="weui_progress_bar">
+			<div class="weui_progress_inner_bar" style="width: {{ book.progress }};"></div>
+		</div>
+	</div>
+</div>
+{% endif %}
+{% endfor %}
+
+<h4>励志类</h4>
+{% for book in books %}
+{% if book.type == '励志类' and book.year == "2014" %}
+<div>
+	<a href="{{ book.url }}">[{{ book.name }}]</a>
+	{% if book.star != '' %}
+		&nbsp;&gt;&nbsp;
+		{% if book.star == '5' %}
+			&#9733;&#9733;&#9733;&#9733;&#9733;
+		{% elsif book.star == '4' %}
+			&#9733;&#9733;&#9733;&#9733;&#9734;
+		{% elsif book.star == '3' %}
+			&#9733;&#9733;&#9733;&#9734;&#9734;
+		{% elsif book.star == '2' %}
+			&#9733;&#9733;&#9734;&#9734;&#9734;
+		{% elsif book.star == '1' %}
+			&#9733;&#9734;&#9734;&#9734;&#9734;
+		{% endif %}
+	{% endif %}
+	<br/>
+	<div class="weui_progress">
+		<small>阅读进度：</small>&nbsp;&nbsp;
+		<div class="weui_progress_bar">
+			<div class="weui_progress_inner_bar" style="width: {{ book.progress }};"></div>
+		</div>
+	</div>
+</div>
+{% endif %}
+{% endfor %}
 
 <h3>歌单</h3>
 
@@ -46,7 +441,6 @@ category: lifestyle
 <div><a href="http://t.cn/admacw">[八零年后]</a>&nbsp;&gt;&nbsp;任东</p>
 <div><a href="http://t.cn/zOat3KW">[陪我到可可西里去看海]</a>&nbsp;&gt;&nbsp;大冰</p>
 <div><a href="http://t.cn/RwpyZCn">[理想]</a>&nbsp;&gt;&nbsp;赵雷</p>
-<div><a href="http://music.douban.com/subject/24325813/">[我说今晚月光那么美，你说是的]</a>&nbsp;&gt;&nbsp;好妹妹乐队</p>
 
 <h3>影视单</h3>
 
@@ -58,4 +452,224 @@ category: lifestyle
 <div><a href="http://movie.douban.com/subject/10463953/">[模仿游戏]</a>&nbsp;&gt;&nbsp;&#9733;&#9733;&#9733;&#9733;&#9734;</p>
 <div><a href="http://movie.douban.com/subject/3592854/">[疯狂的麦克斯4]</a>&nbsp;&gt;&nbsp;&#9733;&#9733;&#9733;&#9733;&#9733;</p>
 <div><a href="http://movie.douban.com/subject/26140241/">[咱们结婚吧]</a>&nbsp;&gt;&nbsp;&#9733;&#9733;&#9733;&#9733;&#9734;</p>
+
+    <script src="../assets/js/echarts.js"></script>
+    <script type="text/javascript">
+	function createRandomItemStyle() {
+    return {
+        normal: {
+            color: 'rgb(' + [
+                Math.round(Math.random() * 160),
+                Math.round(Math.random() * 160),
+                Math.round(Math.random() * 160)
+            ].join(',') + ')'
+        }
+    };
+}
+        require.config({
+            paths: {
+                echarts: '../assets/js'
+            }
+        });
+		require(
+            [
+                'echarts',
+                'echarts/chart/radar',
+                'echarts/chart/pie',
+                'echarts/chart/wordCloud'
+            ],
+            function (ec) {
+				var BooksRadar = ec.init(document.getElementById('BooksRadar'));
+				var BooksRadarOption = {
+					title : {
+						text: '',
+						subtext: '年度书籍购买量对比'
+					},
+					tooltip : {
+						trigger: 'axis'
+					},
+					legend: {
+						x : 'center',
+						data:['2015','2014']
+					},
+					toolbox: {
+						show : false,
+						feature : {
+							mark : {show: true},
+							dataView : {show: true, readOnly: false},
+							restore : {show: true},
+							saveAsImage : {show: true}
+						}
+					},
+					calculable : true,
+					polar : [
+						{
+							indicator : [
+								{text : '社科类', max  : 10},
+								{text : '文学类', max  : 10},
+								{text : '艺术类', max  : 10},
+								{text : '传记类', max  : 10},
+								{text : '经管类', max  : 30},
+								{text : '励志类', max  : 10},
+								{text : 'IT类', max  : 10}
+							],
+							radius : 130
+						}
+					],
+					series : [
+						{
+							name: '年度阅读数据',
+							type: 'radar',
+							itemStyle: {
+								normal: {
+									areaStyle: {
+										type: 'default'
+									}
+								}
+							},
+							data : [
+								{
+									value : [7, 7, 7, 4, 26, 2, 2],
+									name : '2015'
+								},
+								{
+									value : [1, 1, 2, 5, 14, 3, 6],
+									name : '2014'
+								}
+							]
+						}
+					]
+				};
+				BooksRadar.setOption(BooksRadarOption);
+				var BooksWordCloud = ec.init(document.getElementById('BooksWordCloud'));
+				var BooksWordCloudOption = {
+					title: {
+						text: '阅读关键词'
+					},
+					tooltip: {
+						show: true
+					},
+					series: [{
+						name: '阅读关键词',
+						type: 'wordCloud',
+						size: ['80%', '80%'],
+						textRotation : [0, 45, 90, -45],
+						textPadding: 0,
+						autoSize: {
+							enable: true,
+							minSize: 14
+						},
+						data: [
+							{
+								name: "企业史",
+								value: 10000,
+								itemStyle: {
+									normal: {
+										color: 'black'
+									}
+								}
+							},
+							{
+								name: "团队",
+								value: 6181,
+								itemStyle: createRandomItemStyle()
+							},
+							{
+								name: "管理",
+								value: 4386,
+								itemStyle: createRandomItemStyle()
+							},
+							{
+								name: "人性",
+								value: 4055,
+								itemStyle: createRandomItemStyle()
+							},
+							{
+								name: "温暖",
+								value: 2467,
+								itemStyle: createRandomItemStyle()
+							},
+							{
+								name: "电影",
+								value: 2244,
+								itemStyle: createRandomItemStyle()
+							},
+							{
+								name: "互联网",
+								value: 1898,
+								itemStyle: createRandomItemStyle()
+							},
+							{
+								name: "产品",
+								value: 1484,
+								itemStyle: createRandomItemStyle()
+							},
+							{
+								name: "设计",
+								value: 1112,
+								itemStyle: createRandomItemStyle()
+							},
+							{
+								name: "营销",
+								value: 965,
+								itemStyle: createRandomItemStyle()
+							},
+							{
+								name: "经济",
+								value: 847,
+								itemStyle: createRandomItemStyle()
+							},
+							{
+								name: "文案",
+								value: 582,
+								itemStyle: createRandomItemStyle()
+							},
+							{
+								name: "传记",
+								value: 555,
+								itemStyle: createRandomItemStyle()
+							},
+							{
+								name: "人文",
+								value: 550,
+								itemStyle: createRandomItemStyle()
+							},
+							{
+								name: "社会",
+								value: 462,
+								itemStyle: createRandomItemStyle()
+							},
+							{
+								name: "文学",
+								value: 366,
+								itemStyle: createRandomItemStyle()
+							},
+							{
+								name: "纪实",
+								value: 360,
+								itemStyle: createRandomItemStyle()
+							},
+							{
+								name: "心理",
+								value: 282,
+								itemStyle: createRandomItemStyle()
+							},
+							{
+								name: "金融",
+								value: 273,
+								itemStyle: createRandomItemStyle()
+							},
+							{
+								name: "创业",
+								value: 265,
+								itemStyle: createRandomItemStyle()
+							}
+						]
+					}]
+				};
+				BooksWordCloud.setOption(BooksWordCloudOption);				
+            }
+        );
+    </script>
+	
 </section>
