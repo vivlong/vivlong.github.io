@@ -665,7 +665,7 @@ img {
 .weui_progress_bar {
     background-color: #EBEBEB;
 	width: 160px;
-    height: 14px;
+    height: 12px;
     -webkit-box-flex: 1;
     -webkit-flex: 1;
     -ms-flex: 1;

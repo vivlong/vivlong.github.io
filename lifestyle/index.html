@@ -5,303 +5,38 @@ category: lifestyle
 ---
 <section class="inner">
 	
-<h3>2015书单</h3>
-<h4>社科类</h4>
+<h3>书单</h3>
+{% for book in site.data.books %}
 <div>
-	<a href="http://book.douban.com/subject/26416883/">[乌合之众-群体心理研究]</a><br/>
+	<a href="{{ book.url }}">[{{ book.name }}]</a>
+	{% if book.star != '' %}
+		&nbsp;&gt;&nbsp;
+		{% if book.star == '5' %}
+			&#9733;&#9733;&#9733;&#9733;&#9733;
+		{% endif %}
+		{% if book.star == '4' %}
+			&#9733;&#9733;&#9733;&#9733;&#9734;
+		{% endif %}
+		{% if book.star == '3' %}
+			&#9733;&#9733;&#9733;&#9734;&#9734;
+		{% endif %}
+		{% if book.star == '2' %}
+			&#9733;&#9733;&#9734;&#9734;&#9734;
+		{% endif %}
+		{% if book.star == '1' %}
+			&#9733;&#9734;&#9734;&#9734;&#9734;
+		{% endif %}
+	{% endif %}
+	<br/>
 	<div class="weui_progress">
 		<small>阅读进度：</small>&nbsp;&nbsp;
 		<div class="weui_progress_bar">
-			<div class="weui_progress_inner_bar" style="width: 0%;"></div>
+			<div class="weui_progress_inner_bar" style="width: {{ book.progress }};"></div>
 		</div>
 	</div>
 </div>
-<div>
-	<a href="http://book.douban.com/subject/26647384/">[影响力]</a><br/>
-	<div class="weui_progress">
-		<small>阅读进度：</small>&nbsp;&nbsp;
-		<div class="weui_progress_bar">
-			<div class="weui_progress_inner_bar" style="width: 0%;"></div>
-		</div>
-	</div>
-</div>
-<div>
-	<a href="http://book.douban.com/subject/26588890/">[中国人的一天：变与不变的中国人]</a><br/>
-	<div class="weui_progress">
-		<small>阅读进度：</small>&nbsp;&nbsp;
-		<div class="weui_progress_bar">
-			<div class="weui_progress_inner_bar" style="width: 2%;"></div>
-		</div>
-	</div>
-</div>
-<div>
-	<a href="http://book.douban.com/subject/6872434/">[最好的时光在路上]</a><br/>
-	<div class="weui_progress">
-		<small>阅读进度：</small>&nbsp;&nbsp;
-		<div class="weui_progress_bar">
-			<div class="weui_progress_inner_bar" style="width: 5%;"></div>
-		</div>
-	</div>
-</div>
-<div>
-	<a href="http://book.douban.com/subject/25985021/">[人类简史]</a>&nbsp;&gt;&nbsp;&#9733;&#9733;&#9733;&#9733;&#9733;<br/>
-	<div class="weui_progress">
-		<small>阅读进度：</small>&nbsp;&nbsp;
-		<div class="weui_progress_bar">
-			<div class="weui_progress_inner_bar" style="width: 100%;"></div>
-		</div>
-	</div>
-</div>
-<div>
-	<a href="http://book.douban.com/subject/25985021/">[人类的群星闪耀时]</a>&nbsp;&gt;&nbsp;&#9733;&#9733;&#9733;&#9733;&#9733;<br/>
-	<div class="weui_progress">
-		<small>阅读进度：</small>&nbsp;&nbsp;
-		<div class="weui_progress_bar">
-			<div class="weui_progress_inner_bar" style="width: 100%;"></div>
-		</div>
-	</div>
-</div>
-<h4>文学类</h4>
-<div>
-	<a href="http://book.douban.com/subject/10794355/">[台湾念真情]</a><br/>
-	<div class="weui_progress">
-		<small>阅读进度：</small>&nbsp;&nbsp;
-		<div class="weui_progress_bar"><div class="weui_progress_inner_bar" style="width: 0%;"></div></div>
-	</div>
-</div>
-<div>
-	<a href="http://book.douban.com/subject/23186549/">[我们家]</a><br/>
-	<div class="weui_progress">
-		<small>阅读进度：</small>&nbsp;&nbsp;
-		<div class="weui_progress_bar">
-			<div class="weui_progress_inner_bar" style="width: 0%;"></div>
-		</div>
-	</div>
-</div>
-<div>
-	<a href="http://book.douban.com/subject/4241023/">[吾国与吾民]</a><br/>
-	<div class="weui_progress">
-		<small>阅读进度：</small>&nbsp;&nbsp;
-		<div class="weui_progress_bar">
-			<div class="weui_progress_inner_bar" style="width: 0%;"></div>
-		</div>
-	</div>
-</div>
-<div>
-	<a href="http://book.douban.com/subject/25784442/">[男人都是智障2-屌丝斗士]</a><br/>
-	<div class="weui_progress">
-		<small>阅读进度：</small>&nbsp;&nbsp;
-		<div class="weui_progress_bar">
-			<div class="weui_progress_inner_bar" style="width: 20%;"></div>
-		</div>
-	</div>
-</div>
-<div>
-	<a href="http://book.douban.com/subject/19986371/">[一只特立独行的猪]</a><br/>
-	<div class="weui_progress">
-		<small>阅读进度：</small>&nbsp;&nbsp;
-		<div class="weui_progress_bar">
-			<div class="weui_progress_inner_bar" style="width: 30%;"></div>
-		</div>
-	</div>
-</div>
-<div>
-	<a href="http://book.douban.com/subject/25866762/">[我们这一代-最初的面孔]</a>&nbsp;&gt;&nbsp;&#9733;&#9733;&#9733;&#9733;&#9733;<br/>
-	<div class="weui_progress">
-		<small>阅读进度：</small>&nbsp;&nbsp;
-		<div class="weui_progress_bar">
-			<div class="weui_progress_inner_bar" style="width: 100%;"></div>
-		</div>
-	</div>
-</div>
-<div>
-	<a href="http://book.douban.com/subject/25862578/">[解忧杂货店]</a>&nbsp;&gt;&nbsp;&#9733;&#9733;&#9733;&#9733;&#9733;<br/>
-	<div class="weui_progress">
-		<small>阅读进度：</small>&nbsp;&nbsp;
-		<div class="weui_progress_bar">
-			<div class="weui_progress_inner_bar" style="width: 100%;"></div>
-		</div>
-	</div>
-</div>
-<div>
-	<a href="http://book.douban.com/subject/24851617">[1988：我想和这个世界谈谈]</a>&nbsp;&gt;&nbsp;&#9733;&#9733;&#9733;&#9733;&#9734;<br/>
-	<div class="weui_progress">
-		<small>阅读进度：</small>&nbsp;&nbsp;
-		<div class="weui_progress_bar">
-			<div class="weui_progress_inner_bar" style="width: 100%;"></div>
-		</div>
-	</div>
-</div>
-<h4>艺术类</h4>
-<div>
-	<a href="http://book.douban.com/subject/3547099/">[贾想1996—2008：贾樟柯电影手记]</a><br/>
-	<div class="weui_progress">
-		<small>阅读进度：</small>&nbsp;&nbsp;
-		<div class="weui_progress_bar">
-			<div class="weui_progress_inner_bar" style="width: 0%;"></div>
-		</div>
-	</div>
-</div>
-<div><a href="http://book.douban.com/subject/4319553/">[小武-贾樟柯故乡三部曲]</a><br/>
-<div class="weui_progress"><small>阅读进度：</small>&nbsp;&nbsp;<div class="weui_progress_bar"><div class="weui_progress_inner_bar" style="width: 0%;"></div></div></div></div>
-<div><a href="http://book.douban.com/subject/25925760/">[再见杨德昌-台湾电影人访谈纪事]</a><br/>
-<div class="weui_progress"><small>阅读进度：</small>&nbsp;&nbsp;<div class="weui_progress_bar"><div class="weui_progress_inner_bar" style="width: 0%;"></div></div></div></div>
-<div><a href="http://book.douban.com/subject/2036993/">[幸福的建筑]</a><br/>
-<div class="weui_progress"><small>阅读进度：</small>&nbsp;&nbsp;<div class="weui_progress_bar"><div class="weui_progress_inner_bar" style="width: 0%;"></div></div></div></div>
-<div><a href="http://book.douban.com/subject/1941558/">[设计中的设计]</a>&nbsp;&gt;&nbsp;&#9733;&#9733;&#9733;&#9733;&#9733;<br/>
-<div class="weui_progress"><small>阅读进度：</small>&nbsp;&nbsp;<div class="weui_progress_bar"><div class="weui_progress_inner_bar" style="width: 10%;"></div></div></div></div>
-<div><a href="http://book.douban.com/subject/25926143">[會說故事，讓世界聽你的]</a>&nbsp;&gt;&nbsp;&#9733;&#9733;&#9733;&#9733;&#9733;<br/>
-<div class="weui_progress"><small>阅读进度：</small>&nbsp;&nbsp;<div class="weui_progress_bar"><div class="weui_progress_inner_bar" style="width: 100%;"></div></div></div></div>
-<div><a href="http://book.douban.com/subject/22542435/">[我是开豆腐店的，我只做豆腐]</a>&nbsp;&gt;&nbsp;&#9733;&#9733;&#9733;&#9733;&#9734;<br/>
-<div class="weui_progress"><small>阅读进度：</small>&nbsp;&nbsp;<div class="weui_progress_bar"><div class="weui_progress_inner_bar" style="width: 100%;"></div></div></div></div>
-<h4>传记类</h4>
-<div><a href="http://book.douban.com/subject/25956005/">[亚历克斯弗格森：我的自传]</a><br/>
-<div class="weui_progress"><small>阅读进度：</small>&nbsp;&nbsp;<div class="weui_progress_bar"><div class="weui_progress_inner_bar" style="width: 0%;"></div></div></div></div>
-<div><a href="http://book.douban.com/subject/26340695/">[三位一体-英特尔传奇]</a><br/>
-<div class="weui_progress"><small>阅读进度：</small>&nbsp;&nbsp;<div class="weui_progress_bar"><div class="weui_progress_inner_bar" style="width: 0%;"></div></div></div></div>
-<div><a href="http://book.douban.com/subject/20366373/">[永无止境-Google传]</a><br/>
-<div class="weui_progress"><small>阅读进度：</small>&nbsp;&nbsp;<div class="weui_progress_bar"><div class="weui_progress_inner_bar" style="width: 0%;"></div></div></div></div>
-<div><a href="http://book.douban.com/subject/4238939/">[吴敬琏传]</a><br/>
-<div class="weui_progress"><small>阅读进度：</small>&nbsp;&nbsp;<div class="weui_progress_bar"><div class="weui_progress_inner_bar" style="width: 0%;"></div></div></div></div>
-<div><a href="http://book.douban.com/subject/20424526/">[邓小平时代]</a><br/>
-<div class="weui_progress"><small>阅读进度：</small>&nbsp;&nbsp;<div class="weui_progress_bar"><div class="weui_progress_inner_bar" style="width: 0%;"></div></div></div></div>
-<div><a href="http://book.douban.com/subject/25723799/">[野心优雅-任志强回忆录]</a><br/>
-<small>阅读进度：</small>&nbsp;&nbsp;<progress value="2" max="100"></progress></div>
-<div><a href="http://book.douban.com/subject/26417955/">[逐梦之旅：SAP全球CEO孟鼎铭的职业传奇]</a><br/>
-<small>阅读进度：</small>&nbsp;&nbsp;<progress value="2" max="100"></progress></div>
-<div><a href="http://book.douban.com/subject/3519777/">[邵逸夫全传]</a>&nbsp;&gt;&nbsp;&#9733;&#9733;&#9733;&#9734;&#9734;<br/>
-<div class="weui_progress"><small>阅读进度：</small>&nbsp;&nbsp;<div class="weui_progress_bar"><div class="weui_progress_inner_bar" style="width: 100%;"></div></div></div></div>
-<h4>经管类</h4>
-<div><a href="http://book.douban.com/subject/26306686/">[创业维艰-如何完成比难更难的事]</a><br/>
-<div class="weui_progress"><small>阅读进度：</small>&nbsp;&nbsp;<div class="weui_progress_bar"><div class="weui_progress_inner_bar" style="width: 0%;"></div></div></div></div>
-<div><a href="http://book.douban.com/subject/26270679/">[零售的哲学：7-Eleven便利店创始人自述]</a><br/>
-<div class="weui_progress"><small>阅读进度：</small>&nbsp;&nbsp;<div class="weui_progress_bar"><div class="weui_progress_inner_bar" style="width: 0%;"></div></div></div></div>
-<div><a href="http://book.douban.com/subject/25844463/">[摩根财团- 美国一代银行王朝和现代金融业的崛起（1838～1990）]</a><br/>
-<div class="weui_progress"><small>阅读进度：</small>&nbsp;&nbsp;<div class="weui_progress_bar"><div class="weui_progress_inner_bar" style="width: 0%;"></div></div></div></div>
-<div><a href="http://book.douban.com/subject/6965594/">[IBM：蓝色基因，百年智慧]</a><br/>
-<div class="weui_progress"><small>阅读进度：</small>&nbsp;&nbsp;<div class="weui_progress_bar"><div class="weui_progress_inner_bar" style="width: 0%;"></div></div></div></div>
-<div><a href="http://book.douban.com/subject/10521234/">[我用微软改变世界]</a><br/>
-<div class="weui_progress"><small>阅读进度：</small>&nbsp;&nbsp;<div class="weui_progress_bar"><div class="weui_progress_inner_bar" style="width: 0%;"></div></div></div></div>
-<div><a href="http://book.douban.com/subject/26582822/">[重新定义公司-Google是如何运营的]</a><br/>
-<div class="weui_progress"><small>阅读进度：</small>&nbsp;&nbsp;<div class="weui_progress_bar"><div class="weui_progress_inner_bar" style="width: 0%;"></div></div></div></div>
-<div><a href="http://book.douban.com/subject/20492093/">[平台战略]</a><br/>
-<div class="weui_progress"><small>阅读进度：</small>&nbsp;&nbsp;<div class="weui_progress_bar"><div class="weui_progress_inner_bar" style="width: 0%;"></div></div></div></div>
-<div><a href="http://book.douban.com/subject/26541801/">[增长黑客-创业公司的用户与收入增长秘籍]</a><br/>
-<div class="weui_progress"><small>阅读进度：</small>&nbsp;&nbsp;<div class="weui_progress_bar"><div class="weui_progress_inner_bar" style="width: 0%;"></div></div></div></div>
-<div><a href="http://book.douban.com/subject/24713765/">[找我2]</a><br/>
-<div class="weui_progress"><small>阅读进度：</small>&nbsp;&nbsp;<div class="weui_progress_bar"><div class="weui_progress_inner_bar" style="width: 0%;"></div></div></div></div>
-<div><a href="http://book.douban.com/subject/5375620/">[失控]</a><br/>
-<div class="weui_progress"><small>阅读进度：</small>&nbsp;&nbsp;<div class="weui_progress_bar"><div class="weui_progress_inner_bar" style="width: 0%;"></div></div></div></div>
-<div><a href="http://book.douban.com/subject/3793884/">[轻公司]</a><br/>
-<div class="weui_progress"><small>阅读进度：</small>&nbsp;&nbsp;<div class="weui_progress_bar"><div class="weui_progress_inner_bar" style="width: 0%;"></div></div></div></div>
-<div><a href="http://book.douban.com/subject/26383791/">[創意電力公司：我如何打造皮克斯動畫]</a><br/>
-<div class="weui_progress"><small>阅读进度：</small>&nbsp;&nbsp;<div class="weui_progress_bar"><div class="weui_progress_inner_bar" style="width: 0%;"></div></div></div></div>
-<div><a href="http://book.douban.com/subject/26335181/">[巴菲特之道]</a><br/>
-<div class="weui_progress"><small>阅读进度：</small>&nbsp;&nbsp;<div class="weui_progress_bar"><div class="weui_progress_inner_bar" style="width: 1%;"></div></div></div></div>
-<div><a href="http://book.douban.com/subject/20285396/">[可口可乐的征服-全球超级商业帝国董事长自述]</a><br/>
-<div class="weui_progress"><small>阅读进度：</small>&nbsp;&nbsp;<div class="weui_progress_bar"><div class="weui_progress_inner_bar" style="width: 10%;"></div></div></div></div>
-<div><a href="http://book.douban.com/subject/26335964/">[匠人精神]</a><br/>
-<div class="weui_progress"><small>阅读进度：</small>&nbsp;&nbsp;<div class="weui_progress_bar"><div class="weui_progress_inner_bar" style="width: 10%;"></div></div></div></div>
-<div><a href="http://book.douban.com/subject/25885921/">[摩托车修理店的未来工作哲学-让工匠精神回归]</a><br/>
-<div class="weui_progress"><small>阅读进度：</small>&nbsp;&nbsp;<div class="weui_progress_bar"><div class="weui_progress_inner_bar" style="width: 10%;"></div></div></div></div>
-<div><a href="http://book.douban.com/subject/26292367/">[柳问-柳传志的管理三要素]</a>&nbsp;&gt;&nbsp;&#9733;&#9733;&#9733;&#9734;&#9734;<br/>
-<div class="weui_progress"><small>阅读进度：</small>&nbsp;&nbsp;<div class="weui_progress_bar"><div class="weui_progress_inner_bar" style="width: 30%;"></div></div></div></div>
-<div><a href="http://book.douban.com/subject/6021440/">[黑客与画家]</a>&nbsp;&gt;&nbsp;&#9733;&#9733;&#9733;&#9733;&#9733;<br/>
-<div class="weui_progress"><small>阅读进度：</small>&nbsp;&nbsp;<div class="weui_progress_bar"><div class="weui_progress_inner_bar" style="width: 60%;"></div></div></div></div>
-<div><a href="http://book.douban.com/subject/5269192/">[创业的国度-以色列经济奇迹的启示]</a>&nbsp;&gt;&nbsp;&#9733;&#9733;&#9733;&#9733;&#9733;<br/>
-<div class="weui_progress"><small>阅读进度：</small>&nbsp;&nbsp;<div class="weui_progress_bar"><div class="weui_progress_inner_bar" style="width: 90%;"></div></div></div></div>
-<div><a href="http://book.douban.com/subject/26302594/">[万达哲学-王健林首次自述经营之道]</a>&nbsp;&gt;&nbsp;&#9733;&#9733;&#9733;&#9734;&#9734;<br/>
-<div class="weui_progress"><small>阅读进度：</small>&nbsp;&nbsp;<div class="weui_progress_bar"><div class="weui_progress_inner_bar" style="width: 100%;"></div></div></div></div>
-<div><a href="http://book.douban.com/subject/26287433/">[心若菩提-曹德旺自传]</a>&nbsp;&gt;&nbsp;&#9733;&#9733;&#9733;&#9733;&#9734;<br/>
-<div class="weui_progress"><small>阅读进度：</small>&nbsp;&nbsp;<div class="weui_progress_bar"><div class="weui_progress_inner_bar" style="width: 100%;"></div></div></div></div>
-<div><a href="http://book.douban.com/subject/26297606/">[从0到1-开启商业与未来的秘密]</a>&nbsp;&gt;&nbsp;&#9733;&#9733;&#9733;&#9733;&#9734;<br/>
-<div class="weui_progress"><small>阅读进度：</small>&nbsp;&nbsp;<div class="weui_progress_bar"><div class="weui_progress_inner_bar" style="width: 100%;"></div></div></div></div>
-<div><a href="http://book.douban.com/subject/26356045/">[褚橙你也学不会]</a>&nbsp;&gt;&nbsp;&#9733;&#9733;&#9733;&#9733;&#9734;<br/>
-<div class="weui_progress"><small>阅读进度：</small>&nbsp;&nbsp;<div class="weui_progress_bar"><div class="weui_progress_inner_bar" style="width: 100%;"></div></div></div></div>
-<div><a href="http://book.douban.com/subject/26400900/">[创京东]</a>&nbsp;&gt;&nbsp;&#9733;&#9733;&#9733;&#9733;&#9734;<br/>
-<div class="weui_progress"><small>阅读进度：</small>&nbsp;&nbsp;<div class="weui_progress_bar"><div class="weui_progress_inner_bar" style="width: 100%;"></div></div></div></div>
-<div><a href="http://book.douban.com/subject/26411602/">[富甲美国]</a>&nbsp;&gt;&nbsp;&#9733;&#9733;&#9733;&#9733;&#9733;<br/>
-<div class="weui_progress"><small>阅读进度：</small>&nbsp;&nbsp;<div class="weui_progress_bar"><div class="weui_progress_inner_bar" style="width: 100%;"></div></div></div></div>
-<div><a href="http://book.douban.com/subject/5320866/">[重来-更为简单有效的商业思维]</a>&nbsp;&gt;&nbsp;&#9733;&#9733;&#9733;&#9733;&#9734;<br/>
-<div class="weui_progress"><small>阅读进度：</small>&nbsp;&nbsp;<div class="weui_progress_bar"><div class="weui_progress_inner_bar" style="width: 100%;"></div></div></div></div>
-<div><a href="http://book.douban.com/subject/25908390/">[大败局2]</a>&nbsp;&gt;&nbsp;&#9733;&#9733;&#9733;&#9733;&#9733;<br/>
-<div class="weui_progress"><small>阅读进度：</small>&nbsp;&nbsp;<div class="weui_progress_bar"><div class="weui_progress_inner_bar" style="width: 100%;"></div></div></div></div>
-<div><a href="http://book.douban.com/subject/25908391/">[大败局1]</a>&nbsp;&gt;&nbsp;&#9733;&#9733;&#9733;&#9733;&#9733;<br/>
-<div class="weui_progress"><small>阅读进度：</small>&nbsp;&nbsp;<div class="weui_progress_bar"><div class="weui_progress_inner_bar" style="width: 100%;"></div></div></div></div>
-<div><a href="http://book.douban.com/subject/25975485/">[穿布鞋的马云]</a>&nbsp;&gt;&nbsp;&#9733;&#9733;&#9733;&#9734;&#9734;<br/>
-<div class="weui_progress"><small>阅读进度：</small>&nbsp;&nbsp;<div class="weui_progress_bar"><div class="weui_progress_inner_bar" style="width: 100%;"></div></div></div></div>
-<div><a href="http://book.douban.com/subject/25925083/">[再看电商]</a>&nbsp;&gt;&nbsp;&#9733;&#9733;&#9733;&#9733;&#9734;<br/>
-<div class="weui_progress"><small>阅读进度：</small>&nbsp;&nbsp;<div class="weui_progress_bar"><div class="weui_progress_inner_bar" style="width: 100%;"></div></div></div></div>
-<div><a href="http://item.jd.com/11209725.html">[华为还能走多远]</a>&nbsp;&gt;&nbsp;&#9733;&#9733;&#9733;&#9734;&#9734;<br/>
-<div class="weui_progress"><small>阅读进度：</small>&nbsp;&nbsp;<div class="weui_progress_bar"><div class="weui_progress_inner_bar" style="width: 100%;"></div></div></div></div>
-<h4>IT类</h4>
-<div><a href="http://book.douban.com/subject/25956450/">[人件]</a><br/>
-<div class="weui_progress"><small>阅读进度：</small>&nbsp;&nbsp;<div class="weui_progress_bar"><div class="weui_progress_inner_bar" style="width: 0%;"></div></div></div></div>
-<div><a href="http://book.douban.com/subject/25965995/">[构建之法-现代软件工程]</a><br/>
-<div class="weui_progress"><small>阅读进度：</small>&nbsp;&nbsp;<div class="weui_progress_bar"><div class="weui_progress_inner_bar" style="width: 0%;"></div></div></div></div>
-<div><a href="http://book.douban.com/subject/25820256/">[世界500强互联网产品经理管理笔记]</a><br/>
-<div class="weui_progress"><small>阅读进度：</small>&nbsp;&nbsp;<div class="weui_progress_bar"><div class="weui_progress_inner_bar" style="width: 0%;"></div></div></div></div>
-<div><a href="http://book.douban.com/subject/5914587/">[启示录-打造用户喜爱的产品]</a><br/>
-<div class="weui_progress"><small>阅读进度：</small>&nbsp;&nbsp;<div class="weui_progress_bar"><div class="weui_progress_inner_bar" style="width: 10%;"></div></div></div></div>
-<div><a href="http://book.douban.com/subject/1827702/">[点石成金-访客至上的网页设计秘笈]</a><br/>
-<div class="weui_progress"><small>阅读进度：</small>&nbsp;&nbsp;<div class="weui_progress_bar"><div class="weui_progress_inner_bar" style="width: 20%;"></div></div></div></div>
-<div><a href="http://book.douban.com/subject/4723970/">[人人都是产品经理]</a><br/>
-<div class="weui_progress"><small>阅读进度：</small>&nbsp;&nbsp;<div class="weui_progress_bar"><div class="weui_progress_inner_bar" style="width: 20%;"></div></div></div></div>
-<div><a href="http://book.douban.com/subject/20471302/">[在你身边，为你设计]</a>&nbsp;&gt;&nbsp;&#9733;&#9733;&#9733;&#9734;&#9734;<br/>
-<div class="weui_progress"><small>阅读进度：</small>&nbsp;&nbsp;<div class="weui_progress_bar"><div class="weui_progress_inner_bar" style="width: 50%;"></div></div></div></div>
-<h4>励志类</h4>
-<div><a href="http://book.douban.com/subject/25924952/">[一日一课]</a><br/>
-<div class="weui_progress"><small>阅读进度：</small>&nbsp;&nbsp;<div class="weui_progress_bar"><div class="weui_progress_inner_bar" style="width: 0%;"></div></div></div></div>
-<div><a href="http://book.douban.com/subject/25913208/">[将来的你一定会感谢现在拼命的自己]</a><br/>
-<div class="weui_progress"><small>阅读进度：</small>&nbsp;&nbsp;<div class="weui_progress_bar"><div class="weui_progress_inner_bar" style="width: 0%;"></div></div></div></div>
-<h3>2014及之前书单</h3>
-<div><a href="http://book.douban.com/subject/25866817/">[有些路只能一个人走]</a><br/>
-<div class="weui_progress"><small>阅读进度：</small>&nbsp;&nbsp;<div class="weui_progress_bar"><div class="weui_progress_inner_bar" style="width: 10%;"></div></div></div></div>
-<div><a href="http://book.douban.com/subject/25885764/">[当我放过自己的时候]</a><br/>
-<div class="weui_progress"><small>阅读进度：</small>&nbsp;&nbsp;<div class="weui_progress_bar"><div class="weui_progress_inner_bar" style="width: 10%;"></div></div></div></div>
-<div><a href="http://book.douban.com/subject/24335672/">[淘宝技术这十年-淘宝技术大学校长解密淘宝十年]</a>&nbsp;&gt;&nbsp;&#9733;&#9733;&#9733;&#9734;&#9734;<br/>
-<div class="weui_progress"><small>阅读进度：</small>&nbsp;&nbsp;<div class="weui_progress_bar"><div class="weui_progress_inner_bar" style="width: 100%;"></div></div></div></div>
-<div><a href="http://book.douban.com/subject/10797189/">[编写可读代码的艺术]</a>&nbsp;&gt;&nbsp;&#9733;&#9733;&#9733;&#9733;&#9733;<br/>
-<div class="weui_progress"><small>阅读进度：</small>&nbsp;&nbsp;<div class="weui_progress_bar"><div class="weui_progress_inner_bar" style="width: 100%;"></div></div></div></div>
-<div><a href="http://book.douban.com/subject/25903512/">[你若坚强，岁月无恙]</a>&nbsp;&gt;&nbsp;&#9733;&#9733;&#9734;&#9734;&#9734;<br/>
-<div class="weui_progress"><small>阅读进度：</small>&nbsp;&nbsp;<div class="weui_progress_bar"><div class="weui_progress_inner_bar" style="width: 100%;"></div></div></div></div>
-<div><a href="http://book.douban.com/subject/25879321/">[梦想还是要有的，万一实现了呢]</a>&nbsp;&gt;&nbsp;&#9733;&#9733;&#9733;&#9733;&#9734;<br/>
-<div class="weui_progress"><small>阅读进度：</small>&nbsp;&nbsp;<div class="weui_progress_bar"><div class="weui_progress_inner_bar" style="width: 100%;"></div></div></div></div>
-<div><a href="http://book.douban.com/subject/25931540/">[告白与告别]</a>&nbsp;&gt;&nbsp;&#9733;&#9733;&#9733;&#9733;&#9734;<br/>
-<div class="weui_progress"><small>阅读进度：</small>&nbsp;&nbsp;<div class="weui_progress_bar"><div class="weui_progress_inner_bar" style="width: 100%;"></div></div></div></div>
-<div><a href="http://book.douban.com/subject/25956628/">[创业小败局]</a>&nbsp;&gt;&nbsp;&#9733;&#9733;&#9733;&#9734;&#9734;<br/>
-<div class="weui_progress"><small>阅读进度：</small>&nbsp;&nbsp;<div class="weui_progress_bar"><div class="weui_progress_inner_bar" style="width: 100%;"></div></div></div></div>
-<div><a href="http://book.douban.com/subject/25942507/">[参与感-小米口碑营销内部手册]</a>&nbsp;&gt;&nbsp;&#9733;&#9733;&#9733;&#9733;&#9734;<br/>
-<div class="weui_progress"><small>阅读进度：</small>&nbsp;&nbsp;<div class="weui_progress_bar"><div class="weui_progress_inner_bar" style="width: 100%;"></div></div></div></div>
-<div><a href="http://book.douban.com/subject/24541955/">[史玉柱自述-我的营销心得]</a>&nbsp;&gt;&nbsp;&#9733;&#9733;&#9733;&#9733;&#9734;<br/>
-<div class="weui_progress"><small>阅读进度：</small>&nbsp;&nbsp;<div class="weui_progress_bar"><div class="weui_progress_inner_bar" style="width: 100%;"></div></div></div></div>
-<div><a href="http://book.douban.com/subject/2348372/">[野蛮生长]</a>&nbsp;&gt;&nbsp;&#9733;&#9733;&#9733;&#9733;&#9733;<br/>
-<div class="weui_progress"><small>阅读进度：</small>&nbsp;&nbsp;<div class="weui_progress_bar"><div class="weui_progress_inner_bar" style="width: 100%;"></div></div></div></div>
-<div><a href="http://book.douban.com/subject/5410582/">[伟大是熬出来的]</a>&nbsp;&gt;&nbsp;&#9733;&#9733;&#9733;&#9733;&#9734;<br/>
-<div class="weui_progress"><small>阅读进度：</small>&nbsp;&nbsp;<div class="weui_progress_bar"><div class="weui_progress_inner_bar" style="width: 100%;"></div></div></div></div>
-<div><a href="http://book.douban.com/subject/6798611/">[史蒂夫·乔布斯传]</a>&nbsp;&gt;&nbsp;&#9733;&#9733;&#9733;&#9733;&#9734;<br/>
-<div class="weui_progress"><small>阅读进度：</small>&nbsp;&nbsp;<div class="weui_progress_bar"><div class="weui_progress_inner_bar" style="width: 100%;"></div></div></div></div>
-<div><a href="http://book.douban.com/subject/25928983/">[周鸿祎自述-我的互联网方法论]</a>&nbsp;&gt;&nbsp;&#9733;&#9733;&#9733;&#9733;&#9734;<br/>
-<div class="weui_progress"><small>阅读进度：</small>&nbsp;&nbsp;<div class="weui_progress_bar"><div class="weui_progress_inner_bar" style="width: 100%;"></div></div></div></div>
-<div><a href="http://book.douban.com/subject/10831855/">[俞敏洪口述-在痛苦的世界中尽力而为]</a>&nbsp;&gt;&nbsp;&#9733;&#9733;&#9733;&#9733;&#9733;<br/>
-<div class="weui_progress"><small>阅读进度：</small>&nbsp;&nbsp;<div class="weui_progress_bar"><div class="weui_progress_inner_bar" style="width: 100%;"></div></div></div></div>
-<div><a href="http://book.douban.com/subject/6080059/">[将心注入]</a>&nbsp;&gt;&nbsp;&#9733;&#9733;&#9733;&#9733;&#9733;<br/>
-<div class="weui_progress"><small>阅读进度：</small>&nbsp;&nbsp;<div class="weui_progress_bar"><div class="weui_progress_inner_bar" style="width: 100%;"></div></div></div></div>
-<div><a href="http://book.douban.com/subject/25858149/">[勇者激扬-褚时健传]</a>&nbsp;&gt;&nbsp;&#9733;&#9733;&#9733;&#9734;&#9734;<br/>
-<div class="weui_progress"><small>阅读进度：</small>&nbsp;&nbsp;<div class="weui_progress_bar"><div class="weui_progress_inner_bar" style="width: 100%;"></div></div></div></div>
-<div><a href="http://book.douban.com/subject/5921213/">[MBA教不了的创富课]</a>&nbsp;&gt;&nbsp;&#9733;&#9733;&#9733;&#9733;&#9733;<br/>
-<div class="weui_progress"><small>阅读进度：</small>&nbsp;&nbsp;<div class="weui_progress_bar"><div class="weui_progress_inner_bar" style="width: 100%;"></div></div></div></div>
-<div><a href="http://book.douban.com/subject/24305938/">[结网-改变世界的互联网产品经理]</a>&nbsp;&gt;&nbsp;&#9733;&#9733;&#9733;&#9734;&#9734;<br/>
-<div class="weui_progress"><small>阅读进度：</small>&nbsp;&nbsp;<div class="weui_progress_bar"><div class="weui_progress_inner_bar" style="width: 100%;"></div></div></div></div>
-<div><a href="http://book.douban.com/subject/25789586/">[商战-电商时代]</a>&nbsp;&gt;&nbsp;&#9733;&#9733;&#9733;&#9733;&#9734;<br/>
-<div class="weui_progress"><small>阅读进度：</small>&nbsp;&nbsp;<div class="weui_progress_bar"><div class="weui_progress_inner_bar" style="width: 100%;"></div></div></div></div>
-<div><a href="http://book.douban.com/subject/24738302/">[浪潮之巅]</a>&nbsp;&gt;&nbsp;&#9733;&#9733;&#9733;&#9733;&#9733;<br/>
-<div class="weui_progress"><small>阅读进度：</small>&nbsp;&nbsp;<div class="weui_progress_bar"><div class="weui_progress_inner_bar" style="width: 100%;"></div></div></div></div>
-<div><a href="http://book.douban.com/subject/25813275/">[你們你們好]</a>&nbsp;&gt;&nbsp;&#9733;&#9733;&#9733;&#9734;&#9734;<br/>
-<div class="weui_progress"><small>阅读进度：</small>&nbsp;&nbsp;<div class="weui_progress_bar"><div class="weui_progress_inner_bar" style="width: 10%;"></div></div></div></div>
-<div><a href="http://book.douban.com/subject/5904053/">[微博：改变一切]</a>&nbsp;&gt;&nbsp;&#9733;&#9733;&#9734;&#9734;&#9734;<br/>
-<div class="weui_progress"><small>阅读进度：</small>&nbsp;&nbsp;<div class="weui_progress_bar"><div class="weui_progress_inner_bar" style="width: 10%;"></div></div></div></div>
-<div><a href="http://book.douban.com/subject/6431994/"><del>[悟空传</del>]</a></p>
+{% endfor %}
+
 
 <h3>歌单</h3>
 
