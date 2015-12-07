@@ -7,6 +7,7 @@ category: lifestyle
 
 	<div id="BooksRadar" style="height:400px;"></div>
 	<div id="BooksWordCloud" style="height:400px;"></div>
+	<div id="BooksBar" style="height:400px;"></div>
 	
 {% assign books = site.data.books %}
 
@@ -475,6 +476,7 @@ category: lifestyle
             [
                 'echarts',
                 'echarts/chart/radar',
+                'echarts/chart/bar',
                 'echarts/chart/pie',
                 'echarts/chart/wordCloud'
             ],
@@ -541,6 +543,7 @@ category: lifestyle
 					]
 				};
 				BooksRadar.setOption(BooksRadarOption);
+				//
 				var BooksWordCloud = ec.init(document.getElementById('BooksWordCloud'));
 				var BooksWordCloudOption = {
 					title: {
@@ -667,7 +670,101 @@ category: lifestyle
 						]
 					}]
 				};
-				BooksWordCloud.setOption(BooksWordCloudOption);				
+				BooksWordCloud.setOption(BooksWordCloudOption);	
+				//
+				var BooksBar = ec.init(document.getElementById('BooksBar'));
+				var BooksBarOption = {
+					title : {
+						text: '',
+						subtext: '书籍购买量与阅读量'
+					},
+					tooltip : {
+						trigger: 'axis',
+						axisPointer : {            // 坐标轴指示器，坐标轴触发有效
+							type : 'shadow'        // 默认为直线，可选为：'line' | 'shadow'
+						},
+						formatter: function (params){
+							return params[0].name + '<br/>'
+								   + params[0].seriesName + ' : ' + params[0].value + '<br/>'
+								   + params[1].seriesName + ' : ' + (params[1].value + params[0].value);
+						}
+					},
+					legend: {
+						selectedMode:false,
+						data:['购买量', '阅读量']
+					},
+					toolbox: {
+						show : true,
+						feature : {
+							mark : {show: true},
+							dataView : {show: true, readOnly: false},
+							restore : {show: true},
+							saveAsImage : {show: true}
+						}
+					},
+					calculable : true,
+					xAxis : [
+						{
+							type : 'category',
+							data : ['社科类','文学类','艺术类','传记类','经管类','励志类','IT类']
+						}
+					],
+					yAxis : [
+						{
+							type : 'value',
+							boundaryGap: [0, 0.1]
+						}
+					],
+					series : [
+						{
+							name:'购买量',
+							type:'bar',
+							stack: 'sum',
+							barCategoryGap: '50%',
+							itemStyle: {
+								normal: {
+									color: '#ff7f50',
+									barBorderColor: '#87cefa',
+									barBorderWidth: 2,
+									barBorderRadius:0,
+									label : {
+										show: true, position: 'insideTop'
+									}
+								}
+							},
+							data:[7, 7, 7, 5, 26, 2, 2]
+						},
+						{
+							name:'阅读量',
+							type:'bar',
+							stack: 'sum',
+							itemStyle: {
+								normal: {
+									color: '#fff',
+									barBorderColor: '#87cefa',
+									barBorderWidth: 2,
+									barBorderRadius:0,
+									label : {
+										show: true, 
+										position: 'top',
+										formatter: function (params) {
+											for (var i = 0, l = option.xAxis[0].data.length; i < l; i++) {
+												if (option.xAxis[0].data[i] == params.name) {
+													return option.series[0].data[i] + params.value;
+												}
+											}
+										},
+										textStyle: {
+											color: '#ff7f50'
+										}
+									}
+								}
+							},
+							data:[1, 2, 2, 0, 12, 0, 0]
+						}
+					]
+				};
+				BooksBar.setOption(BooksBarOption);	
             }
         );
     </script>
