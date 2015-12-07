@@ -4,13 +4,7 @@ title: 廖小正 - Life Style
 category: lifestyle  
 ---
 <section class="inner">
-
-	<div id="BooksRadar" style="height:400px;"></div>
-	<div id="BooksWordCloud" style="height:400px;"></div>
-	<div id="BooksBar" style="height:400px;"></div>
-	
 {% assign books = site.data.books %}
-
 <h3>2015书单</h3>
 <h4>社科类</h4>
 {% for book in books %}
@@ -434,6 +428,10 @@ category: lifestyle
 {% endif %}
 {% endfor %}
 
+<div id="BooksRadar" style="height:350px;"></div>
+<div id="BooksWordCloud" style="height:350px;"></div>
+<div id="BooksBar" style="height:350px;"></div>
+	
 <h3>歌单</h3>
 
 <div><a href="http://t.cn/R7hqbcf">[遥远的歌]</a>&nbsp;&gt;&nbsp;Cannie晴子</p>
@@ -706,7 +704,7 @@ category: lifestyle
 					xAxis : [
 						{
 							type : 'category',
-							data : ['社科类','文学类','艺术类','传记类','经管类','励志类','IT类']
+							data : ['社科','文学','艺术','传记','经管','励志','IT']
 						}
 					],
 					yAxis : [
