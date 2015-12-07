@@ -694,7 +694,7 @@ category: lifestyle
 						data:['购买量', '阅读量']
 					},
 					toolbox: {
-						show : true,
+						show : false,
 						feature : {
 							mark : {show: true},
 							dataView : {show: true, readOnly: false},
@@ -723,7 +723,7 @@ category: lifestyle
 							barCategoryGap: '50%',
 							itemStyle: {
 								normal: {
-									color: '#ff7f50',
+									color: '#87cefa',
 									barBorderColor: '#87cefa',
 									barBorderWidth: 2,
 									barBorderRadius:0,
@@ -732,7 +732,7 @@ category: lifestyle
 									}
 								}
 							},
-							data:[7, 7, 7, 5, 26, 2, 2]
+							data:[6, 5, 5, 5, 14, 2, 2]
 						},
 						{
 							name:'阅读量',
@@ -748,9 +748,9 @@ category: lifestyle
 										show: true, 
 										position: 'top',
 										formatter: function (params) {
-											for (var i = 0, l = option.xAxis[0].data.length; i < l; i++) {
-												if (option.xAxis[0].data[i] == params.name) {
-													return option.series[0].data[i] + params.value;
+											for (var i = 0, l = BooksBarOption.xAxis[0].data.length; i < l; i++) {
+												if (BooksBarOption.xAxis[0].data[i] == params.name) {
+													return BooksBarOption.series[0].data[i] + params.value;
 												}
 											}
 										},
