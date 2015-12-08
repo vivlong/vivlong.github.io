@@ -5,12 +5,11 @@ category: lifestyle
 ---
 <section class="inner">
 
-<h3>2015年微信朋友圈统计</h3>
-
+<h3>2015年微信朋友圈发布统计</h3>
+<br/>
 <div id="weixinFA" style="height:350px;"></div>
-
 <h3>2015年阅读统计</h3>
-
+<br/>
 <div id="BooksRadar" style="height:350px;"></div>
 <div id="BooksWordCloud" style="height:350px;"></div>
 <div id="BooksBar" style="height:350px;"></div>
@@ -323,7 +322,11 @@ category: lifestyle
 						},
 						data:[1, 2, 2, 0, 12, 0, 0]
 					}
-				]
+				],
+				grid: {
+					x: '16%',
+					x2: '10%'
+				}
 			};
 			BooksBar.setOption(BooksBarOption);	
 			var weixinFA = ec.init(document.getElementById('weixinFA'));
@@ -429,15 +432,14 @@ category: lifestyle
 					}
 				],
 				grid: {
-					x: '7%',
-					x2: '6%'
+					x: '16%',
+					x2: '10%'
 				}
 			};
 			weixinFA.setOption(weixinFAOption);
 		}
 	);
 </script>
-
 
 {% assign books = site.data.books %}
 <h3>2015书单</h3>
