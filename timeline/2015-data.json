@@ -148,7 +148,7 @@
             },
             "text": {
                 "headline": "LOMO老厦门",
-                "text": "<p>路过那蓝天白云和蜿蜒小巷，晃动的镜头在老厦门，带上LOMO我们就出发，多自由怀揣着青春梦想哎呀呀，山巅注视着银河的自由，为远方盛开的理想继续游走</p>"
+                "text": "<p>路过那蓝天白云和蜿蜒小巷，晃动的镜头在老厦门，山巅注视着银河的自由，为远方盛开的理想继续游走</p>"
             }
         },
         {
@@ -199,7 +199,7 @@
             "media": {
                 "caption": "",
                 "credit": "",
-                "url": ""
+                "url": "http://cdn.28story.com/photos/journey/IMG_20140324_135039_1.jpg"
             },
             "text": {
                 "headline": "台湾环岛十日行",
@@ -226,7 +226,7 @@
                 "thumb": 	""
             },
             "text": {
-                "headline": "爱情，从来不会有沧桑",
+                "headline": "爱情从来不会有沧桑",
                 "text": "<p>她喜欢温暖，他恰如阳光</p><p>他为梦航行，她恰是港湾</p><p>这一路，风雨也过，坎坷也过</p><p>爱情，从来不会有沧桑</p>"
             }
         },
@@ -315,7 +315,7 @@
                 "thumb": 	""
             },
             "text": {
-                "headline": "漫步苏州好时光，万千故事一座城",
+                "headline": "漫步苏州好时光<br/>万千故事一座城",
                 "text": "<p>天青色等烟雨，炊烟袅袅升起</p><p>江南夜色，吴侬软语</p>"
             }
         },
@@ -373,6 +373,29 @@
             "text": {
                 "headline": "热爱我的热爱",
                 "text": "<p>雪佛兰</p>"
+            }
+        },
+		{
+            "start_date": {
+                "year":			"2015",
+                "month":		"12",
+                "day": 			"31",
+                "hour": 		"",
+                "minute": 		"",
+                "second": 		"",
+                "millisecond": 	"",
+                "format": 		""
+            },
+			"group": "",
+            "media": {
+                "caption": "",
+                "credit": "",
+                "url": "http://cdn.28story.com/photos/journey/IMG_20140324_135039_1.jpg",
+                "thumb": 	""
+            },
+            "text": {
+                "headline": "2016，你好",
+                "text": "<p>Hello World.</p>"
             }
         }
     ]
