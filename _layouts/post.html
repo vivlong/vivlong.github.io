@@ -11,12 +11,28 @@ layout: mpweixin
 				{{ page.title }}
 			</h2>
 			<div class="rich_media_meta_list">
+				<span id="copyright_logo" class="rich_media_meta meta_original_tag">原创</span>
 				<em id="post-date" class="rich_media_meta rich_media_meta_text">{{ page.date | date: "%Y-%m-%d" }}</em>
 				<em class="rich_media_meta rich_media_meta_text">@廖小正</em>
 			</div>
 			<div class="rich_media_content " id="js_content">
 			{{ content }}
-			</div>			
+			</div>
+			<script type="text/javascript">
+				if ("" == 1 && document.getElementById('js_content'))
+					document.getElementById('js_content').addEventListener("selectstart",function(e){ e.preventDefault(); });
+					(function(){
+						if (navigator.userAgent.indexOf("WindowsWechat") != -1){
+							var link = document.createElement('link');
+							var head = document.getElementsByTagName('head')[0];
+							link.rel = 'stylesheet';
+							link.type = 'text/css';
+							link.href = "/assets/css/page_mp_article_improve_pc2826cc.css";
+							head.appendChild(link);
+						}
+					})();
+			</script>
+			<link href="/assets/css/page_mp_article_improve_combo29ab01.css" rel="stylesheet" type="text/css">
 			<div class="rich_media_tool" id="js_toobar3">
 				<a class="media_tool_meta meta_primary" href="{{ site.url }}/blog/">阅读更多</a>
 			</div>
