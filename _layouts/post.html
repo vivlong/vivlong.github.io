@@ -9,10 +9,10 @@ layout: mpweixin
 			</h2>
 			<div class="rich_media_meta_list">
 				<span id="copyright_logo" class="rich_media_meta meta_original_tag">原创</span>
-				<em id="post-date" class="rich_media_meta rich_media_meta_text">{{ page.date | date: "%Y-%m-%d" }}</em>
-				<em class="rich_media_meta rich_media_meta_text">@廖小正</em>
+				<span id="post-date" class="rich_media_meta rich_media_meta_text">{{ page.date | date: "%Y-%m-%d" }}</span>
+				<span class="rich_media_meta rich_media_meta_text">@廖小正</span>
 			</div>
-			<div class="rich_media_content " id="js_content">
+			<div class="rich_media_content han-init-context" id="js_content">
 			{{ content }}
 			</div>
 			<script type="text/javascript">

@@ -1,0 +1,21 @@
+{
+  "name": "vivlong.github.io",
+  "homepage": "https://github.com/vivlong/vivlong.github.io",
+  "authors": [
+    "vivlong <vivlonglz@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "Han": "~3.2.7"
+  }
+}

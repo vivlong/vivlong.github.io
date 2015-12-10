@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
+<html lang="zh-Hans">
 <head>
     <meta charset="utf-8">
 	<link rel="dns-prefetch" href="//vivlong.28story.com">
@@ -50,9 +50,10 @@
     <link rel="canonical" href="{{ site.url }}{{ page.url | replace:'index.html','' }}" />
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
     <link rel="alternate" type="application/rss+xml" title="{{ site.theme.name }}" href="{{site.url}}/atom.xml" />	
-    <link rel="stylesheet" href="//cdn.staticfile.org/typo.css/1.1/typo.min.css">
-    <!--link rel="stylesheet" href="//cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.min.css">
-    <link rel="stylesheet" href="//cdn.staticfile.org/font-awesome/4.2.0/css/font-awesome.min.css"-->
+    <!--link rel="stylesheet" href="//cdn.staticfile.org/typo.css/1.1/typo.min.css">
+    <link rel="stylesheet" href="//cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="//cdn.staticfile.org/font-awesome/4.2.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="/assets/han/han.min.css"-->
 	<link rel="stylesheet" href="/assets/css/googlefonts.css">
     <link rel="stylesheet" href="/assets/css/site.css">
 	<script type="text/javascript">
@@ -89,7 +90,7 @@
 		<header class="inner">
 			<nav>
 				<a class="{% if page.category == 'about' %} selected {% endif %}" href="/">About</a>
-				<a class="{% if page.category == 'products' %} selected {% endif %}" href="/products/">Products</a>
+				<!--a class="{% if page.category == 'products' %} selected {% endif %}" href="/products/">Products</a-->
 				<a class="{% if page.category == 'blog' %} selected {% endif %}" href="/blog/">Blog</a>
 				<a class="{% if page.category == 'lifestyle' %} selected {% endif %}" href="/lifestyle/">Life Style</a>
 				{% if site.theme.social.github %}
@@ -121,7 +122,8 @@
     <script type="text/javascript">
       !window.jQuery && document.write('<script src=//cdn.bootcss.com/jquery/1.11.3/jquery.min.js><\/script>');
     </script>
-    <script src="//cdn.bootcss.com/bootstrap/3.3.5/js/bootstrap.min.js"></script-->
+    <script src="//cdn.bootcss.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+	<script src="/assets/han/han.min.js"></script-->
 	<script type="text/javascript">
 		var links = document.links;
 		for (var i = 0, linksLength = links.length; i < linksLength; i++) {
