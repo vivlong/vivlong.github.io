@@ -3,3 +3,4 @@
 _site/*
 timeline_self
 /_site
+/bower_components
