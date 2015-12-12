@@ -1,0 +1,307 @@
+{
+    "timeline":
+    {
+		"startDate":"12/31/2012",
+        "headline":"Life's a journey",
+        "type":"default",
+        "text":"<p>「我们已经走得太远，以至于我们忘记了为什么而出发。」</p>",
+        "asset": {
+            "media":"./tl/index.jpg",
+            "credit":"",
+            "caption":""
+        },
+        "date": [
+            {
+                "startDate":"1/1/2013",
+                "endDate":"",
+                "headline":"巳蛇报道",
+                "text":"<p>回顾2012，我跨越了大江南北，经历了潮起潮落，做出了艰难的决定，就这么走到岁末，展望2013，希望有所突破，陪爹娘在大中国旅游旅游，新年第一愿就这样了吧，新年好！</p>",
+                "tag":"",
+                "classname":"",
+                "asset": {
+                    "media":"./tl/2012WeiboKeywords.png",
+                    "credit":"",
+                    "caption":""
+                }
+            },
+			{
+                "startDate":"1/17/2013",
+                "endDate":"",
+                "headline":"筹备沈师大福建校友会",
+                "text":"<p>每一次相聚都是一场头脑风暴，很庆幸有这么一群人，给我画理想的饼，并告诉我他们路上的的艰辛路上的曲折，我还有很多需要学习吸收并消化。 </p>",
+                "tag":"",
+                "classname":"",
+                "asset": {
+                    "media":"http://ww4.sinaimg.cn/large/5bc45c43jw1e0wwtcb57zj.jpg",
+                    "credit":"",
+                    "caption":""
+                }
+            },
+			{
+                "startDate":"2/9/2013",
+                "endDate":"",
+                "headline":"除夕夜",
+                "text":"<p>印象中，今年好像是第一个没看央视春晚直播的除夕夜，在千年古刹莆田南山广化寺看普茶晚会、听经、点莲花灯、钟楼敲钟。</p>",
+                "tag":"",
+                "classname":"",
+                "asset": {
+                    "media":"./tl/2013-02-09_00-00-00.jpg",
+                    "credit":"",
+                    "caption":""
+                }
+            },
+			{
+                "startDate":"3/14/2013",
+                "endDate":"",
+                "headline":"狂风之夜向青春致敬",
+                "text":"<p>黑夜下的鹭岛透着一丝平和与宁静，却又蕴含着勃勃生机。一群在奋斗着的人们向青春致敬，向梦想致敬。</p>",
+                "tag":"",
+                "classname":"",
+                "asset": {
+                    "media":"http://ww1.sinaimg.cn/large/5bc45c43jw1e2pm0moh3oj.jpg",
+                    "credit":"",
+                    "caption":""
+                }
+            },
+			{
+                "startDate":"3/22/2013",
+                "endDate":"",
+                "headline":"亚洲杯预选赛<br/>国足VS伊拉克",
+                "text":"<p>我们心中都有着个性鲜明的梦想，骨子里透着一股血性，即便现实如何折磨我们，依旧相信可以抵达属于自己的乌托邦。岁月侵蚀不了我们，不过就是在成长中让我们愈发坚定地走下去。</p>",
+                "tag":"",
+                "classname":"",
+                "asset": {
+                    "media":"./tl/2013-03-22_20-47-56.jpg",
+                    "credit":"",
+                    "caption":""
+                }
+            },
+			{
+                "startDate":"4/12/2013",
+                "endDate":"",
+                "headline":"老乡会历届会长齐聚鹭岛",
+                "text":"<p>碰撞的酒杯编织出了青春的激情旋律。</p>",
+                "tag":"",
+                "classname":"",
+                "asset": {
+                    "media":"http://ww2.sinaimg.cn/large/5bc45c43jw1e3m89ipad5j.jpg",
+                    "credit":"",
+                    "caption":""
+                }
+            },
+			{
+                "startDate":"5/13/2013",
+                "endDate":"",
+                "headline":"为梦想，再出发",
+                "text":"<p>每个人都有自己的梦想，但并不是每个人都能坚持着。梦想最怕的是什么？是坚持！既然认准一条道路，何必打听要走多久，从此刻开始，重新聆听自己内心的声音，收拾好心情，为梦想，再出发！ via <a href='http://weibo.com/jacky86' target='_blank'>@黄更灿</a></p>",
+                "tag":"",
+                "classname":"",
+                "asset": {
+                    "media":"v.youku.com/v_show/id_XNTU2MDI5ODY4.html",
+                    "credit":"",
+                    "caption":"今天的我们，不煽情，不鸡血，只求最真实的表达。"
+                }
+            },
+			{
+                "startDate":"6/7/2013",
+                "endDate":"",
+                "headline":"厦门BRT公车起火",
+                "text":"<p>48条鲜活的生命，突遇灾难，瞬间消逝。他们承载着不仅仅是48个人的未来，更承载着也许不只48个家庭的命运和希望，悲痛不已。今夜，第一次离死亡如此接近。敬畏生命，节哀厦门。 via <a href='http://weibo.com/jacky86' target='_blank'>@黄更灿</a></p>",
+                "tag":"",
+                "classname":"",
+                "asset": {
+                    "media":"http://ww3.sinaimg.cn/large/6da59132jw1e5g1x3jgexj20hs0ict92.jpg",
+                    "credit":"",
+                    "caption":""
+                }
+            },
+			{
+                "startDate":"6/16/2013",
+                "endDate":"",
+                "headline":"父亲节",
+                "text":"<p>自古「忠孝难两全」，在「忠于自己的理想」和「孝敬父母」这二者间着实难于很好的协调，既要不为生活而妥协甚至放弃梦想，又要尽孝尽责。还是引用格瓦拉的那句「面对现实，忠于理想」自勉之。</p>",
+                "tag":"",
+                "classname":"",
+                "asset": {
+                    "media":"http://ww4.sinaimg.cn/large/5bc45c43jw1e5pc10sf3dj20ts15ogp1.jpg",
+                    "credit":"",
+                    "caption":""
+                }
+            },
+			{
+                "startDate":"6/17/2013",
+                "endDate":"",
+                "headline":"本命日",
+                "text":"<p>24岁的坎，在和一群好基友好兄弟们吹着海风、饮着小酒的时光中，以年轻的姿态昂首迈过。感谢有你们，在厦门的日子里，因有你们生活而充满阳光！</p>",
+                "tag":"",
+                "classname":"",
+                "asset": {
+                    "media":"http://ww2.sinaimg.cn/large/5bc45c43jw1e5s3mpsr7lj20sg0lcqc5.jpg",
+                    "credit":"",
+                    "caption":""
+                }
+            },
+			{
+                "startDate":"6/26/2013",
+                "endDate":"",
+                "headline":"做一个有温度的小镇青年",
+                "text":"<p>「小镇青年」一词是初春时某日与火山兄在老塞行动咖啡馆畅叙时蹦出的字眼，之后不久再次述怀的时候又加上了「温度」，于是乎我便给自己贴上了「有温度的小镇青年」这个标签。<br/><a href='http://www.vivlong.com/feelings/to-be-a-town-youth.html' target='_blank'>全文</a></p>",
+                "tag":"",
+                "classname":"",
+                "asset": {
+                    "media":"http://ww3.sinaimg.cn/large/5bc45c43jw1e61l6nilymj20c81iygx5.jpg",
+                    "credit":"",
+                    "caption":""
+                }
+            },
+			{
+                "startDate":"7/16/2013",
+                "endDate":"",
+                "headline":"校友会季夏夜聚首",
+                "text":"<p>校友会季夏夜相聚首之筵席</p>",
+                "tag":"",
+                "classname":"",
+                "asset": {
+                    "media":"http://ww1.sinaimg.cn/large/5bc45c43jw1e6plx105myj20sg0lcn1x.jpg",
+                    "credit":"",
+                    "caption":""
+                }
+            },
+			{
+                "startDate":"8/11/2013",
+                "endDate":"",
+                "headline":"再 见老赖",
+                "text":"<p>经年未见的老赖抵厦，几位老友胡喝海侃至午夜，回首东北青葱岁月，热泪盈眶！这家伙居然瘦了！！！</p>",
+                "tag":"",
+                "classname":"",
+                "asset": {
+                    "media":"http://ww2.sinaimg.cn/large/5bc45c43jw1e7p1zo51qgj216o0vv7af.jpg",
+                    "credit":"",
+                    "caption":""
+                }
+            },
+			{
+                "startDate":"8/24/2013",
+                "endDate":"",
+                "headline":"家装进行时",
+                "text":"<p>小莆田的老窝终于在动手术了。</p>",
+                "tag":"",
+                "classname":"",
+                "asset": {
+                    "media":"http://ww2.sinaimg.cn/large/5bc45c43jw1e7y01duj8kj20ts15ojwt.jpg",
+                    "credit":"",
+                    "caption":""
+                }
+            },
+			{
+                "startDate":"9/2/2013",
+                "endDate":"",
+                "headline":"今日主题：专注",
+                "text":"<p>对事情的『专注』，对理想的『专注』，是一个男人的魅力源泉。</p>",
+                "tag":"",
+                "classname":"",
+                "asset": {
+                    "media":"http://ww3.sinaimg.cn/large/5bc45c43jw1e88jgj75e0j20hs0a0dgf.jpg",
+                    "credit":"",
+                    "caption":""
+                }
+            },
+			{
+                "startDate":"9/6/2013",
+                "endDate":"",
+                "headline":"第一家live摇滚吧",
+                "text":"<p>行走在有音乐有啤酒有梦想的地方，享受这种有点纯粹艺术味道的氛围。「支持原创，支持地下摇滚，让厦门不再是文化的沙漠。」</p>",
+                "tag":"",
+                "classname":"",
+                "asset": {
+                    "media":"http://ww4.sinaimg.cn/large/5bc45c43jw1e8dz0tuwoaj20sg0lcn47.jpg",
+                    "credit":"",
+                    "caption":""
+                }
+            },
+			{
+                "startDate":"9/28/2013",
+                "endDate":"",
+                "headline":"带着父母开始去旅行Ⅰ",
+                "text":"<p>魔都。跟随父亲找寻他的记忆。</p>",
+                "tag":"",
+                "classname":"",
+                "asset": {
+                    "media":"./tl/2013-9-28_ 21-45-00.jpg",
+                    "credit":"",
+                    "caption":""
+                }
+            },
+			{
+                "startDate":"10/1/2013",
+                "endDate":"",
+                "headline":"带着父母开始去旅行Ⅱ",
+                "text":"<p>印象西湖。「欲把西湖比西子, 浓妆淡抹总相宜。」</p>",
+                "tag":"",
+                "classname":"",
+                "asset": {
+                    "media":"http://ww1.sinaimg.cn/large/5bc45c43jw1e9662vp0hyj218g0p1tas.jpg",
+                    "credit":"",
+                    "caption":""
+                }
+            },
+			{
+                "startDate":"11/18/2013",
+                "endDate":"",
+                "headline":"外公走了",
+                "text":"<p>给他老人家拍部纪录短片成了不能完成的憾事。</p>",
+                "tag":"",
+                "classname":"",
+                "asset": {
+                    "media":"./tl/2013-11-18_00-00-00.jpg",
+                    "credit":"",
+                    "caption":""
+                }
+            },
+			{
+                "startDate":"12/31/2013",
+                "endDate":"",
+                "headline":"跨年",
+                "text":"<p>1314的节奏，无论天涯，哪怕海角，一生一世。</p>",
+                "tag":"",
+                "classname":"",
+                "asset": {
+                    "media":"./tl/2014-01-01_00-00-00.jpg",
+                    "credit":"",
+                    "caption":""
+                }
+            },
+			{
+                "startDate":"12/31/2013",
+                "endDate":"",
+                "headline":"再见，2013",
+                "text":"<p></p>",
+                "tag":"",
+                "classname":"",
+                "asset": {
+                    "media":"./tl/2013WeiboKeywords.png",
+                    "credit":"",
+                    "caption":""
+                }
+            },
+			{
+                "startDate":"1/1/2014",
+                "endDate":"",
+                "headline":"2014",
+                "text":"<p>你好，2014。</p>",
+                "tag":"",
+                "classname":"",
+                "asset": {
+                    "media":"./tl/hello2014.jpg",
+                    "credit":"",
+                    "caption":""
+                }
+            }
+
+        ],
+        "era": [
+        ],
+		"chart": [
+        ]
+    }
+}
