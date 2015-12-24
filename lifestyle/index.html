@@ -8,6 +8,10 @@ category: lifestyle
 	<p>总发布：140&nbsp;天&nbsp;&nbsp;178&nbsp;条&nbsp;&nbsp;692&nbsp;张图片&nbsp;&nbsp;26&nbsp;次分享</p>
 	<br/>
 	<div id="weixinFA" style="height:350px;"></div>
+	<h3>2015年往家打电话</h3>
+	<p>总数：56&nbsp;次&nbsp;&nbsp;3&nbsp;小时&nbsp;&nbsp;21&nbsp;分&nbsp;&nbsp;16&nbsp;秒</p>
+	<br/>
+	<div id="PhoneCall" style="height:350px;"></div>
 	<h3>2015年阅读统计</h3>
 	<p>总购买：53&nbsp;本</p>
 	<br/>
@@ -329,7 +333,75 @@ category: lifestyle
 					x2: '10%'
 				}
 			};
-			BooksBar.setOption(BooksBarOption);	
+			BooksBar.setOption(BooksBarOption);
+			//
+			var PhoneCallBar = ec.init(document.getElementById('PhoneCall'));
+			var PhoneCallOption = {
+				title : {
+					text: '',
+					subtext: '频次'
+				},
+				tooltip : {
+					trigger: 'axis'
+				},
+				legend: {
+					data:['次数','时长']
+				},
+				toolbox: {
+					show : false,
+					feature : {
+						mark : {show: true},
+						dataView : {show: true, readOnly: false},
+						magicType : {show: true, type: ['line', 'bar']},
+						restore : {show: true},
+						saveAsImage : {show: true}
+					}
+				},
+				calculable : true,
+				xAxis : [
+					{
+						type : 'category',
+						boundaryGap : false,
+						data : ['1月','2月','3月','4月','5月','6月','7月','8月','9月','10月','11月','12月']
+					}
+				],
+				yAxis : [
+					{
+						type : 'value',
+						axisLabel : {
+							formatter: '{value}'
+						}
+					}
+				],
+				series : [
+					{
+						name:'次数',
+						type:'line',
+						data:[5, 5, 9, 6, 6, 4, 0, 2, 5, 5, 6, 3],
+						markLine : {
+							data : [
+								{type : 'average', name: '平均值'}
+							]
+						}
+					},
+					{
+						name:'时长',
+						type:'line',
+						data:[10.10, 20.37, 52.12, 17.32, 21.30, 13.30, 0, 7.55, 6.17, 9.40, 21.05, 21.15],
+						markLine : {
+							data : [
+								{type : 'average', name : '平均值'}
+							]
+						}
+					}
+				],
+				grid: {
+					x: '16%',
+					x2: '10%'
+				}
+			};
+			PhoneCallBar.setOption(PhoneCallOption);	
+			//
 			var weixinFA = ec.init(document.getElementById('weixinFA'));
 			var weixinFAOption = {
 			    title : {
