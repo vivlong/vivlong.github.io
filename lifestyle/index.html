@@ -13,9 +13,9 @@ category: lifestyle
 	<br/>
 	<div id="PhoneCall" style="height:350px;"></div>
 	<h3>2015年互联网消费统计</h3>
-	<p>总购物：61000.47&nbsp;元&nbsp;&nbsp;总缴费：4336&nbsp;元&nbsp;&nbsp;总外卖：4791.22&nbsp;元&nbsp;&nbsp;</p>
-	<p>——&nbsp;淘宝：19102.4&nbsp;元&nbsp;&nbsp;天猫：25322.51&nbsp;元&nbsp;&nbsp;京东：16257.51&nbsp;元&nbsp;&nbsp;亚马逊：318.05&nbsp;元&nbsp;&nbsp;</p>
-	<p>——&nbsp;口碑：3013.92&nbsp;元&nbsp;&nbsp;百度外卖：1599.26&nbsp;元&nbsp;&nbsp;饿了么：152.3&nbsp;元&nbsp;&nbsp;</p>
+	<p>总购物：61000.47&nbsp;元&nbsp;&nbsp;（淘宝：19102.4&nbsp;元&nbsp;&nbsp;天猫：25322.51&nbsp;元&nbsp;&nbsp;京东：16257.51&nbsp;元&nbsp;&nbsp;亚马逊：318.05&nbsp;元）</p>
+	<p>总外卖：4791.22&nbsp;元&nbsp;&nbsp;（口碑：3013.92&nbsp;元&nbsp;&nbsp;百度外卖：1599.26&nbsp;元&nbsp;&nbsp;饿了么：152.3&nbsp;元&nbsp;&nbsp;）</p>
+	<p>总缴费：4336&nbsp;元&nbsp;&nbsp;（水电宽带）</p>
 	<br/>
 	<div id="Consumer" style="height:350px;"></div>
 	<h3>2015年读书统计</h3>
@@ -412,7 +412,7 @@ category: lifestyle
 			var ConsumerOption = {
 				title : {
 					text: '',
-					subtext: '互联网消费统计',
+					subtext: '',
 					x:'center'
 				},
 				tooltip : {
@@ -422,7 +422,7 @@ category: lifestyle
 				legend: {
 					orient : 'vertical',
 					x : 'left',
-					data:['购物','淘宝','天猫','京东','亚马逊','在线缴费','外卖','口碑','百度外卖','饿了么']
+					data:['购物','淘宝','天猫','京东','亚马逊','缴费','外卖','口碑','百度外卖','饿了么']
 				},
 				toolbox: {
 					show : false
@@ -433,12 +433,12 @@ category: lifestyle
 						name:'消费类别',
 						type:'pie',
 						selectedMode: 'single',
-						radius : [0, 70],
+						radius : [0, 60],
 						// for funnel
 						x: '20%',
 						width: '40%',
 						funnelAlign: 'right',
-						max: 1548,						
+						max: 848,						
 						itemStyle : {
 							normal : {
 								label : {
@@ -451,25 +451,25 @@ category: lifestyle
 						},
 						data:[
 							{value:61000.47, name:'购物', selected:true},
-							{value:4336, name:'在线缴费'},
+							{value:4336, name:'缴费'},
 							{value:4791.22, name:'外卖'}
 						]
 					},
 					{
 						name:'消费类别',
 						type:'pie',
-						radius : [100, 140],						
+						radius : [80, 110],						
 						// for funnel
 						x: '60%',
 						width: '35%',
 						funnelAlign: 'left',
-						max: 1048,						
+						max: 348,						
 						data:[
 							{value:19102.4, name:'淘宝'},
 							{value:25322.51, name:'天猫'},
 							{value:16257.51, name:'京东'},
 							{value:318.05, name:'亚马逊'},
-							{value:4336, name:'在线缴费'},
+							{value:4336, name:'缴费'},
 							{value:3013.92, name:'口碑'},
 							{value:1599.26, name:'百度外卖'},
 							{value:152.3, name:'饿了么'}
