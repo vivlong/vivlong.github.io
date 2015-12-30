@@ -8,12 +8,17 @@ category: lifestyle
 	<p>总发布：142&nbsp;天&nbsp;&nbsp;181&nbsp;条&nbsp;&nbsp;701&nbsp;张图片&nbsp;&nbsp;27&nbsp;次分享</p>
 	<br/>
 	<div id="weixinFA" style="height:350px;"></div>
-	<h3>2015年顾家指数</h3>
+	<h3>2015年顾家统计</h3>
 	<p>通话总次数：56&nbsp;次&nbsp;&nbsp;通话总时长：&nbsp;3&nbsp;小时&nbsp;&nbsp;21&nbsp;分&nbsp;&nbsp;16&nbsp;秒</p>
 	<br/>
 	<div id="PhoneCall" style="height:350px;"></div>
-	<h3>2015年阅读统计</h3>
-	<p>总购买：53&nbsp;本</p>
+	<h3>2015年互联网消费统计</h3>
+	<p>购物：65791.69&nbsp;元&nbsp;&nbsp;在线缴费：4336&nbsp;元&nbsp;&nbsp;</p>
+	<p>——&nbsp;淘宝：23893.62&nbsp;元&nbsp;&nbsp;天猫：25322.51&nbsp;元&nbsp;&nbsp;京东：16257.51&nbsp;元&nbsp;&nbsp;亚马逊：318.05&nbsp;元&nbsp;&nbsp;</p>
+	<br/>
+	<div id="Consumer" style="height:350px;"></div>
+	<h3>2015年读书统计</h3>
+	<p>总购买：53&nbsp;本&nbsp;&nbsp;总阅读：20&nbsp;本</p>
 	<br/>
 	<div id="BooksRadar" style="height:350px;"></div>
 	<div id="BooksWordCloud" style="height:350px;"></div>
@@ -396,11 +401,49 @@ category: lifestyle
 					}
 				],
 				grid: {
-					x: '16%',
-					x2: '10%'
+					x: '14%',
+					x2: '12%'
 				}
 			};
 			PhoneCallBar.setOption(PhoneCallOption);	
+			//
+			var ConsumerPie = ec.init(document.getElementById('Consumer'));
+			var ConsumerOption = {
+				title : {
+					text: '',
+					subtext: '互联网消费统计',
+					x:'center'
+				},
+				tooltip : {
+					trigger: 'item',
+					formatter: "{a} <br/>{b} : {c} ({d}%)"
+				},
+				legend: {
+					orient : 'vertical',
+					x : 'left',
+					data:['淘宝','天猫','京东','亚马逊','在线缴费']
+				},
+				toolbox: {
+					show : false
+				},
+				calculable : true,
+				series : [
+					{
+						name:'消费记录',
+						type:'pie',
+						radius : '55%',
+						center: ['50%', '50%'],
+						data:[
+							{value:23893.62, name:'淘宝'},
+							{value:25322.51, name:'天猫'},
+							{value:16257.51, name:'京东'},
+							{value:318.05, name:'亚马逊'},
+							{value:4336, name:'在线缴费'}
+						]
+					}
+				]
+			};
+			ConsumerPie.setOption(ConsumerOption);	
 			//
 			var weixinFA = ec.init(document.getElementById('weixinFA'));
 			var weixinFAOption = {
@@ -505,8 +548,8 @@ category: lifestyle
 					}
 				],
 				grid: {
-					x: '16%',
-					x2: '10%'
+					x: '14%',
+					x2: '12%'
 				}
 			};
 			weixinFA.setOption(weixinFAOption);
