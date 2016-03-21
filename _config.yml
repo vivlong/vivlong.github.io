@@ -17,10 +17,10 @@ permalink: date
 #paginate_path: "page:num"
 
 # Markdown Processors
-markdown: redcarpet
+markdown: kramdown
 #markdown: rdiscount 
-redcarpet:
-  extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "with_toc_data"]
+#redcarpet:
+#  extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "with_toc_data"]
 
 # Plugins
 gems:
