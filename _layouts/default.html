@@ -56,6 +56,7 @@
 	<link rel="stylesheet" href="/assets/han/han.min.css"-->
 	<link rel="stylesheet" href="/assets/css/googlefonts.css">
     <link rel="stylesheet" href="/assets/css/site.css">
+	<link rel="stylesheet" href="/assets/social-share/css/share.min.css">
 	<script type="text/javascript">
 		function setActiveStyleSheet(filename){
 			//document.write("<link href='/assets/css/"+filename+"' rel=stylesheet>");
@@ -118,12 +119,13 @@
 	<div  style="border-bottom: 1px solid #ddd"></div>
 	{% include footer.html %}
     {% include analytics.html %}
-    <!--script type="text/javascript" src="//upcdn.b0.upaiyun.com/libs/jquery/jquery-2.0.3.min.js"></script>
-    <script type="text/javascript">
+    <script src="//http://lib.sinaapp.com/js/jquery/2.0.3/jquery-2.0.3.min.js"></script>
+    <!--script type="text/javascript">
       !window.jQuery && document.write('<script src=//cdn.bootcss.com/jquery/1.11.3/jquery.min.js><\/script>');
     </script>
     <script src="//cdn.bootcss.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 	<script src="/assets/han/han.min.js"></script-->
+	<script src="/assets/social-share/js/share.min.js"></script>
 	<script type="text/javascript">
 		var links = document.links;
 		for (var i = 0, linksLength = links.length; i < linksLength; i++) {
@@ -139,6 +141,14 @@
 			addBlankTargetForLinks();
 		});
 		*/
+		var $ssconfig = {
+			sites               : ['qzone', 'qq', 'weibo','wechat', 'douban'], // 启用的站点
+			disabled            : ['google', 'facebook', 'twitter'], // 禁用的站点
+			mobile-sites		: ['qzone', 'qq', 'weibo','wechat', 'douban'],
+			wechatQrcodeTitle   : "微信扫一扫：分享", // 微信二维码提示文字
+			wechatQrcodeHelper  : '<p>微信里点“发现”，扫一下</p><p>二维码便可将本文分享至朋友圈。</p>',
+		};
+		$('.social-share').share($ssconfig);
 	</script>
 </body>
 </html>
