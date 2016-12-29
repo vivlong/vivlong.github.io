@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+  <head>
+    <title>廖小正的2016</title>
+    <meta charset="utf-8">
+    <meta name="description" content="TimelineJS">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-touch-fullscreen" content="yes">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <!-- CSS-->
+    <link rel="stylesheet" href="./v3/css/timeline.css?v1">
+    <!--FONT-->
+    <link rel="stylesheet" href="./v3/css/fonts/font.default.css?v1">
+    <!-- Style-->
+    <style>
+      html, body {
+      	height:100%;
+      	width:100%;
+      	padding: 0px;
+      	margin: 0px;
+      }
+      .tl-timeline {
+      	
+      }
+      
+    </style>
+  </head>
+  <body>
+    <div id="timeline"></div>
+    <!-- JavaScript-->
+    <script src="./v3/js/timeline-min.js"></script>
+    <script>
+      var timeline = new TL.Timeline('timeline', './2016-data.json', {
+      	theme_color: "#288EC3",
+      });
+    </script>
+  </body>
+</html>
