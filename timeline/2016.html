@@ -9,7 +9,7 @@
     <meta name="apple-touch-fullscreen" content="yes">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
     <link rel="stylesheet" href="./v3/css/timeline.css?v1">
-    <link rel="stylesheet" href="./v3/css/fonts/font.default.css?v1">
+    <!--link rel="stylesheet" href="./v3/css/fonts/font.default.css?v1"-->
     <style>
         html,
         body {
@@ -17,13 +17,22 @@
             width: 100%;
             padding: 0px;
             margin: 0px;
+            font-family: -apple-system, "Helvetica Neue", Arial, "PingFang SC", "lucida grande", "lucida sans unicode", lucida, helvetica, "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif !important;
         }
         .tl-timeline {}
     </style>
 </head>
 
 <body>
-    <div id="timeline"></div>
+    <div style="height:95vh;">
+        <div id="timeline"></div>
+    </div>
+    <div style="height:5vh;">
+        <audio autoplay="autoplay" controls="controls"loop="loop" preload="auto"
+            src="http://cdn.28story.com/job_/timeline/2016/chengdu.mp3">
+            什么破浏览器！居然听不了「成都」。。。
+        </audio>
+    </div>
     <script src="./v3/js/timeline-min.js"></script>
     <script>
         var timeline = new TL.Timeline('timeline', './2016-data.json', {
